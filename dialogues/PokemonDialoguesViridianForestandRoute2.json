@@ -1,0 +1,139 @@
+[{
+    "name": "1",
+    "Dialogue": ["Are you going to VIRIDIAN FOREST? Be careful, it's a natural maze!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "2",
+    "Dialogue": ["RATTATA may be small, but its bite is wicked! Did you get one?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "3",
+    "Dialogue": ["I came here with some friends! They're out for POKEMON fights!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "4",
+    "Dialogue": ["I ran out of POKE BALLs to catch POKEMON with! You should carry extras!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Signpost 1",
+    "Dialogue": ["TRAINER TIPS Weaken POKEMON before attempting capture! When healthy, they may escape!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Signpost 2",
+    "Dialogue": ["For poison, use ANTIDOTE! Get it at POKEMON MARTs!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Signpost 3",
+    "Dialogue": ["TRAINER TIPS If you want to avoid battles, stay away from grassy areas!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Signpost 4",
+    "Dialogue": ["TRAINER TIPS Contact PROF.OAK via PC to get your POKEDEX evaluated!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Signpost 5",
+    "Dialogue": ["TRAINER TIPS No stealing of POKEMON from other trainers! Catch only wild POKEMON!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "5",
+    "Dialogue": ["Have you noticed the bushes on the roadside? They can be cut down by a special POKEMON move."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "6",
+    "Dialogue": ["Many POKEMON live only in forests and caves. You need to look everywhere to get different kinds!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 1",
+    "Dialogue": ["Hey! You have POKEMON! Come on! Let's battle'em [sic]!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 1 after",
+    "Dialogue": ["Ssh! You'll scare the bugs away!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 2",
+    "Dialogue": ["Yo! You can't jam out if you're a POKEMON trainer!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 2 after",
+    "Dialogue": ["Darn! I'm going to catch some stronger ones!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 3",
+    "Dialogue": ["Hey, wait up! What's the hurry?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 3 after",
+    "Dialogue": ["Sometimes, you can find stuff on the ground! I'm looking for the stuff I dropped!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Diglett 1",
+    "Dialogue": ["What a surprise! DIGLETTs dug this long tunnel! It goes right to \nVIRIDIAN CITY!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Diglett 2",
+    "Dialogue": ["I went to ROCK TUNNEL, but it's dark and scary. If a POKEMON's FLASH \ncould light it up..."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "New 1",
+    "Dialogue": ["A fainted POKEMON can't fight. But, it can still use moves like CUT!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "New 2",
+    "Dialogue": ["I'm looking for ABRA! Wanna trade one for MR.MIME?","Awww! Oh well...","What? That's not ABRA! If you get one, come back here!","Okay, connect the cable like so!","Hey thanks!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "New 3",
+    "Dialogue": ["Once a POKEMON learns FLASH, you can get through ROCK TUNNEL."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "New 4",
+    "Dialogue": ["Hi! Remember me? I'm PROF.OAK's AIDE! If you caught 10 kinds \nof POKEMON, I'm supposed to give you an Hm05! So, Player! Have you \ncaught at least 10 kinds of POKEMON?","Oh. I see. When you get 10 kinds, come back for HM05.","Great! You have caught <##> kinds of POKEMON! Congratulations! \nHere you go!","Oh! I see you don't have any room for the HM05.","The HM FLASH lights even the darkest dungeons."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    }
+]

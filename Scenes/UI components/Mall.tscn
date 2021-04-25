@@ -1,0 +1,149 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Scenes/UI components/Mall.gd" type="Script" id=1]
+[ext_resource path="res://assets/bag_background.tres" type="Texture" id=2]
+[ext_resource path="res://Scenes/assets/theme_font.tres" type="Theme" id=3]
+
+[sub_resource type="StyleBoxTexture" id=1]
+
+[sub_resource type="Theme" id=2]
+ItemList/colors/font_color = Color( 0.63, 0.63, 0.63, 1 )
+ItemList/colors/font_color_selected = Color( 1, 1, 1, 1 )
+ItemList/colors/guide_color = Color( 0, 0, 0, 0.1 )
+ItemList/constants/hseparation = 4
+ItemList/constants/icon_margin = 4
+ItemList/constants/line_separation = 2
+ItemList/constants/vseparation = 2
+ItemList/fonts/font = null
+ItemList/styles/bg = SubResource( 1 )
+ItemList/styles/bg_focus = null
+ItemList/styles/cursor = null
+ItemList/styles/cursor_unfocused = null
+ItemList/styles/selected = null
+ItemList/styles/selected_focus = null
+
+[node name="Mall" type="Control"]
+theme = ExtResource( 3 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="background" type="Sprite" parent="."]
+position = Vector2( 511.5, 313.75 )
+scale = Vector2( 4.23554, 3.76627 )
+texture = ExtResource( 2 )
+vframes = 2
+
+[node name="Money" type="Label" parent="."]
+margin_left = 136.0
+margin_top = 40.0
+margin_right = 206.0
+margin_bottom = 54.0
+text = "Money: %s"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Mall_items" type="ItemList" parent="."]
+margin_left = 424.0
+margin_top = 40.0
+margin_right = 944.0
+margin_bottom = 336.0
+theme = SubResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Info" type="Label" parent="."]
+margin_left = 24.0
+margin_top = 272.0
+margin_right = 288.0
+margin_bottom = 344.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="GridContainer" type="GridContainer" parent="."]
+margin_left = 288.0
+margin_top = 464.0
+margin_right = 423.0
+margin_bottom = 534.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="GridContainer"]
+margin_right = 216.0
+margin_bottom = 37.0
+text = "Do you wanna buy it?"
+
+[node name="Yes" type="CheckBox" parent="GridContainer"]
+margin_top = 41.0
+margin_right = 216.0
+margin_bottom = 86.0
+text = "Yes"
+
+[node name="No" type="CheckBox" parent="GridContainer"]
+margin_top = 90.0
+margin_right = 216.0
+margin_bottom = 135.0
+text = "No"
+
+[node name="How_many" type="GridContainer" parent="."]
+margin_left = 552.0
+margin_top = 464.0
+margin_right = 729.0
+margin_bottom = 548.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="How_many"]
+margin_right = 267.0
+margin_bottom = 37.0
+text = "How many %s do you want?"
+
+[node name="SpinBox" type="SpinBox" parent="How_many"]
+margin_top = 41.0
+margin_right = 267.0
+margin_bottom = 88.0
+
+[node name="Label2" type="Label" parent="How_many"]
+margin_top = 92.0
+margin_right = 267.0
+margin_bottom = 129.0
+text = "Price to pay: %s"
+
+[node name="Button" type="Button" parent="How_many"]
+margin_top = 133.0
+margin_right = 267.0
+margin_bottom = 176.0
+text = "Buy"
+
+[node name="Exit" type="Button" parent="."]
+margin_left = -8.0
+margin_top = 488.0
+margin_right = 181.0
+margin_bottom = 536.0
+text = "Go back to pokemon center"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="alert" type="Label" parent="."]
+margin_left = 64.0
+margin_top = 136.0
+margin_right = 256.0
+margin_bottom = 150.0
+text = "You don't have enough money"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="item_selected" from="Mall_items" to="." method="_on_Mall_items_item_selected"]
+[connection signal="pressed" from="GridContainer/Yes" to="." method="_on_Yes_pressed"]
+[connection signal="pressed" from="GridContainer/No" to="." method="_on_No_pressed"]
+[connection signal="changed" from="How_many/SpinBox" to="." method="_on_SpinBox_changed"]
+[connection signal="value_changed" from="How_many/SpinBox" to="." method="_on_SpinBox_value_changed"]
+[connection signal="pressed" from="How_many/Button" to="." method="_on_Button_pressed"]
+[connection signal="pressed" from="Exit" to="." method="_on_Exit_pressed"]

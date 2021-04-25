@@ -1,0 +1,25 @@
+[{
+    "name": "Signpost",
+    "Dialogue": ["POKEMON LEAGUE\nFront Gate"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Guard 1",
+    "Dialogue": ["Only truly skilled trainers are allowed through. You don't have\nthe BOULDERBADGE yet! The rules are rules. I can't let you pass.","Oh! That is the BOULDERBADGE! Go right ahead!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },    
+    {
+    "name": "Rival_Fight",
+    "Dialogue": ["What? Player! What a surprise to see you here! So you're going to\nPOKEMON LEAGUE? You collected all the BADGEs too? That's cool!\nThen I'll whip you Player as a warm up for POKEMON LEAGUE! Come on!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Rival_Fight after",
+    "Dialogue": ["That loosened me up! I'm ready for POKEMON LEAGUE! Player, you need\nmore practice! But hey, you know that! I'm out of here. Smell ya!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    }
+]

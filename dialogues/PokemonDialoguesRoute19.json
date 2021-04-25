@@ -1,0 +1,120 @@
+[{
+    "name": "Trainer 1",
+    "Dialogue": ["Wait! You'll have a heart attack!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 1 after",
+    "Dialogue": ["Watch out for TENTACOOL!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 2",
+    "Dialogue": ["Have to warm up before my swim!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 2 after",
+    "Dialogue": ["Thanks, kid! I'm ready for a swim!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 3",
+    "Dialogue": ["I look at the sea to forget!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 3 after",
+    "Dialogue": ["I'm looking at the sea to forget!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 4",
+    "Dialogue": ["I love swimming! What about you?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 4 after",
+    "Dialogue": ["I can beat POKEMON at swimming!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 5",
+    "Dialogue": ["What's beyond the horizon?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 5 after",
+    "Dialogue": ["I see a couple of islands!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 6",
+    "Dialogue": ["I tried diving for POKEMON, but it was a no go!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 6 after",
+    "Dialogue": ["You have to fish for sea POKEMON!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 7",
+    "Dialogue": ["These waters are treacherous!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 7 after",
+    "Dialogue": ["I got a cramp! Glub, glub..."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 8",
+    "Dialogue": ["Swimming's great! Sunburns aren't!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 8 after",
+    "Dialogue": ["My boy friend wanted to swim to SEAFOAM ISLANDS."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 9",
+    "Dialogue": ["I swam here, but I'm tired."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 9 after",
+    "Dialogue": ["LAPRAS is so big, it must keep you dry on water."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },{
+    "name": "Trainer 10",
+    "Dialogue": ["Oh, I just love your ride! Can I have it if I win?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 10 after",
+    "Dialogue": ["It's still a long way to go to SEAFOAM ISLANDS."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    }
+]

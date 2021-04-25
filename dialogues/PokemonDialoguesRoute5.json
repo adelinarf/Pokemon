@@ -1,0 +1,37 @@
+[{
+    "name": "Daycare",
+    "Dialogue": ["I run a DAYCARE. Would you like me to raise one of your POKEMON?","All right then, come again.","Which POKEMON should I raise?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Daycare_after",
+    "Dialogue": ["Fine, I'll look after <POKEMON> for a while. Come see me in a while."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Daycare_pickingup",
+    "Dialogue": ["Back already? Your <POKEMON> needs some more time with me.","Your <POKEMON> has grown a lot! By level, it's grown by <#>! Aren't I great?","You owe me P<###> for the return of this POKEMON.","All right then, come again.","Thank you! Here's your POKEMON!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Guard",
+    "Dialogue": ["I'm on guard duty. Gee, I'm thirsty, though! Oh wait there, the road's closed."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Building3",
+    "Dialogue": ["Hi! Do you have NIDORAN(Male)? Want to trade it for NIDORAN(Female)?","That's too bad.","...This is no NIDORAN(Male). If you get one, trade it with me!","Okay, connect the cable like so!","Thanks pal!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Building4",
+    "Dialogue": ["People often lose things in that UNDERGROUND PATH."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    }
+]

@@ -1,0 +1,126 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://Scenes/UI components/Bag.gd" type="Script" id=1]
+[ext_resource path="res://assets/bag_names.tres" type="Texture" id=2]
+[ext_resource path="res://assets/bag_background.tres" type="Texture" id=3]
+[ext_resource path="res://assets/theme_bag_selection.tres" type="Theme" id=4]
+[ext_resource path="res://assets/button_bag.tres" type="Theme" id=5]
+[ext_resource path="res://Scenes/assets/theme_font.tres" type="Theme" id=6]
+
+[sub_resource type="StyleBoxTexture" id=1]
+
+[sub_resource type="Theme" id=2]
+ItemList/colors/font_color = Color( 0, 0, 0, 1 )
+ItemList/colors/font_color_selected = Color( 0, 0, 0, 1 )
+ItemList/colors/guide_color = Color( 0, 0, 0, 0.1 )
+ItemList/constants/hseparation = 4
+ItemList/constants/icon_margin = 4
+ItemList/constants/line_separation = 2
+ItemList/constants/vseparation = 2
+ItemList/fonts/font = null
+ItemList/styles/bg = SubResource( 1 )
+ItemList/styles/bg_focus = null
+ItemList/styles/cursor = null
+ItemList/styles/cursor_unfocused = null
+ItemList/styles/selected = null
+ItemList/styles/selected_focus = null
+
+[node name="Bag" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+theme = ExtResource( 6 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="background" type="Sprite" parent="."]
+position = Vector2( 512, 318.097 )
+scale = Vector2( 4.2686, 3.76446 )
+texture = ExtResource( 3 )
+vframes = 2
+
+[node name="ItemList" type="ItemList" parent="."]
+margin_left = 416.0
+margin_top = 56.4757
+margin_right = 928.0
+margin_bottom = 536.476
+theme = SubResource( 2 )
+custom_colors/font_color_selected = Color( 0, 0, 0, 1 )
+allow_reselect = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ItemList2" type="ItemList" parent="."]
+visible = false
+margin_left = 27.6317
+margin_top = 139.503
+margin_right = 179.632
+margin_bottom = 307.503
+theme = ExtResource( 4 )
+custom_colors/font_color_selected = Color( 0, 0, 0, 1 )
+allow_reselect = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="labels" type="Sprite" parent="."]
+position = Vector2( 181.612, 53.3564 )
+scale = Vector2( 4.33334, 3.77542 )
+texture = ExtResource( 2 )
+vframes = 3
+frame = 1
+
+[node name="GridContainer" type="GridContainer" parent="."]
+margin_left = 65.1996
+margin_top = 481.11
+margin_right = 177.2
+margin_bottom = 546.11
+custom_constants/vseparation = 25
+custom_constants/hseparation = 13
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" type="Button" parent="GridContainer"]
+margin_right = 46.0
+margin_bottom = 37.0
+theme = ExtResource( 5 )
+text = "Next"
+
+[node name="Exit" type="Button" parent="GridContainer"]
+margin_top = 62.0
+margin_right = 46.0
+margin_bottom = 99.0
+theme = ExtResource( 5 )
+text = "Exit"
+
+[node name="ItemList3" type="ItemList" parent="."]
+visible = false
+margin_left = 237.06
+margin_top = 342.963
+margin_right = 333.06
+margin_bottom = 438.963
+theme = ExtResource( 4 )
+allow_reselect = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label2" type="Label" parent="."]
+visible = false
+margin_left = 40.0
+margin_top = 416.0
+margin_right = 177.0
+margin_bottom = 430.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "%s has already an %s"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="item_selected" from="ItemList" to="." method="_on_ItemList_item_selected"]
+[connection signal="item_selected" from="ItemList2" to="." method="_on_ItemList2_item_selected"]
+[connection signal="pressed" from="GridContainer/Button" to="." method="_on_Button_pressed"]
+[connection signal="pressed" from="GridContainer/Exit" to="." method="_on_Exit_pressed"]
+[connection signal="item_selected" from="ItemList3" to="." method="_on_ItemList3_item_selected"]

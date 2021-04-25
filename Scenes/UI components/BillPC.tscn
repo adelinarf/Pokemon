@@ -1,0 +1,286 @@
+[gd_scene load_steps=29 format=2]
+
+[ext_resource path="res://Scenes/UI components/BillPC.gd" type="Script" id=1]
+[ext_resource path="res://assets/bill_pc_background.tres" type="Texture" id=2]
+[ext_resource path="res://assets/bill_pc_back.tres" type="Texture" id=3]
+[ext_resource path="res://assets/poke_info_bill.tres" type="Texture" id=4]
+[ext_resource path="res://assets/next_pc_bill.tres" type="Texture" id=5]
+[ext_resource path="res://assets/buttons_pc_bill.tres" type="Texture" id=6]
+[ext_resource path="res://assets/button_pressed_pc_bill.tres" type="Texture" id=7]
+[ext_resource path="res://assets/theme_pc_bill_selection.tres" type="Theme" id=8]
+[ext_resource path="res://assets/background_selection_pc_bill.tres" type="Texture" id=9]
+[ext_resource path="res://assets/button_team.tres" type="Texture" id=10]
+[ext_resource path="res://assets/button_team_hover.tres" type="Texture" id=11]
+[ext_resource path="res://assets/pokemonteam.tres" type="Texture" id=12]
+[ext_resource path="res://Scenes/assets/theme_font.tres" type="Theme" id=13]
+
+[sub_resource type="StyleBoxTexture" id=1]
+
+[sub_resource type="Theme" id=2]
+ItemList/colors/font_color = Color( 0, 0, 0, 1 )
+ItemList/colors/font_color_selected = Color( 0, 0, 0, 1 )
+ItemList/colors/guide_color = Color( 0, 0, 0, 0.1 )
+ItemList/constants/hseparation = 4
+ItemList/constants/icon_margin = 4
+ItemList/constants/line_separation = 2
+ItemList/constants/vseparation = 2
+ItemList/fonts/font = null
+ItemList/styles/bg = SubResource( 1 )
+ItemList/styles/bg_focus = null
+ItemList/styles/cursor = null
+ItemList/styles/cursor_unfocused = null
+ItemList/styles/selected = null
+ItemList/styles/selected_focus = null
+
+[sub_resource type="StyleBoxTexture" id=3]
+texture = ExtResource( 9 )
+region_rect = Rect2( 0, 0, 42, 33 )
+
+[sub_resource type="Theme" id=4]
+Button/colors/font_color = Color( 0.88, 0.88, 0.88, 1 )
+Button/colors/font_color_disabled = Color( 0.9, 0.9, 0.9, 0.2 )
+Button/colors/font_color_hover = Color( 0.94, 0.94, 0.94, 1 )
+Button/colors/font_color_pressed = Color( 1, 1, 1, 1 )
+Button/constants/hseparation = 2
+Button/fonts/font = null
+Button/styles/disabled = null
+Button/styles/focus = null
+Button/styles/hover = null
+Button/styles/normal = null
+Button/styles/pressed = null
+
+[sub_resource type="StyleBoxTexture" id=5]
+texture = ExtResource( 6 )
+region_rect = Rect2( 0, 0, 72, 15 )
+
+[sub_resource type="StyleBoxTexture" id=6]
+texture = ExtResource( 7 )
+region_rect = Rect2( 0, 0, 70, 17 )
+
+[sub_resource type="StyleBoxTexture" id=7]
+texture = ExtResource( 6 )
+region_rect = Rect2( 0, 0, 72, 15 )
+
+[sub_resource type="StyleBoxTexture" id=8]
+texture = ExtResource( 11 )
+region_rect = Rect2( 0, 0, 70, 17 )
+
+[sub_resource type="StyleBoxTexture" id=9]
+texture = ExtResource( 10 )
+region_rect = Rect2( 0, 0, 70, 15 )
+
+[sub_resource type="StyleBoxTexture" id=10]
+texture = ExtResource( 10 )
+region_rect = Rect2( 0, 0, 70, 15 )
+
+[sub_resource type="Theme" id=11]
+Button/colors/font_color = Color( 0.88, 0.88, 0.88, 1 )
+Button/colors/font_color_disabled = Color( 0.9, 0.9, 0.9, 0.2 )
+Button/colors/font_color_hover = Color( 0.94, 0.94, 0.94, 1 )
+Button/colors/font_color_pressed = Color( 1, 1, 1, 1 )
+Button/constants/hseparation = 2
+Button/fonts/font = null
+Button/styles/disabled = null
+Button/styles/focus = SubResource( 8 )
+Button/styles/hover = SubResource( 9 )
+Button/styles/normal = SubResource( 10 )
+Button/styles/pressed = null
+
+[sub_resource type="Theme" id=12]
+Button/colors/font_color = Color( 0.88, 0.88, 0.88, 1 )
+Button/colors/font_color_disabled = Color( 0.9, 0.9, 0.9, 0.2 )
+Button/colors/font_color_hover = Color( 0.94, 0.94, 0.94, 1 )
+Button/colors/font_color_pressed = Color( 1, 1, 1, 1 )
+Button/constants/hseparation = 2
+Button/fonts/font = null
+Button/styles/disabled = null
+Button/styles/focus = null
+Button/styles/hover = null
+Button/styles/normal = null
+Button/styles/pressed = null
+
+[sub_resource type="StyleBoxTexture" id=13]
+texture = ExtResource( 5 )
+region_rect = Rect2( 0, 0, 10, 12 )
+
+[sub_resource type="StyleBoxTexture" id=14]
+texture = ExtResource( 5 )
+region_rect = Rect2( 0, 0, 10, 12 )
+
+[sub_resource type="StyleBoxTexture" id=15]
+texture = ExtResource( 5 )
+region_rect = Rect2( 0, 0, 10, 12 )
+
+[node name="BillsPC" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+theme = ExtResource( 13 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="background" type="TextureRect" parent="."]
+margin_right = 1024.0
+margin_bottom = 600.0
+texture = ExtResource( 3 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="TextureRect" parent="."]
+margin_left = 40.0
+margin_top = 16.0
+margin_right = 336.0
+margin_bottom = 576.0
+texture = ExtResource( 4 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Pokemon_in_bag" type="Control" parent="."]
+visible = false
+margin_left = 40.0
+margin_top = 24.0
+margin_right = 80.0
+margin_bottom = 64.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect2" type="TextureRect" parent="Pokemon_in_bag"]
+margin_right = 304.0
+margin_bottom = 552.0
+texture = ExtResource( 12 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite" type="Sprite" parent="Pokemon_in_bag"]
+
+[node name="Box_background" type="Sprite" parent="."]
+position = Vector2( 664, 328 )
+scale = Vector2( 3.75, 3.50517 )
+texture = ExtResource( 2 )
+vframes = 4
+hframes = 4
+frame = 3
+
+[node name="pokemon_info" type="GridContainer" parent="."]
+visible = false
+margin_left = 88.0
+margin_top = 336.0
+margin_right = 128.0
+margin_bottom = 376.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite" type="Sprite" parent="pokemon_info"]
+
+[node name="Label" type="Label" parent="pokemon_info"]
+margin_right = 38.0
+margin_bottom = 14.0
+text = "Name"
+
+[node name="ItemList" type="ItemList" parent="."]
+margin_left = 416.0
+margin_top = 216.0
+margin_right = 928.0
+margin_bottom = 536.0
+theme = SubResource( 2 )
+allow_reselect = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ItemList2" type="ItemList" parent="."]
+visible = false
+margin_left = 64.0
+margin_top = 448.0
+margin_right = 176.0
+margin_bottom = 512.0
+theme = ExtResource( 8 )
+custom_styles/bg = SubResource( 3 )
+custom_colors/font_color_selected = Color( 0, 0, 0, 1 )
+allow_reselect = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+margin_left = 648.0
+margin_top = 112.0
+margin_right = 688.0
+margin_bottom = 126.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "TEXT"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Exit" type="Button" parent="."]
+margin_left = 712.0
+margin_top = 32.0
+margin_right = 864.0
+margin_bottom = 63.0
+theme = SubResource( 4 )
+custom_styles/hover = SubResource( 5 )
+custom_styles/pressed = SubResource( 6 )
+custom_styles/normal = SubResource( 7 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Party" type="Button" parent="."]
+margin_left = 488.0
+margin_top = 32.0
+margin_right = 648.0
+margin_bottom = 64.0
+theme = SubResource( 11 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" type="Button" parent="."]
+margin_left = 912.0
+margin_top = 112.0
+margin_right = 944.0
+margin_bottom = 144.0
+theme = SubResource( 12 )
+custom_styles/hover = SubResource( 13 )
+custom_styles/pressed = SubResource( 14 )
+custom_styles/normal = SubResource( 15 )
+custom_colors/font_color_disabled = Color( 0, 0, 0, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ItemList3" type="ItemList" parent="."]
+visible = false
+margin_left = 224.0
+margin_top = 448.0
+margin_right = 296.0
+margin_bottom = 536.0
+theme = ExtResource( 8 )
+custom_colors/font_color_selected = Color( 0, 0, 0, 1 )
+allow_reselect = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label2" type="Label" parent="."]
+visible = false
+margin_left = 32.0
+margin_top = 208.0
+margin_right = 72.0
+margin_bottom = 222.0
+text = "%s has already an %s"
+[connection signal="item_selected" from="ItemList" to="." method="_on_ItemList_item_selected"]
+[connection signal="item_selected" from="ItemList2" to="." method="_on_ItemList2_item_selected"]
+[connection signal="pressed" from="Party" to="." method="_on_Party_pressed"]
+[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]
+[connection signal="item_selected" from="ItemList3" to="." method="_on_ItemList3_item_selected"]

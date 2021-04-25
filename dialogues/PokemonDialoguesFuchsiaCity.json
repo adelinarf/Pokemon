@@ -1,0 +1,405 @@
+[{
+    "name": "1",
+    "Dialogue": ["SAFARI ZONE has a zoo in front of the entrance. Out back is the\nSAFARI GAME for catching POKEMON."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Erik",
+    "Dialogue": ["Where's SARA? I said I'd meet her here."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "3",
+    "Dialogue": ["That item ball in there is really a POKEMON."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "4",
+    "Dialogue": ["Did you try the SAFARI GAME? Some POKEMON can only be caught there."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Pokemon Signpost",
+    "Dialogue": ["Slowpoke  : Friendly and very slow moving.","Chansey   : Catching one is all up to chance.","Voltorb   : The very image of a Poke Ball.","Lapras    : A.K.A. the king of the seas.","Omanyte   : A POKEMON that was resurrected from a fossil.","Kangaskhan: A maternal POKEMON that raises its young in a pouch on its belly."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Center 1",
+    "Dialogue": ["If you're studying POKEMON, visit the SAFARI ZONE. It has all sorts\nof rare POKEMON."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Center 2",
+    "Dialogue": ["You can't win with just one strong POKEMON. It's tough, but you\nhave to raise them evenly."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Center 3",
+    "Dialogue": ["There's a narrow trail west of VIRIDIAN CITY. It goes to POKEMON\nLEAGUE HQ. The HQ governs all trainers."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Mart 4",
+    "Dialogue": ["Did you try X SPEED? It speeds up a POKEMON in battle!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Mart 5",
+    "Dialogue": ["Do you have a SAFARI ZONE flag? What about cards of calendars?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "6",
+    "Dialogue": ["I'm the FISHING GURU's older brother! I simply Looove fishing!\nDo you like to fish?","Oh... That's so disappointing...","Grand! I like your style! Take this and fish, young one!"],
+    "Object":[1,"Good Rod",1],
+    "Already_talk": false
+    },
+    {
+    "name": "6 after",
+    "Dialogue": ["Hello there, Player! How are the fish biting?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Warden",
+    "Dialogue": ["Hif fuff hefifoo! Ha lof ha feef ee hafahi ho. Heff hee fwee!","Ha? He ohay heh ha hoo ee haheh!","Ah howhee ho hoo! Eef ee hafahi ho!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Warden Gold Teeth",
+    "Dialogue": ["Player gave the GOLD TEETH to the WARDEN!\nThe WARDEN popped in his teeth!","Warden: Thanks, kid! No one could understand a word that I said. I couldn't\nwork that way. Let me give you something for your trouble.","","HM04 teaches STRENGTH! It lets POKEMON move boulders when you're\noutside of battle. Oh yes, did you find SECRET HOUSE in SAFARI ZONE?\nIf you do, you win an HM! I hear it's the rare SURF HM."],
+    "Object":[1,"HM04",1],
+    "Already_talk": false
+    },
+    {
+    "name": "Warden Gold Teeth after",
+    "Dialogue": ["HM04 teaches STRENGTH! It lets POKEMON move boulders when you're\noutside of battle. Oh yes, did you find SECRET HOUSE in SAFARI ZONE?\nIf you do, you win an HM! I hear it's the rare SURF HM."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "8",
+    "Dialogue": ["SLOWPOKE is very knowledgeable about POKEMON! He even has some\nfossils of rare, extinct POKEMON!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "9",
+    "Dialogue": ["We nicknamed the WARDEN SLOWPOKE. He and SLOWPOKE both look vacant!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "10",
+    "Dialogue": ["SLOWPOKE came in, but I couldn't understand him. I think he's got\na speech problem!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "11",
+    "Dialogue": ["SAFARI ZONE's WARDEN is old, but still active! All his teeth are\nfalse, though."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "12",
+    "Dialogue": ["BILL files his own POKEMON data on his PC! Did he show you?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "13",
+    "Dialogue": ["Hmm? You've met BILL? He's my grandson! He always liked collecting\nthings even as a child!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Safari 1",
+    "Dialogue": ["Hi! Is it your first time here?","Sorry, you're a regular here!","SAFARI ZONE has 4 zones in it. Each zone has different kinds of\nPOKEMON. Use SAFARI BALLs to catch them! When you run out of time\nor SAFARI BALLs, it's game over for you! Before you go, open an\nunused POKEMON BOX so there's room for new POKEMON!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Safari 2",
+    "Dialogue": ["Welcome to the SAFARI ZONE! For just P500, you can catch all the\nPOKEMON you want in the park! Would you like to join the hunt?","OK! Please come again!","That'll be P500 please! We only use a special POKE BALL here.\nWe'll call you on the PA when you run out of time or SAFARI BALLs!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Safari Zone 1 Signpost",
+    "Dialogue": ["TRAINER TIPS\nPress the START Button to check remaining time!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Safari Zone 1 1",
+    "Dialogue": ["I'm catching POKEMON to take home as gifts!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Safari Zone 1 Sara",
+    "Dialogue": ["Where did my boy friend, ERIK, go?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Safari Zone 2 Signpost1",
+    "Dialogue": ["CENTER AREA\nNORTH: AREA 2"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Safari Zone 2 Signpost2",
+    "Dialogue": ["The remaining time declines only while you walk!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Safari Zone 2 1",
+    "Dialogue": ["How many did you catch? I'm bushed from the work!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Safari Zone 2 2",
+    "Dialogue": ["I caught a CHANSEY! That makes this all worthwhile!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Safari Zone 2 3",
+    "Dialogue": ["Whew! I'm tired from all the fun!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Safari Zone 3 Signpost1",
+    "Dialogue": ["AREA 2"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Safari Zone 3 Signpost2",
+    "Dialogue": ["TRAINER TIPS\nWin a free HM for finding the SECRET HOUSE!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Safari Zone 3 Signpost3",
+    "Dialogue": ["TRAINER TIPS\nPOKEMON hide in the tall grass! Zigzag through grassy areas to\nflush them out."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Safari Zone 3 Signpost4",
+    "Dialogue": ["TRAINER TIPS\nThe SECRET HOUSE is still ahead!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Safari Zone 3 1",
+    "Dialogue": ["My EEVEE evolving into FLAREON! But, a friend's EEVEE turned into\na VAPOREON! I wonder why?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Safari Zone 3 2",
+    "Dialogue": ["Go to the deepest part of the SAFARI ZONE. You will win a prize!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Safari Zone 3 3",
+    "Dialogue": ["You can keep any item you find on the ground here. But, you'll run\nout of time if you try for all of them at once!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    
+    
+    {
+    "name": "Safari Zone 4 Signpost1",
+    "Dialogue": ["AREA 3\nEAST: CENTER AREA"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Safari Zone 4 Signpost2",
+    "Dialogue": ["TRAINER TIPS\nZone Exploration Campaign! The Search for the SECRET HOUSE!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Safari Zone 4 Signpost3",
+    "Dialogue": ["REQUEST NOTICE\nPlease find the SAFARI WARDEN's lost GOLD TEETH. They're around\nhere somewhere. Reward offered! Contact: WARDEN"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Safari Zone 4 1",
+    "Dialogue": ["Tossing ROCKs at POKEMON might make them run, but they'll be easier\nto catch."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Safari Zone 4 2",
+    "Dialogue": ["Using BAIT will make POKEMON easier to catch."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Safari Zone 4 3",
+    "Dialogue": ["I hiked a lot, but I didn't see any POKEMON I wanted."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Safari Zone 4 4",
+    "Dialogue": ["Ah! Finally! You're the first person to reach the SECRET HOUSE!\nI was getting worried that no one would win our campaign prize.\nCongratulations! You have won!","You don't have room for this fabulous prize!","HM03 is SURF! POKEMON will be able to ferry you across water!\nAnd, this HM isn't disposable! You can use it over and over!\nYou're super lucky for winning this fabulous prize!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Safari Zone 4 4 after",
+    "Dialogue": ["HM03 is SURF! POKEMON will be able to ferry you across water!\nAnd, this HM isn't disposable! You can use it over and over!\nYou're super lucky for winning this fabulous prize!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "2",
+    "Dialogue": ["Leaving early?","Good Luck!","Please return any SAFARI BALLs you have left."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "2 timeout",
+    "Dialogue": ["Did you get a good haul? Come again!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "End safari time",
+    "Dialogue": ["Ding-dong! Time's up! Your SAFARI GAME is over!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Signpost Gym",
+    "Dialogue": ["FUCHSIA CITY POKEMON GYM\nLEADER: KOGA\nThe Poisonous Ninja Master"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Plaque",
+    "Dialogue": ["FUCHSIA CITY POKEMON GYM\nLEADER: KOGA\nWINNING TRAINERS\nRival"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Gym 1",
+    "Dialogue": ["Yo! Champ in making! FUCHSIA GYM is riddled with invisible walls!\nKOGA might appear close, but he's blocked off! You have to find\ngaps in the walls to reach him!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Gym 1 after",
+    "Dialogue": ["It's amazing how ninja can terrify even now!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },    
+    {
+    "name": "Trainer 1",
+    "Dialogue": ["Strength isn't the key for POKEMON! It's strategy! I'll show you\nhow strategy can beat brute strength!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 1 after",
+    "Dialogue": ["So, you mix brawn with brains? Good strategy!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 2",
+    "Dialogue": ["Let's see you beat my special techniques!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 2 after",
+    "Dialogue": ["I like poison and sleep techniques, as they linger after battle!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 3",
+    "Dialogue": ["I wanted to become a ninja, so I joined this GYM!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 3 after",
+    "Dialogue": ["I will keep on training under KOGA, my ninja master!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 4",
+    "Dialogue": ["I also study the way of the ninja with master KOGA!\nNinja have a long history of using animals!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 4 after",
+    "Dialogue": ["I still have much to learn!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 5",
+    "Dialogue": ["Stop right there! Our invisible walls have you frustrated?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 5 after",
+    "Dialogue": ["You impressed me! Here's a hint! Look very closely for gaps\nin the invisible walls!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 6",
+    "Dialogue": ["Master KOGA comes from a long line of ninjas! What do you\ndescend from?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 6 after",
+    "Dialogue": ["Where there is light, there is shadow! Light and shadow!\nWhich do you choose?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Koga",
+    "Dialogue": ["Fwahahaha! A mere child like you dares to challenge me?\nVery well, I shall show you true terror as a ninja master!\nYou shall feel the despair of poison and sleep techniques!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Koga after",
+    "Dialogue": ["When afflicted by TOXIC, POKEMON suffer more and more as battle\nprogresses! It will surely terrorize foes!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    }
+]

@@ -1,0 +1,133 @@
+[{
+    "name": "Trainer 1",
+    "Dialogue": ["You looked at me, didn't you?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+	"name": "Trainer 1 after",
+    "Dialogue": ["Quit staring if you don't want to fight!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 2",
+    "Dialogue": ["Hey! I met you in VIRIDIAN FOREST!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+	"name": "Trainer 2 after",
+    "Dialogue": ["There are other kinds of POKEMON than those found in the forest!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 3",
+    "Dialogue": ["Hi! I like shorts! They're comfy and easy to wear!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+	"name": "Trainer 3 after",
+    "Dialogue": ["Are you storing your POKEMON on PC? Each BOX can hold 20 POKEMON!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 4",
+    "Dialogue": ["Are you a trainer? Let's fight!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+	"name": "Trainer 4 after",
+    "Dialogue": ["If a POKEMON BOX on the PC gets full, just switch to another BOX!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 5",
+    "Dialogue": ["Hey! You're not wearing shorts!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+	"name": "Trainer 5 after",
+    "Dialogue": ["I always wear shorts, even in winter!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 6",
+    "Dialogue": ["That look you gave me, it's so intriguing!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+	"name": "Trainer 6 after",
+    "Dialogue": ["Avoid fights by not letting people see you!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 7",
+    "Dialogue": ["You can fight my new POKEMON!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+	"name": "Trainer 7 after",
+    "Dialogue": ["Trained POKEMON are stronger than the wild ones!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 8",
+    "Dialogue": ["Eek! Did you touch me?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+	"name": "Trainer 8 after",
+    "Dialogue": ["Route 4 is at the foot of MT.MOON."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "1",
+    "Dialogue": ["Whew... I better take a rest... Groan... That tunnel from CERULEAN takes a lot out of you!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "2",
+    "Dialogue": ["Ouch! I tripped over a rocky POKEMON, GEODUDE!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "3",
+    "Dialogue": ["If you have too many POKEMON, you should store them via PC!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "4",
+    "Dialogue": ["I've 6 POKE BALLS set in my belt. At most, you can carry 6 POKEMON."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "5",
+    "Dialogue": ["TEAM ROCKET attacks CERULEAN citizens... TEAM ROCKET is always in the news!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "6",
+    "Dialogue": ["Hello, there! Have I got a deal just for you! I'll let you have a swell MAGIKARP for just P500! What do you say?","No? I'm only doing this as a favor to you!","Well, I don't give refunds!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    }
+]

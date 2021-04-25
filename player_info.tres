@@ -1,0 +1,20 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[sub_resource type="GDScript" id=1]
+script/source = "extends Resource
+export(String) var name = \"Ade\"
+
+# Make sure that every parameter has a default value.
+# Otherwise, there will be problems with creating and editing
+# your resource via the inspector.
+
+func _init(name=\"\",pokemon=[]):
+	var names = name
+	var pokemon_ = pokemon
+	print(names,pokemon_)
+"
+
+[resource]
+resource_name = "player_info"
+script = SubResource( 1 )
+name = "Dan"

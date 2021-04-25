@@ -1,0 +1,118 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://assets/pokemon_battle/battle_movements.tres" type="Texture" id=1]
+[ext_resource path="res://assets/pokemon_battle/selector.tres" type="Texture" id=2]
+[ext_resource path="res://Scenes/UI components/menu_moves_in_battle.gd" type="Script" id=3]
+[ext_resource path="res://assets/themedark_letters_label.tres" type="Theme" id=5]
+[ext_resource path="res://assets/GAME_FONT_smaller.tres" type="DynamicFont" id=6]
+
+[node name="menu" type="Node2D"]
+script = ExtResource( 3 )
+
+[node name="TextureRect" type="TextureRect" parent="."]
+margin_right = 464.0
+margin_bottom = 72.0
+texture = ExtResource( 1 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="selector" type="TextureRect" parent="."]
+margin_left = 16.0
+margin_top = 13.0
+margin_right = 56.0
+margin_bottom = 53.0
+focus_neighbour_right = NodePath("../Fight")
+texture = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="move1" type="Label" parent="."]
+margin_left = 51.0
+margin_top = 18.0
+margin_right = 115.0
+margin_bottom = 55.0
+theme = ExtResource( 5 )
+custom_fonts/font = ExtResource( 6 )
+text = "Move 1"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="move2" type="Label" parent="."]
+margin_left = 177.0
+margin_top = 17.0
+margin_right = 224.0
+margin_bottom = 31.0
+theme = ExtResource( 5 )
+custom_fonts/font = ExtResource( 6 )
+text = "Move 2"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="move3" type="Label" parent="."]
+margin_left = 51.0
+margin_top = 37.5
+margin_right = 98.0
+margin_bottom = 51.5
+theme = ExtResource( 5 )
+custom_fonts/font = ExtResource( 6 )
+text = "Move 3"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="move4" type="Label" parent="."]
+margin_left = 177.5
+margin_top = 37.5
+margin_right = 224.5
+margin_bottom = 51.5
+theme = ExtResource( 5 )
+custom_fonts/font = ExtResource( 6 )
+text = "Move 4"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Control" type="Control" parent="."]
+margin_left = 318.0
+margin_top = 6.0
+margin_right = 453.0
+margin_bottom = 66.0
+theme = ExtResource( 5 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="current_pp" type="Label" parent="Control"]
+margin_left = 58.8657
+margin_top = 4.8921
+margin_right = 98.8657
+margin_bottom = 25.8921
+custom_fonts/font = ExtResource( 6 )
+text = "pp"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="pptotal" type="Label" parent="Control"]
+margin_left = 108.372
+margin_top = 4.8921
+margin_right = 148.372
+margin_bottom = 25.8921
+custom_fonts/font = ExtResource( 6 )
+text = "pp"
+
+[node name="type" type="Label" parent="Control"]
+margin_left = 64.2172
+margin_top = 29.2708
+margin_right = 104.217
+margin_bottom = 50.2708
+custom_fonts/font = ExtResource( 6 )
+text = "type "
+__meta__ = {
+"_edit_use_anchors_": false
+}

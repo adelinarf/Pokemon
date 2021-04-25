@@ -1,0 +1,757 @@
+[{
+    "name": "Signpost 1",
+    "Dialogue": ["TRAINER TIPS\nX ACCURACY boosts the accuracy of techniques! DIRE HIT jacks up the\nlikelihood of critical hits! Get your items at CELADON DEPT. STORE!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Signpost 2",
+    "Dialogue": ["TRAINER TIPS\nGUARD SPEC. protects POKEMON against SPECIAL attacks such as fire\nand water! Get your items at CELADON DEPT. STORE!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Signpost 3",
+    "Dialogue": ["ROCKET GAME CORNER\nThe playground for grown-ups!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Signpost 4",
+    "Dialogue": ["Coins exchanged for prizes!\nPRIZE EXCHANGE"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "1",
+    "Dialogue": ["Keep out of TEAM ROCKET's way!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "2",
+    "Dialogue": ["This is my trusted pal, POLIWRATH! It evolved from POLIWHIRL\nwhen I used WATER STONE!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Poliwrath",
+    "Dialogue": ["Ribi ribit!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "3",
+    "Dialogue": ["I got my KOFFING in CINNABAR! It's nice, but it breathes poison\nwhen it's angry!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "4",
+    "Dialogue": ["The GAME CORNER is bad for our city's image!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "5",
+    "Dialogue": ["Moan! I blew it all at the slots! I knew I should have cashed in\nmy coins for prizes!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "6",
+    "Dialogue": ["What are you staring at?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "7",
+    "Dialogue": ["Hello, there! I've seen you, but I never had a chance to talk!\nHere's a gift for dropping by!","Oh, your pack is full of items!","TM41 reaches SOFTBOILED! Only one POKEMON can use it! That POKEMON\nis CHANSEY!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Center 1",
+    "Dialogue": ["If I had a BIKE, I would go to CYCLING ROAD!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Center 2",
+    "Dialogue": ["POKE FLUTE awakens POKEMON with a sound that only they can hear!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Center 3",
+    "Dialogue": ["I road uphill on CYCLING ROAD from FUCHSIA!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Restaurant 4",
+    "Dialogue": ["Hi! We're taking a break now."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Restaurant 5",
+    "Dialogue": ["My POKEMON are weak, so I often have to go to the DRUG STORE."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Restaurant 6",
+    "Dialogue": ["Munch... The man at that table lost it all at the slots."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Restaurant 7",
+    "Dialogue": ["Psst! There's a basement under the GAME CORNER."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Restaurant 8",
+    "Dialogue": ["Go ahead! Laugh! I'm flat out busted! No more slots for me!\nI'm going straight! Here! I won't be needing this anymore!","Make room for this!","I always thought I was going to win it back..."],
+    "Object":[0,"Coin case",1],
+    "Already_talk": false
+    },
+    {
+    "name": "9",
+    "Dialogue": ["Don't touch the poster at the GAME CORNER! There's no secret switch\nbehind it!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "10",
+    "Dialogue": ["CHIEF! We just shipped 2000 POKEMON as slot prizes!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "11",
+    "Dialogue": ["Hehehe! The slots just reel in the dough, big time!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "12",
+    "Dialogue": ["POKEMON? No, this is a hotel for people. We're full up."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "13",
+    "Dialogue": ["I'm on vacation with my brother and boy friend. CELADON is such a\npretty city!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "14",
+    "Dialogue": ["My sis brought me on this vacation!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "15",
+    "Dialogue": ["Why did she bring her brother?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "16",
+    "Dialogue": ["I had a major haul today!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "17",
+    "Dialogue": ["I sure do fancy that PORYGON! But, it's hard to win at slots!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Mansion Sign 1",
+    "Dialogue": ["CELADON MANSION\nManager's Suite"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Mansion Old lady",
+    "Dialogue": ["You look thirsty, do you want some tea?","Be back when YOU are thirsty","Ok, here you'll go"],
+    "Object":[1,"Tea",1],
+    "Already_talk": false
+    },
+    {
+    "name": "Mansion Old lady after",
+    "Dialogue": ["Hope you like my tea"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Mansion 1",
+    "Dialogue": ["My dear POKEMON keep me company. MEOWTH even brings money home!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Clefairy",
+    "Dialogue": ["Pi pippippi!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Nidoran",
+    "Dialogue": ["Kya kyaoo!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Meowth",
+    "Dialogue": ["Meow!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Mansion Sign 2",
+    "Dialogue": ["GAME FREAK\nMeeting Room"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Mansion Sign 3",
+    "Dialogue": ["GAME FREAK\nDevelopment Room"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Mansion 2",
+    "Dialogue": ["I wrote the story! Isn't ERIKA cute? I like MISTY a lot too!\nOh, and SABRINA, I like her!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Mansion 3",
+    "Dialogue": ["I'm the graphic artist! I drew you!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Mansion 4",
+    "Dialogue": ["Me? I'm the programmer!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Mansion 5",
+    "Dialogue": ["Is that right? I'm the game designer! Filling up your POKEDEX\nis tough, but don't quit! When you finish, come tell me!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Mansion Sign 4",
+    "Dialogue": ["I KNOW EVERYTHING!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Mansion 6",
+    "Dialogue": ["I know everything about the world of POKEMON in your GAME BOY!\nGet together with your friends and trade POKEMON!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Mansion Blackboard",
+    "Dialogue": ["TRAINER TIPS\nUsing a Game Link Cable"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Mansion Pamphlet",
+    "Dialogue": ["It's a pamphlet on TMs. ... There are 50 TMs in all. There are also\n5 HMs that can be used repeatedly. SILPH CO."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Store sign",
+    "Dialogue": ["Find what you need at CELADON DEPT. STORE!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Sign store 1",
+    "Dialogue": ["1F: SERVICE COUNTER\n2F: TRAINER'S MARKET\n3F: TV GAME SHOP\n4F: WISEMAN GIFTS\n5F: DRUG STORE\nROOFTOP SQUARE: VENDING MACHINES"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Employee 1",
+    "Dialogue": ["Hello! Welcome to CELADON DEPT. STORE. The board on the right\ndescribes the store layout."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Sign store 2",
+    "Dialogue": ["Top Grade Items for Trainers!\n2F: TRAINER'S MARKET"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Store 2",
+    "Dialogue": ["For long outings, you should buy REVIVE."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Store 3",
+    "Dialogue": ["SUPER REPEL keeps weak POKEMON at bay... Hmm, it's a more powerful\nREPEL!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Employee 2",
+    "Dialogue": ["Oh, hi! I finally finished POKEMON! Not done yet? This might be\nuseful!","Your pack is full of items!","TM18 is COUNTER! Not like the one I'm leaning on, mind you!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Store 5",
+    "Dialogue": ["Captured POKEMON are registered with an ID No. and OT, the name\nof the Original Trainer that caught it!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Store 6",
+    "Dialogue": ["You can identify POKEMON you got in trades by their ID Numbers!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Store 7",
+    "Dialogue": ["All right! My buddy's going to trade me his KANGASKHAN for my\nGRAVELER!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Store 8",
+    "Dialogue": ["Come on GRAVELER! I love GRAVELER! I collect them!","Huh? GRAVELER turned into a different POKEMON!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Poster store",
+    "Dialogue": ["Player and Rival! Both are POKEMON!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "SNES Games1",
+    "Dialogue": ["A fighting game! Looks tough!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "SNES Games2",
+    "Dialogue": ["A sports game! Dad'll like that!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "SNES Games3",
+    "Dialogue": ["An RPG! There's no time for that!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "SNES Games4",
+    "Dialogue": ["A puzzle game! Looks addictive!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Sign store 4",
+    "Dialogue": ["Express yourself with gifts!\n4F: WISEMAN GIFTS\nEvolution Special! Element STONEs on sale now!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Store 9",
+    "Dialogue": ["I'm getting a POKE DOLL for my girl friend!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Store 10",
+    "Dialogue": ["I heard something useful. You can run from wild POKEMON by\ndistracting them with a POKE DOLL!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Store 11",
+    "Dialogue": ["POKEMON ability enhancers can be bought only here. Use CALCIUM to\nincrease SPECIAL abilities. Use CARBOS to increase SPEED."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Store 12",
+    "Dialogue": ["I'm here for POKEMON ability enhancers. PROTEIN increases ATTACK\npower. IRON increases DEFENSE!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Store 13",
+    "Dialogue": ["My sister is a trainer, believe it or not. But, she's so immature,\nshe drives me nuts!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Store 14",
+    "Dialogue": ["I'm thirsty! I want something to drink!","Give her a drink?","OPTIONS SHOULD APPEAR","OPTIONS SHOULD APPEAR"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Game Corner Employee 1",
+    "Dialogue": ["Welcome to ROCKET GAME CORNER! Do you need some game coins?\nIt's 1000$ for 50 coins. Would you like some?","No? Please come play sometime!","Thanks! Here are your 50 coins!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Game Corner Employee 2",
+    "Dialogue": ["Welcome! You can exchange your coins for fabulous prizes next door."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Game Corner 3",
+    "Dialogue": ["Hey, what? You're throwing me off! Here are some coins, shoo!","The trick is to watch the reels closely!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Game Corner 4",
+    "Dialogue": ["What's up? Want some coins?","You have lots of coins!","Darn! I need more coins for the POKEMON I want!"],
+    "Object":[0,"Coins",50],
+    "Already_talk": false
+    },
+    {
+    "name": "Game Corner 5",
+    "Dialogue": ["Games are scary! It's so easy to get hooked!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Game Corner 6",
+    "Dialogue": ["Hey! You have better things to do, champ in making! CELADON GYM's\nLEADER is ERIKA! She uses grass-type POKEMON! She might appear\ndocile, but don't be fooled!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Game Corner 6 after",
+    "Dialogue": ["They offer rare POKEMON that can be exchanged for your coins.\nBut, I just can't seem to win!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Game Corner 7",
+    "Dialogue": ["I'm having a wonderful time!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Game Corner 8",
+    "Dialogue": ["I think these machines have different odds."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Game Corner 9",
+    "Dialogue": ["Kid, do you want to play?","You don't need my coins!","Wins seem to come and go."],
+    "Object":[0,"Coins",10],
+    "Already_talk": false
+    },
+    {
+    "name": "Game Corner 10",
+    "Dialogue": ["Keep this quiet. It's rumored that this place is run by TEAM ROCKET."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer Game Corner 11",
+    "Dialogue": ["I'm guarding this poster! Go away, or else!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer Game Corner 11 after",
+    "Dialogue": ["Our hideout might be discovered! I better tell BOSS!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Rocket Poster",
+    "Dialogue": ["Hey! A switch behind the poster!? Let's push it!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 1",
+    "Dialogue": ["You broke into our operation?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 1 after",
+    "Dialogue": ["You're not going to get away with this, brat!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 2",
+    "Dialogue": ["Who are you? How did you get here?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 2 after",
+    "Dialogue": ["Are you dissing TEAM ROCKET?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 3",
+    "Dialogue": ["BOSS said you can see GHOSTs with the SILPH SCOPE!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 3 after",
+    "Dialogue": ["The TEAM ROCKET HQ has 4 basement floors. Can you reach the BOSS?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 4",
+    "Dialogue": ["Why did you come here?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 4 after",
+    "Dialogue": ["OK, I'll talk! Take the elevator to see my BOSS!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 5",
+    "Dialogue": ["Intruder alert!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 5 after",
+    "Dialogue": ["SILPH SCOPE? I don't know where it is!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 6",
+    "Dialogue": ["We got word from upstairs that you were coming!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 6 after",
+    "Dialogue": ["Go ahead and go! But, you need the LIFT KEY to run the elevator!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 7",
+    "Dialogue": ["Stop meddling in TEAM ROCKET's affairs!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 7 after",
+    "Dialogue": ["SILPH SCOPE? The machine the BOSS stole. It's here somewhere."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 8",
+    "Dialogue": ["The elevator doesn't work? Who has the LIFT KEY?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 8 after",
+    "Dialogue": ["Oh no! I dropped the LIFT KEY!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 9",
+    "Dialogue": ["Are you lost, you little rat?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 9 after",
+    "Dialogue": ["Uh-oh, that fight opened the door!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 10",
+    "Dialogue": ["How can you not see the beauty of our evil?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 10 after",
+    "Dialogue": ["BOSS! I'm sorry I failed you!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 11",
+    "Dialogue": ["I know you! You ruined our plans at MT.MOON!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 11 after",
+    "Dialogue": ["Do you have something against TEAM ROCKET?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Giovanni",
+    "Dialogue": ["So! I must say, I am impressed you got here!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Giovanni after",
+    "Dialogue": ["I see that you raise POKEMON with utmost care. A child like you\nwould never understand what I hope to achieve. I shall step aside\nthis time! I hope we meet again..."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Signpost Gym",
+    "Dialogue": ["CELADON CITY POKEMON GYM\nLEADER: ERIKA\nThe Nature Loving Princess!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Gym 1",
+    "Dialogue": ["Heheh! This GYM is great! It's full of women!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Plaque",
+    "Dialogue": ["CELADON CITY POKEMON GYM\nLEADER: ERIKA\nWINNING TRAINERS:\nRival"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Gym Trainer 1",
+    "Dialogue": ["Hey! You are not allowed in here!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Gym Trainer 1 after",
+    "Dialogue": ["Bleaah! I hope ERIKA wipes you out!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Gym Trainer 2",
+    "Dialogue": ["I was getting bored."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Gym Trainer 2 after",
+    "Dialogue": ["Grass-type POKEMON are tough against the water-type!\nThey also have an edge on rock and ground POKEMON!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Gym Trainer 3",
+    "Dialogue": ["Look at my grass POKEMON! They're so easy to raise!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Gym Trainer 3 after",
+    "Dialogue": ["We only use grass-type POKEMON at our GYM! We also use them\nfor making flower arrangements!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Gym Trainer 4",
+    "Dialogue": ["Aren't you the peeping Tom?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Gym Trainer 4 after",
+    "Dialogue": ["Oh, you weren't peeping? We get a lot of gawkers!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Gym Trainer 5",
+    "Dialogue": ["Welcome to CELADON GYM! You better not underestimate girl power!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Gym Trainer 5 after",
+    "Dialogue": ["I didn't bring my best POKEMON! Wait 'til next time!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Gym Trainer 6",
+    "Dialogue": ["Don't bring any bugs or fire POKEMON in here!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Gym Trainer 6 after",
+    "Dialogue": ["Our LEADER, ERIKA, might be quiet, but she's also very skilled!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Gym Trainer 7",
+    "Dialogue": ["Pleased to meet you. My hobby is POKEMON training."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Gym Trainer 7 after",
+    "Dialogue": ["I have a blind date coming up. I have to learn to be polite."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Erika",
+    "Dialogue": ["Hello. Lovely weather isn't it? It's so pleasant.","...Oh dear... I must have dozed off. Welcome. My name is ERIKA.\nI am the LEADER of CELADON GYM. I teach the art of flowing\narranging. My POKEMON are of the grass-type.","Oh, I'm sorry, I had no idea that you wished to challenge me.\nVery well, but I shall not lose."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Erika after",
+    "Dialogue": ["You are cataloging POKEMON? I must say I'm impressed. I would\nnever collect POKEMON if they were unattractive."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    }
+]

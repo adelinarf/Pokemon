@@ -1,0 +1,101 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Scenes/UI components/PlayerPC.gd" type="Script" id=1]
+[ext_resource path="res://assets/player_pc_background.tres" type="Texture" id=2]
+[ext_resource path="res://assets/theme_pc_bill_selection.tres" type="Theme" id=3]
+[ext_resource path="res://assets/button_bag.tres" type="Theme" id=4]
+[ext_resource path="res://Scenes/assets/theme_font.tres" type="Theme" id=5]
+
+[node name="PlayerPC" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+theme = ExtResource( 5 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="TextureRect" parent="."]
+margin_right = 1024.0
+margin_bottom = 600.0
+texture = ExtResource( 2 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ItemList" type="ItemList" parent="."]
+margin_left = 280.0
+margin_top = 56.0
+margin_right = 768.0
+margin_bottom = 424.0
+theme = ExtResource( 3 )
+allow_reselect = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ItemList2" type="ItemList" parent="."]
+margin_left = 848.0
+margin_top = 440.0
+margin_right = 960.0
+margin_bottom = 560.0
+theme = ExtResource( 3 )
+allow_reselect = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+margin_left = 336.0
+margin_top = 488.0
+margin_right = 432.0
+margin_bottom = 536.0
+text = "TEXT"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="GridContainer" type="GridContainer" parent="."]
+margin_left = 64.0
+margin_top = 480.0
+margin_right = 176.0
+margin_bottom = 528.0
+custom_constants/vseparation = 8
+custom_constants/hseparation = 13
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" type="Button" parent="GridContainer"]
+margin_right = 25.0
+margin_bottom = 21.0
+theme = ExtResource( 4 )
+text = "Next"
+
+[node name="Button2" type="Button" parent="GridContainer"]
+margin_top = 29.0
+margin_right = 25.0
+margin_bottom = 50.0
+theme = ExtResource( 4 )
+text = "Exit"
+
+[node name="ItemList3" type="ItemList" parent="."]
+visible = false
+margin_left = 40.0
+margin_top = 112.0
+margin_right = 112.0
+margin_bottom = 200.0
+allow_reselect = true
+
+[node name="Label2" type="Label" parent="."]
+visible = false
+margin_left = 32.0
+margin_top = 208.0
+margin_right = 72.0
+margin_bottom = 222.0
+text = "%s has already an %s"
+[connection signal="item_selected" from="ItemList" to="." method="_on_ItemList_item_selected"]
+[connection signal="item_selected" from="ItemList2" to="." method="_on_ItemList2_item_selected"]
+[connection signal="pressed" from="GridContainer/Button" to="." method="_on_Button_pressed"]
+[connection signal="item_selected" from="ItemList3" to="." method="_on_ItemList3_item_selected"]

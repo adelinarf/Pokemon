@@ -1,0 +1,138 @@
+[{
+    "name": "Signpost 1",
+    "Dialogue": ["DANGER Fast Current!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Signpost 2",
+    "Dialogue": ["Boulders might change the flow of water!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Articuno",
+    "Dialogue": ["Gyaoo!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 1",
+    "Dialogue": ["The water is shallow here."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 1 after",
+    "Dialogue": ["I wish I could ride my POKEMON."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 2",
+    "Dialogue": ["Why are you riding a POKEMON? Can't you swim?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 2 after",
+    "Dialogue": ["Riding POKEMON sure looks fun!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 3",
+    "Dialogue": ["SEAFOAM is a quiet getaway!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 3 after",
+    "Dialogue": ["There's a huge cavern underneath this island."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 4",
+    "Dialogue": ["I love floating with the fishes!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 4 after",
+    "Dialogue": ["Want to float with me?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 5",
+    "Dialogue": ["Are you on vacation too?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 5 after",
+    "Dialogue": ["SEAFOAM used to be one island!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 6",
+    "Dialogue": ["Check out my buff physique!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 6 after",
+    "Dialogue": ["I should've been buffing up my POKEMON, not me!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 7",
+    "Dialogue": ["I rode my bird POKEMON here!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 7 after",
+    "Dialogue": ["My birds can't FLY me back!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 8",
+    "Dialogue": ["My boy friend gave me big pearls!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 8 after",
+    "Dialogue": ["Will my pearls grow bigger inside CLOYSTER?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 9",
+    "Dialogue": ["I swam here from CINNABAR ISLAND!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 9 after",
+    "Dialogue": ["POKEMON have taken over an abandoned mansion on CINNABAR!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },{
+    "name": "Trainer 10",
+    "Dialogue": ["CINNABAR, in the west, has a LAB for POKEMON."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 10 after",
+    "Dialogue": ["CINNABAR is a volcanic island!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    }
+]

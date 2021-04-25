@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=2]
+
+[ext_resource path="res://assets/pokemon_battle/battle_assets.png" type="Texture" id=1]
+
+[resource]
+flags = 4
+atlas = ExtResource( 1 )
+region = Rect2( -3.55875, -2.31437, 115.235, 85.3186 )

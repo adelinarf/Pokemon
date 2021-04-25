@@ -1,0 +1,139 @@
+[{
+    "name": "Trainer 1",
+    "Dialogue": ["Let's go, but don't cheat!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 1 after",
+    "Dialogue": ["I did my best! I have no regrets!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 2",
+    "Dialogue": ["Win, lose or draw!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 2 after",
+    "Dialogue": ["POKEMON is life! And to live is to gamble!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 3",
+    "Dialogue": ["I just became a trainer! But, I think I can win!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 3 after",
+    "Dialogue": ["What do you want? Leave me alone!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 4",
+    "Dialogue": ["My POKEMON should be ready by now!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 4 after",
+    "Dialogue": ["I better go find stronger ones!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 5",
+    "Dialogue": ["Competition! I can't get enough!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 5 after",
+    "Dialogue": ["You can't be a coward in the world of POKEMON!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 6",
+    "Dialogue": ["I have never won before..."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 6 after",
+    "Dialogue": ["It's just luck. Luck of the draw."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 7",
+    "Dialogue": ["Careful! I'm laying down some cables!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 7 after",
+    "Dialogue": ["Spread the word to save energy!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 8",
+    "Dialogue": ["Watch out for live wires!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 8 after",
+    "Dialogue": ["Well, better get back to work."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 9",
+    "Dialogue": ["Fwahaha! I have never lost!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 9 after",
+    "Dialogue": ["Luck of the draw! Just luck!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 10",
+    "Dialogue": ["I'm the best in my class!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 10 after",
+    "Dialogue": ["There's a fat POKEMON that comes down from the mountains.\nIt's strong if you can get it."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "1",
+    "Dialogue": ["When you catch lots of POKEMON, isn't it hard to think up names?\nIn LAVENDER TOWN, there's a man who rates POKEMON nicknames.\nHe'll help you rename them too!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "2",
+    "Dialogue": ["Hi! Remember me? I'm PROF.OAK's AIDE! If you caught 30 kinds of\nPOKEMON, I'm supposed to give you an ITEMFINDER! So, Player! Have you\n caught at least 30 kinds of POKEMON?","Oh. I see. When you get 30 kinds, come back for ITEMFINDER.","Let's see... Uh-oh! You have caught only <##> kinds of POKEMON!\nYou need 30 kinds if you want the ITEMFINDER.","Great! You have caught <##> kinds of POKEMON! Congratulations!\nHere you go!","There are items on the ground that can't be seen.\nITEMFINDER will detect an item close to you. It can't pinpoint it,\nso you have to look yourself!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "3",
+    "Dialogue": ["I'm looking for NIDORINO! Wanna trade one for NIDORINA?","Awww! Oh well...","What? That's not NIDORINO! If you get come, come back here!","Okay, connect the cable like so!","Hey thanks!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    }
+]

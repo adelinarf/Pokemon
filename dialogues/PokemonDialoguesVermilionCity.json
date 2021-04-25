@@ -1,0 +1,631 @@
+[{
+    "name": "Signpost 1",
+    "Dialogue": ["NOTICE! \n ROUTE 12 may be blocked off by a sleeping POKEMON. Detour through ROCK TUNNEL to LAVENDER TOWN. \n VERMILION POLICE"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Signpost 2",
+    "Dialogue": ["POKEMON FAN CLUB \n All POKEMON fans welcome!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "1",
+    "Dialogue": ["Did you see the S.S.ANNE moored in the harbor?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "2",
+    "Dialogue": ["We're careful about pollution! We've heard GRIMER multiplies in toxic sludge!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "3",
+    "Dialogue": ["I'm putting up a building on this plot of land. My POKEMON is tamping the land."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Machop",
+    "Dialogue": ["Guoh! Gogogoh!","A MACHOP is stomping the land flat."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Center 1",
+    "Dialogue": ["It is true that a higher level POKEMON will be more powerful...\nBut, all POKEMON will have weak points against specific types.\nSo, there is no universally strong POKEMON."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Center 2",
+    "Dialogue": ["My POKEMON was poisoned! It fainted while we were walking!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Center 3",
+    "Dialogue": ["Even if they are the same level, POKEMON can have very different\nabilities. A POKEMON raised by a trainer is stronger than one in\nthe wild."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Mart 1",
+    "Dialogue": ["There are evil people who will use POKEMON for criminal acts.\nTEAM ROCKET traffics in rare POKEMON. They also abandon POKEMON\nthat they consider not to be popular or useful."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Mart 2",
+    "Dialogue": ["I think POKEMON can be good or evil. It depends on the trainer."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Mart 3",
+    "Dialogue": ["I'm the FISHING GURU! I simply Looove fishing! Do you like to fish?","Oh... That's so disappointing...","Grand! I like your style! Take this and fish, young one!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Mart 3 after",
+    "Dialogue": ["Hello there, Player! How are the fish biting?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "7",
+    "Dialogue": ["Hi! Do you have SPEAROW? Want to trade it for FARFETCH'D?","That's too bad.","...This is no SPEAROW. If you get one, trade it with me!","Okay, connect the cable like so!","Thanks pal!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Fan Poster 1",
+    "Dialogue": ["Let's all listen politely to other trainers!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Fan Poster 2",
+    "Dialogue": ["If someone brags, brag right back!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "8",
+    "Dialogue": ["I chair the POKEMON Fan Club! I have collected over 100 POKEMON!\nI'm very fussy when it comes to POKEMON! So... Did you come visit\nto hear about my POKEMON?","Oh. Come back when you want to hear my story!","Good! Then listen up! My favorite RAPIDASH... It...cute...lovely...\nsmart...plus...amazing...you think so?...oh yes...it...stunning...\nkindly...love it! Hug it...when...sleeping...warm and cuddly...\nspectacular...ravishing... ...Oops! Look at the time! I kept you\ntoo long! Thanks for hearing me out! I want you to have this!","Exchange that for a BICYCLE! Don't worry, my FEAROW will FLY me\n anywhere! So, I don't need a BICYCLE! I hope you like cycling!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "8 after",
+    "Dialogue": ["Hello, Player! Did you come see me about my POKEMON again? No? Too bad!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },   
+    {
+    "name": "9",
+    "Dialogue": ["Our Chairman is very vocal about POKEMON."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "10",
+    "Dialogue": ["I just love my SEEL! It squeals when I hug it!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "11",
+    "Dialogue": ["Humph! My PIKACHU is twice as cute as that one!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "12",
+    "Dialogue": ["I'm getting my PIDGEY to fly a letter to SAFFRON in the north!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Seel",
+    "Dialogue": ["Kyuoo!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Pikachu",
+    "Dialogue": ["Chu! Pikachu!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Pidgey",
+    "Dialogue": ["Kurukkoo!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Letter",
+    "Dialogue": ["Dear PIPPI, I hope to see you soon. I heard SAFFRON has problems with TEAM ROCKET. VERMILION appears to be safe."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Anne 1",
+    "Dialogue": ["S.S.ANNE is a famous luxury cruise ship. We visit VERMILION once a year."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Anne 2",
+    "Dialogue": ["Welcome to S.S.ANNE! Excuse me, do you have a ticket?","Sorry! You need a ticket to get aboard.","Great! Welcome to S.S.ANNE!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Anne 3",
+    "Dialogue": ["The passengers are restless! You might be challenged by the more bored ones!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Anne 4",
+    "Dialogue": ["Bonjour! I am le waiter on this ship! I will be happy to serve you anything you please! Ah! Le strong silent type!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Anne 5",
+    "Dialogue": ["You, mon petit! We're busy here! Out of the way!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Anne 6",
+    "Dialogue": ["I saw an odd ball in the trash."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Anne 7",
+    "Dialogue": ["I'm so busy I'm getting dizzy!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Anne 8",
+    "Dialogue": ["Er-hem! Indeed I am le CHEF! Le main course is","{1} Prime Beef Steak! But, have I enough fillets du beef?","{2} Eels au Barbecue! Les guests will mutiny, I fear.","{3} Salade de Salmon! Les guests may gripe it's fish again, however!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Anne 9",
+    "Dialogue": ["Snivel...Sniff... I only get to peel onions... Snivel..."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Anne 10",
+    "Dialogue": ["Did you hear about SNORLAX? All it does is eat and sleep!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Anne 11",
+    "Dialogue": ["Hum-de-hum-de-ho... I peel spuds every day! Hum-hum..."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 1",
+    "Dialogue": ["I travel alone on my journeys! My POKEMON are my only friends!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 1 after",
+    "Dialogue": ["You should be nice to friends!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 2",
+    "Dialogue": ["You pup! How dare you barge in!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 2 after",
+    "Dialogue": ["I wish to be left alone! Get out!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "12",
+    "Dialogue": ["Waiter, I would like a cherry pie please!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "13",
+    "Dialogue": ["A cruise is so elegant yet cozy!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "14",
+    "Dialogue": ["I always travel with WIGGLYTUFF!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Wigglytuff",
+    "Dialogue": ["Puup pupuu!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 3",
+    "Dialogue": ["I collected these POKEMON from all around the world!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 3 after",
+    "Dialogue": ["You hurt my poor worldly POKEMON! I demand that you heal them\nat a POKEMON CENTER!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 4",
+    "Dialogue": ["I love POKEMON! Do you?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 4 after",
+    "Dialogue": ["Let me be your friend, OK? Then we can trade POKEMON!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "15",
+    "Dialogue": ["We are cruising around the world."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "16",
+    "Dialogue": ["Ssh! I'm a GLOBAL POLICE agent! I'm on the trail of TEAM ROCKET!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "17",
+    "Dialogue": ["My buddy, MACHOKE, is super strong! He has enough STRENGTH to move\nbig rocks!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Machoke",
+    "Dialogue": ["Gwoh! Goggoh!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 5",
+    "Dialogue": ["My sailor's pride is at stake!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 5 after",
+    "Dialogue": ["Did you see the FISHING GURU in VERMILION CITY?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 6",
+    "Dialogue": ["You know what they say about sailors and fighting!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 6 after",
+    "Dialogue": ["Haha! Want to be a sailor, mate?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 7",
+    "Dialogue": ["I like feisty kids like you!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 7 after",
+    "Dialogue": ["Sea POKEMON live in deep water. You'll need a ROD!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 8",
+    "Dialogue": ["Us sailors have POKEMON too!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 8 after",
+    "Dialogue": ["We caught all our POKEMON while out at sea!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 9",
+    "Dialogue": ["Hello stranger! Stop and chat! All my POKEMON are from the sea!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 9 after",
+    "Dialogue": ["I was going to make you my assistant too!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 10",
+    "Dialogue": ["Matey, you're walking the plank if you lose!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 10 after",
+    "Dialogue": ["Jellyfish sometimes drift into the ship."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "18",
+    "Dialogue": ["This ship, she is a luxury liner for trainers! At every port,\nwe hold parties with invited trainers!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "19",
+    "Dialogue": ["In all my travels I've never seen any POKEMON sleep like this one!\nIt was something like this!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 11",
+    "Dialogue": ["Check out what I fished up!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 11 after",
+    "Dialogue": ["Party? The cruise ship's party should be over by now."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 12",
+    "Dialogue": ["Competing against the young keeps me youthful."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 12 after",
+    "Dialogue": ["15 years ago, I would have won!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "20",
+    "Dialogue": ["Ah yes, I have seen some POKEMON ferry people across the water!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "21",
+    "Dialogue": ["POKEMON can CUT down small bushes."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 13",
+    "Dialogue": ["Which do you like, a strong or a rare POKEMON?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 13 after",
+    "Dialogue": ["I prefer strong and rare POKEMON."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 14",
+    "Dialogue": ["I never saw you at the party."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 14 after",
+    "Dialogue": ["Oh, I adore your strong POKEMON!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "22",
+    "Dialogue": ["Have you gone to the SAFARI ZONE in FUCHSIA CITY? It had many rare\nkinds of POKEMON!!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "23",
+    "Dialogue": ["Me and my Daddy think the SAFARI ZONE is awesome!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "24",
+    "Dialogue": ["The CAPTAIN looked really sick and pale!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "25",
+    "Dialogue": ["I hear many people get seasick!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "26",
+    "Dialogue": ["Our CAPTAIN is a sword master! He even teaches CUT to POKEMON!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 15",
+    "Dialogue": ["Ahoy there! Are you seasick?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 15 after",
+    "Dialogue": ["My Pa said there are 100 kinds of POKEMON. I think there are more."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "27",
+    "Dialogue": ["Urf. I feel ill. I stepped out to get some air."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "28",
+    "Dialogue": ["Scrubbing decks is hard work!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 16",
+    "Dialogue": ["Hey matey! Let's do a little jig!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 16 after",
+    "Dialogue": ["How many kinds of POKEMON do you think there are?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "29",
+    "Dialogue": ["The party's over. The ship will be departing soon."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Rival_Fight",
+    "Dialogue": ["Bonjour! Player! Imagine seeing you here! Player, were you really\ninvited? So how's your POKEDEX coming? I already caught 40 kinds,\npal! Different kinds are everywhere! Crawl around in grassy\nareas!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Rival_Fight_after",
+    "Dialogue": ["I heard there was a CUT master on board. But, he was just a\nseasick, old man! But, CUT itself is really useful! \nYou should go see him! Smell ya!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Captain",
+    "Dialogue": ["Ooargh... I feel hideous... Urrp! Seasick...","Player rubbed the CAPTAIN's back!\nRub-rub... Rub-rub...","Whew! Thank you! I feel much better! You want to see my CUT technique? \n I could show you if I wasn't ill... I know! You can have this! Teach it to your POKEMOn and you can see it CUT any time!","Oh no! You have no room for this!","Whew! Now that I'm not sick any more, I guess it's time."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "2 after",
+    "Dialogue": ["The ship set sail."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Gym Signpost",
+    "Dialogue": ["VERMILION CITY POKEMON GYM\nLEADER: LT.SURGE\nThe Lightning American!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Gym Poster",
+    "Dialogue": ["WINNING TRAINERS: Rival"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Gym 1",
+    "Dialogue": ["Yo! Champ in making! LT.SURGE has a nickname. People refer to him\nas the Lightning American! He's an expert on electric POKEMON!\nBirds and water POKEMON are at risk! Beware of paralysis too!\nLT.SURGE is very cautious! You'll have to break a code to get\nto him!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Gym 1 after",
+    "Dialogue": ["Whew! That match was electric!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 1 gym",
+    "Dialogue": ["This is no place for kids!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 1 gym after",
+    "Dialogue": ["LT.SURGE set up double locks! Here's a hint! When you open the \n1st lock, the 2nd lock is right next to it!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 2 gym",
+    "Dialogue": ["I'm a lightweight, but I'm good with electricity!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 2 gym after",
+    "Dialogue": ["OK, I'll talk! LT.SURGE said he hid door switches inside \nsomething!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 3 gym",
+    "Dialogue": ["When I was in the Army, LT.SURGE was my strict CO!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 3 gym after",
+    "Dialogue": ["The door won't open? LT.SURGE always was cautious!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Lt. Surge",
+    "Dialogue": ["Hey, kid! What do you think you're doing here? You won't live \nlong in combat! That's for sure! I tell you kid, electric POKEMON \nsaved me during the war! They zapped my enemies into paralysis! \nThe same as I'll do to you!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Lt. Surge after",
+    "Dialogue": ["A little word of advice, kid! Electricity is sure powerful! \nBut, it's useless against ground-type POKEMON!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    }   
+]

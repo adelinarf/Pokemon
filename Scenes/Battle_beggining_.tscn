@@ -1,0 +1,110 @@
+[gd_scene load_steps=17 format=2]
+
+[ext_resource path="res://Scenes/Battle_beggining.gd" type="Script" id=1]
+[ext_resource path="res://assets/pokemon_battle/background_battle.tres" type="Texture" id=2]
+[ext_resource path="res://assets/pokemon_battle/battle_dialogue.tres" type="Texture" id=3]
+[ext_resource path="res://assets/heroes_and_npc/boy_throwing_pokeball.tres" type="Texture" id=4]
+[ext_resource path="res://assets/heroes_and_npc/boy_throwing_pokeball3.tres" type="Texture" id=5]
+[ext_resource path="res://assets/heroes_and_npc/boy_throwing_pokeball2.tres" type="Texture" id=6]
+[ext_resource path="res://assets/heroes_and_npc/girl_throwing_pokeball4.tres" type="Texture" id=7]
+[ext_resource path="res://assets/heroes_and_npc/girl_throwing_pokeball5.tres" type="Texture" id=8]
+[ext_resource path="res://assets/heroes_and_npc/boy_throwing_pokeball4.tres" type="Texture" id=9]
+[ext_resource path="res://assets/heroes_and_npc/girl_throwing_pokeball3.tres" type="Texture" id=10]
+[ext_resource path="res://assets/heroes_and_npc/boy_throwing_pokeball5.tres" type="Texture" id=11]
+[ext_resource path="res://assets/heroes_and_npc/girl_throwing_pokeball2.tres" type="Texture" id=12]
+[ext_resource path="res://assets/heroes_and_npc/girl_throwing_pokeball.tres" type="Texture" id=13]
+[ext_resource path="res://Scenes/assets/theme_font.tres" type="Theme" id=14]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 6 ), ExtResource( 5 ), ExtResource( 9 ), ExtResource( 11 ), ExtResource( 4 ) ],
+"loop": false,
+"name": "boy_throwing_pokeball",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 13 ), ExtResource( 12 ), ExtResource( 10 ), ExtResource( 7 ), ExtResource( 8 ) ],
+"loop": true,
+"name": "girl_throwing_pokeball",
+"speed": 5.0
+} ]
+
+[sub_resource type="Animation" id=2]
+resource_name = "Move_enemy_pokemon"
+length = 3.0
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.4, 0.8, 1.3, 1.8, 2.1, 2.4, 2.9 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 88, 128 ), Vector2( 88, 128 ), Vector2( 336, 168 ), Vector2( 464, 184 ), Vector2( 576, 192 ), Vector2( 664, 168 ), Vector2( 696, 168 ), Vector2( 712, 168 ) ]
+}
+
+[node name="Battle_beggining" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+theme = ExtResource( 14 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="background" type="Sprite" parent="."]
+position = Vector2( 504.813, 209.812 )
+scale = Vector2( 4.339, 4.003 )
+texture = ExtResource( 2 )
+vframes = 4
+hframes = 3
+frame = 1
+
+[node name="dialogue" type="TextureRect" parent="."]
+margin_top = 432.0
+margin_right = 1024.0
+margin_bottom = 600.0
+texture = ExtResource( 3 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="text" type="Label" parent="."]
+margin_left = 64.0
+margin_top = 504.0
+margin_right = 354.0
+margin_bottom = 518.0
+text = "Oh no!, you have found a savage %s Level %s"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" type="Button" parent="."]
+margin_left = 864.0
+margin_top = 512.0
+margin_right = 920.0
+margin_bottom = 544.0
+text = "Next"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+position = Vector2( 160, 320 )
+scale = Vector2( 3.7, 3.83333 )
+frames = SubResource( 1 )
+animation = "girl_throwing_pokeball"
+
+[node name="enemy" type="Sprite" parent="."]
+position = Vector2( 88, 128 )
+scale = Vector2( 3, 3 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="enemy"]
+anims/Move_enemy_pokemon = SubResource( 2 )
+
+[node name="Timer" type="Timer" parent="."]
+[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]
+[connection signal="animation_finished" from="enemy/AnimationPlayer" to="." method="_on_AnimationPlayer_animation_finished"]
+[connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]

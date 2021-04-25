@@ -1,0 +1,35 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Scenes/UI components/Pokemon_info.gd" type="Script" id=1]
+[ext_resource path="res://Scenes/UI components/Pokemon_info_box.tscn" type="PackedScene" id=2]
+
+[node name="Pokemon_info" type="Control"]
+margin_left = 63.7082
+margin_top = 138.051
+margin_right = 63.7082
+margin_bottom = 138.051
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Pokemon_info_box" parent="." instance=ExtResource( 2 )]
+margin_bottom = 101.0
+
+[node name="Pokemon_info_box2" parent="." instance=ExtResource( 2 )]
+margin_left = 476.255
+margin_top = -100.719
+margin_right = 789.255
+margin_bottom = -34.7188
+
+[node name="Pokemon_info_box3" parent="." instance=ExtResource( 2 )]
+margin_left = 476.604
+margin_top = 15.0499
+margin_right = 789.604
+margin_bottom = 81.0499
+
+[node name="Pokemon_info_box4" parent="." instance=ExtResource( 2 )]
+margin_left = 477.083
+margin_top = 126.125
+margin_right = 790.083
+margin_bottom = 192.125

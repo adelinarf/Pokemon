@@ -1,0 +1,236 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://assets/world/pallet town interior.png" type="Texture" id=1]
+[ext_resource path="res://Scenes/World/Pallet Town/objects.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Scenes/Door.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Scenes/player.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Scenes/World/Pallet Town/Oak's_Lab_before_and_after_getting_pokemon.gd" type="Script" id=5]
+[ext_resource path="res://Scenes/npc.tscn" type="PackedScene" id=6]
+
+[sub_resource type="TileSet" id=1]
+0/name = "pallet town interior.png 0"
+0/texture = ExtResource( 1 )
+0/tex_offset = Vector2( 0, 0 )
+0/modulate = Color( 1, 1, 1, 1 )
+0/region = Rect2( 256, 352, 32, 32 )
+0/tile_mode = 1
+0/autotile/bitmask_mode = 0
+0/autotile/bitmask_flags = [ Vector2( 0, 0 ), 325, Vector2( 0, 1 ), 325, Vector2( 1, 0 ), 325, Vector2( 1, 1 ), 325 ]
+0/autotile/icon_coordinate = Vector2( 0, 0 )
+0/autotile/tile_size = Vector2( 16, 16 )
+0/autotile/spacing = 0
+0/autotile/occluder_map = [  ]
+0/autotile/navpoly_map = [  ]
+0/autotile/priority_map = [  ]
+0/autotile/z_index_map = [  ]
+0/occluder_offset = Vector2( 0, 0 )
+0/navigation_offset = Vector2( 0, 0 )
+0/shape_offset = Vector2( 0, 0 )
+0/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+0/shape_one_way = false
+0/shape_one_way_margin = 0.0
+0/shapes = [  ]
+0/z_index = 0
+1/name = "pallet town interior.png 1"
+1/texture = ExtResource( 1 )
+1/tex_offset = Vector2( 0, 0 )
+1/modulate = Color( 1, 1, 1, 1 )
+1/region = Rect2( 409, 355, 16, 29 )
+1/tile_mode = 1
+1/autotile/bitmask_mode = 0
+1/autotile/bitmask_flags = [ Vector2( 0, 0 ), 321 ]
+1/autotile/icon_coordinate = Vector2( 0, 0 )
+1/autotile/tile_size = Vector2( 32, 32 )
+1/autotile/spacing = 0
+1/autotile/occluder_map = [  ]
+1/autotile/navpoly_map = [  ]
+1/autotile/priority_map = [  ]
+1/autotile/z_index_map = [  ]
+1/occluder_offset = Vector2( 0, 0 )
+1/navigation_offset = Vector2( 0, 0 )
+1/shape_offset = Vector2( 0, 0 )
+1/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+1/shape_one_way = false
+1/shape_one_way_margin = 0.0
+1/shapes = [  ]
+1/z_index = 0
+2/name = "pallet town interior.png 2"
+2/texture = ExtResource( 1 )
+2/tex_offset = Vector2( 0, 0 )
+2/modulate = Color( 1, 1, 1, 1 )
+2/region = Rect2( 408, 354, 17, 31 )
+2/tile_mode = 1
+2/autotile/bitmask_mode = 0
+2/autotile/bitmask_flags = [ Vector2( 0, 0 ), 256 ]
+2/autotile/icon_coordinate = Vector2( 0, 0 )
+2/autotile/tile_size = Vector2( 16, 16 )
+2/autotile/spacing = 0
+2/autotile/occluder_map = [  ]
+2/autotile/navpoly_map = [  ]
+2/autotile/priority_map = [  ]
+2/autotile/z_index_map = [  ]
+2/occluder_offset = Vector2( 0, 0 )
+2/navigation_offset = Vector2( 0, 0 )
+2/shape_offset = Vector2( 0, 0 )
+2/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+2/shape_one_way = false
+2/shape_one_way_margin = 0.0
+2/shapes = [  ]
+2/z_index = 0
+3/name = "pallet town interior.png 3"
+3/texture = ExtResource( 1 )
+3/tex_offset = Vector2( 0, 0 )
+3/modulate = Color( 1, 1, 1, 1 )
+3/region = Rect2( 320, 160, 64, 64 )
+3/tile_mode = 1
+3/autotile/bitmask_mode = 0
+3/autotile/bitmask_flags = [ Vector2( 1, 1 ), 320, Vector2( 1, 2 ), 325, Vector2( 1, 3 ), 5, Vector2( 2, 1 ), 64, Vector2( 2, 2 ), 65, Vector2( 2, 3 ), 1 ]
+3/autotile/icon_coordinate = Vector2( 0, 0 )
+3/autotile/tile_size = Vector2( 16, 16 )
+3/autotile/spacing = 0
+3/autotile/occluder_map = [  ]
+3/autotile/navpoly_map = [  ]
+3/autotile/priority_map = [  ]
+3/autotile/z_index_map = [  ]
+3/occluder_offset = Vector2( 0, 0 )
+3/navigation_offset = Vector2( 0, 0 )
+3/shape_offset = Vector2( 0, 0 )
+3/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+3/shape_one_way = false
+3/shape_one_way_margin = 0.0
+3/shapes = [  ]
+3/z_index = 0
+4/name = "pallet town interior.png 4"
+4/texture = ExtResource( 1 )
+4/tex_offset = Vector2( 0, 0 )
+4/modulate = Color( 1, 1, 1, 1 )
+4/region = Rect2( 288, 160, 32, 64 )
+4/tile_mode = 1
+4/autotile/bitmask_mode = 0
+4/autotile/bitmask_flags = [ Vector2( 0, 1 ), 325, Vector2( 0, 2 ), 5, Vector2( 1, 1 ), 65, Vector2( 1, 2 ), 1 ]
+4/autotile/icon_coordinate = Vector2( 0, 0 )
+4/autotile/tile_size = Vector2( 16, 16 )
+4/autotile/spacing = 0
+4/autotile/occluder_map = [  ]
+4/autotile/navpoly_map = [  ]
+4/autotile/priority_map = [  ]
+4/autotile/z_index_map = [  ]
+4/occluder_offset = Vector2( 0, 0 )
+4/navigation_offset = Vector2( 0, 0 )
+4/shape_offset = Vector2( 0, 0 )
+4/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+4/shape_one_way = false
+4/shape_one_way_margin = 0.0
+4/shapes = [  ]
+4/z_index = 0
+5/name = "pallet town interior.png 5"
+5/texture = ExtResource( 1 )
+5/tex_offset = Vector2( 0, 0 )
+5/modulate = Color( 1, 1, 1, 1 )
+5/region = Rect2( 320, 192, 64, 32 )
+5/tile_mode = 1
+5/autotile/bitmask_mode = 0
+5/autotile/bitmask_flags = [ Vector2( 1, 0 ), 256, Vector2( 1, 1 ), 4, Vector2( 2, 0 ), 64, Vector2( 2, 1 ), 1 ]
+5/autotile/icon_coordinate = Vector2( 0, 0 )
+5/autotile/tile_size = Vector2( 16, 16 )
+5/autotile/spacing = 0
+5/autotile/occluder_map = [  ]
+5/autotile/navpoly_map = [  ]
+5/autotile/priority_map = [  ]
+5/autotile/z_index_map = [  ]
+5/occluder_offset = Vector2( 0, 0 )
+5/navigation_offset = Vector2( 0, 0 )
+5/shape_offset = Vector2( 0, 0 )
+5/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+5/shape_one_way = false
+5/shape_one_way_margin = 0.0
+5/shapes = [  ]
+5/z_index = 0
+6/name = "pallet town interior.png 6"
+6/texture = ExtResource( 1 )
+6/tex_offset = Vector2( 0, 0 )
+6/modulate = Color( 1, 1, 1, 1 )
+6/region = Rect2( 346, 244, 48, 27 )
+6/tile_mode = 1
+6/autotile/bitmask_mode = 0
+6/autotile/bitmask_flags = [ Vector2( 0, 0 ), 325, Vector2( 0, 1 ), 69, Vector2( 1, 0 ), 325, Vector2( 1, 1 ), 5, Vector2( 2, 0 ), 325, Vector2( 2, 1 ), 261 ]
+6/autotile/icon_coordinate = Vector2( 0, 0 )
+6/autotile/tile_size = Vector2( 16, 16 )
+6/autotile/spacing = 0
+6/autotile/occluder_map = [  ]
+6/autotile/navpoly_map = [  ]
+6/autotile/priority_map = [  ]
+6/autotile/z_index_map = [  ]
+6/occluder_offset = Vector2( 0, 0 )
+6/navigation_offset = Vector2( 0, 0 )
+6/shape_offset = Vector2( 0, 0 )
+6/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+6/shape_one_way = false
+6/shape_one_way_margin = 0.0
+6/shapes = [  ]
+6/z_index = 0
+
+[node name="Oak\'s Lab" type="Node2D"]
+script = ExtResource( 5 )
+
+[node name="TileMap" type="TileMap" parent="."]
+scale = Vector2( 4, 4 )
+tile_set = SubResource( 1 )
+cell_size = Vector2( 16, 16 )
+format = 1
+tile_data = PoolIntArray( -65537, 4, 65536, -131072, 4, 65536, -131071, 4, 65536, -131070, 4, 65536, -131069, 4, 65536, -131068, 4, 65536, -131067, 4, 65536, -131066, 4, 65536, -131065, 4, 65536, -131064, 4, 65536, -131063, 4, 65536, -131062, 4, 65536, -131061, 4, 65536, -131060, 4, 65536, -131059, 4, 65536, -1, 4, 131072, -65536, 4, 131072, -65535, 4, 131072, -65534, 4, 131072, -65533, 4, 131072, -65532, 4, 131072, -65531, 4, 131072, -65530, 4, 131072, -65529, 4, 131072, -65528, 4, 131072, -65527, 4, 131072, -65526, 4, 131072, -65525, 4, 131072, -65524, 4, 131072, -65523, 4, 131072, 65535, 3, 196609, 0, 3, 196609, 1, 3, 196609, 2, 3, 196609, 3, 3, 196609, 4, 3, 196609, 5, 3, 196609, 6, 3, 196609, 7, 3, 196609, 8, 3, 196609, 9, 3, 196609, 10, 3, 196609, 11, 3, 196609, 12, 3, 196609, 13, 3, 196609, 131071, 0, 65536, 65536, 0, 65536, 65537, 0, 0, 65538, 0, 0, 65539, 0, 0, 65540, 0, 0, 65541, 0, 0, 65542, 0, 0, 65543, 0, 0, 65544, 0, 0, 65545, 0, 0, 65546, 0, 0, 65547, 0, 0, 65548, 0, 0, 65549, 0, 0, 196607, 0, 65536, 131072, 0, 65536, 131073, 0, 0, 131074, 0, 0, 131075, 0, 0, 131076, 0, 0, 131077, 0, 0, 131078, 0, 0, 131079, 6, 0, 131080, 6, 1, 131081, 6, 2, 131082, 0, 0, 131083, 0, 0, 131084, 0, 0, 131085, 0, 0, 262143, 0, 65536, 196608, 0, 65536, 196609, 0, 0, 196610, 0, 0, 196611, 0, 0, 196612, 0, 0, 196613, 0, 0, 196614, 0, 0, 196615, 6, 65536, 196616, 6, 65537, 196617, 6, 65538, 196618, 0, 0, 196619, 0, 0, 196620, 0, 0, 196621, 0, 0, 327679, 0, 65536, 262144, 0, 65536, 262145, 0, 0, 262146, 0, 0, 262147, 0, 0, 262148, 0, 0, 262149, 0, 0, 262150, 0, 0, 262151, 0, 0, 262152, 0, 0, 262153, 0, 0, 262154, 0, 0, 262155, 0, 0, 262156, 0, 0, 262157, 0, 0, 393215, 0, 65536, 327680, 0, 65536, 327681, 0, 0, 327682, 0, 0, 327683, 0, 0, 327684, 0, 0, 327685, 0, 0, 327686, 0, 0, 327687, 0, 0, 327688, 0, 0, 327689, 0, 0, 327690, 0, 0, 327691, 0, 0, 327692, 0, 0, 327693, 0, 0, 458751, 0, 65536, 393216, 0, 65536, 393217, 0, 0, 393218, 0, 0, 393219, 0, 0, 393220, 0, 0, 393221, 0, 0, 393222, 0, 0, 393223, 0, 0, 393224, 0, 0, 393225, 0, 0, 393226, 0, 0, 393227, 0, 0, 393228, 0, 0, 393229, 0, 0, 524287, 0, 65536, 458752, 0, 65536, 458753, 0, 0, 458754, 0, 0, 458755, 0, 0, 458756, 0, 0, 458757, 0, 0, 458758, 0, 0, 458759, 0, 0, 458760, 0, 0, 458761, 0, 0, 458762, 0, 0, 458763, 0, 0, 458764, 0, 0, 458765, 0, 0, 589823, 0, 0, 524288, 0, 0, 524289, 0, 0, 524290, 0, 0, 524291, 0, 0, 524292, 0, 0, 524293, 0, 0, 524294, 0, 0, 524295, 0, 0, 524296, 0, 0, 524297, 0, 0, 524298, 0, 0, 524299, 0, 0, 524300, 0, 0, 524301, 0, 0, 655359, 0, 0, 589824, 0, 0, 589825, 0, 0, 589826, 0, 0, 589827, 0, 0, 589828, 0, 0, 589829, 0, 0, 589830, 0, 0, 589831, 0, 0, 589832, 0, 0, 589833, 0, 0, 589834, 0, 0, 589835, 0, 0, 589836, 0, 0, 589837, 0, 0, 720895, 0, 0, 655360, 0, 0, 655361, 0, 0, 655362, 0, 0, 655363, 0, 0, 655364, 0, 0, 655365, 0, 0, 655366, 0, 0, 655367, 0, 0, 655368, 0, 0, 655369, 0, 0, 655370, 0, 0, 655371, 0, 0, 655372, 0, 0, 655373, 0, 0 )
+
+[node name="Door" parent="." instance=ExtResource( 3 )]
+position = Vector2( 392, 688 )
+scale = Vector2( 4, 4 )
+kind_of_door = 4
+
+[node name="Inside objects2" parent="." instance=ExtResource( 2 )]
+position = Vector2( -104, -8 )
+scale = Vector2( 4, 4 )
+tile_data = PoolIntArray( -131059, 16, 0, -131058, 16, 1, -131057, 16, 2, -65534, 12, 0, -65533, 12, 1, -65526, 59, 0, -65523, 16, 65536, -65522, 16, 65537, -65521, 16, 65538, 2, 12, 65536, 3, 12, 65537, 5, 15, 0, 6, 15, 1, 7, 15, 2, 13, 16, 131072, 14, 16, 131073, 15, 16, 131074, 65541, 15, 65536, 65542, 15, 65537, 65543, 15, 65538, 131073, 21, 0, 131074, 21, 1, 196609, 21, 65536, 196610, 21, 65537, 262145, 21, 131072, 262146, 21, 131073, 262154, 16, 0, 262155, 16, 1, 262156, 16, 2, 327690, 16, 65536, 327691, 16, 65537, 327692, 16, 65538, 393218, 16, 0, 393219, 16, 1, 393220, 16, 2, 393226, 16, 131072, 393227, 16, 131073, 393228, 16, 131074, 458754, 16, 65536, 458755, 16, 65537, 458756, 16, 65538, 524290, 16, 131072, 524291, 16, 131073, 524292, 16, 131074 )
+
+[node name="Inside objects" parent="." instance=ExtResource( 2 )]
+position = Vector2( -40, -8 )
+scale = Vector2( 4, 4 )
+tile_data = PoolIntArray( -131065, 11, 0, -131064, 11, 0, -131062, 16, 0, -131061, 16, 1, -131060, 16, 2, -65536, 13, 0, -65535, 13, 1, -65533, 14, 1, -65529, 11, 65536, -65528, 11, 65536, -65526, 16, 65536, -65525, 16, 65537, -65524, 16, 65538, 0, 13, 65536, 1, 13, 65537, 2, 14, 65536, 3, 14, 65537, 4, 14, 65538, 7, 11, 131072, 8, 11, 131072, 10, 16, 131072, 11, 16, 131073, 12, 16, 131074, 65538, 14, 131072, 65539, 14, 131073, 65540, 14, 131074, 131074, 19, 0, 131075, 19, 1, 131076, 19, 2, 196610, 19, 65536, 196611, 19, 65537, 196612, 19, 65538, 262146, 19, 131072, 262147, 19, 131073, 262148, 19, 131074, 262155, 16, 0, 262156, 16, 1, 327691, 16, 65536, 327692, 16, 65537, 393216, 18, 0, 393217, 18, 1, 393219, 16, 0, 393220, 16, 1, 393221, 16, 2, 393227, 16, 131072, 393228, 16, 131073, 458752, 18, 65536, 458753, 18, 65537, 458755, 16, 65536, 458756, 16, 65537, 458757, 16, 65538, 524288, 18, 131072, 524289, 18, 131073, 524291, 16, 131072, 524292, 16, 131073, 524293, 16, 131074 )
+
+[node name="player" parent="." instance=ExtResource( 4 )]
+position = Vector2( 565.563, 641.669 )
+
+[node name="Oak" parent="." instance=ExtResource( 6 )]
+position = Vector2( 368, 104 )
+scale = Vector2( 4, 4 )
+character = 6
+number_of_character_in_dialogue = "Getting_pokemon"
+regular_character = true
+
+[node name="NPC" parent="." instance=ExtResource( 6 )]
+position = Vector2( 59.573, 590.834 )
+scale = Vector2( 3, 3 )
+character = 4
+number_of_character_in_dialogue = "5"
+regular_character = true
+
+[node name="NPC2" parent="." instance=ExtResource( 6 )]
+position = Vector2( 642.931, 476.681 )
+scale = Vector2( 3, 3 )
+character = 4
+number_of_character_in_dialogue = "6"
+regular_character = true
+
+[node name="NPC3" parent="." instance=ExtResource( 6 )]
+position = Vector2( 817.547, 624.57 )
+scale = Vector2( 3, 3 )
+character = 4
+number_of_character_in_dialogue = "7"
+direction = "left"
+regular_character = true
+
+[node name="Rival" parent="." instance=ExtResource( 6 )]
+position = Vector2( 280, 184 )
+scale = Vector2( 4, 4 )
+character = 8
+number_of_character_in_dialogue = "Getting_pokemon"
+regular_character = true
+[connection signal="body_entered" from="player" to="." method="_on_player_body_entered"]

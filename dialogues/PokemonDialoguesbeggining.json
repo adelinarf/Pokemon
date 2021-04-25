@@ -1,0 +1,19 @@
+[{
+    "name": "1",
+    "Dialogue":["Hello there! Welcome to the world of POKEMON! \n My name is OAK! People call me the POKEMON PROF!", "This world is inhabited by creatures called POKEMON! For some people, \n POKEMON are pets. Others use them for fights. \n Myself... I study POKEMON as a profession.", "Now, tell me are you a boy or a girl?","What's your name?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+	"name":"2",
+	"Dialogue":["Is your name"],	
+	"Object":[null,null,null],
+	"Already_talk":false
+    },
+    {
+	"name":"3",
+	"Dialogue":["This is my grandson. He's been your rival since you were a baby.","...Erm, what is his name again?","That's right! I remember now! His name is","Your very own POKEMON legend is about to unfold! \n A world of dreams and adventures with POKEMON awaits! Let's go!"],	
+	"Object":[null,null,null],
+	"Already_talk":false
+    }
+]

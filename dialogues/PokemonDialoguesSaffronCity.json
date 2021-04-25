@@ -1,0 +1,1033 @@
+[{
+    "name": "Signpost 1",
+    "Dialogue": ["SILPH's latest product! Release to be determined..."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Signpost 2",
+    "Dialogue": ["TRAINER TIPS\nNew GREAT BALL offers improved capture rates. Try it on those\nhard-to-catch POKEMON."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Signpost 3",
+    "Dialogue": ["TRAINER TIPS\nFULL HEAL cures all ailments like sleep and burns. It costs a bit\nmore, but it's more convenient."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "1",
+    "Dialogue": ["What do you want? Get lost!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "2",
+    "Dialogue": ["BOSS said he'll take this town!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "3",
+    "Dialogue": ["Get out of the way!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "4",
+    "Dialogue": ["SAFFRON belongs to TEAM ROCKET!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "5",
+    "Dialogue": ["Ow! Watch where you're walking!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "6",
+    "Dialogue": ["Being evil makes me feel so alive!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "7",
+    "Dialogue": ["With SILPH under control, we can exploit POKEMON around the world!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Center 1",
+    "Dialogue": ["It would be great if the ELITE FOUR came and stomped TEAM ROCKET!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Center 2",
+    "Dialogue": ["POKEMON growth rates differ from specie [sic] to specie [sic]."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Center 3",
+    "Dialogue": ["SILPH CO. is very famous. That's why it attracted TEAM ROCKET!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Mart 4",
+    "Dialogue": ["REVIVE is costly, but it revives fainted POKEMON!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Mart 5",
+    "Dialogue": ["MAX REPEL lasts longer than SUPER REPEL for keeping weaker POKEMON\naway!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Mr.Psychic",
+    "Dialogue": ["...Wait! Don't say a word! You wanted this!","Where do you plan to put this?","TM29 is PSYCHIC! It can lower the target's SPECIAL abilities."],
+    "Object":[1,"TM29",1],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 1 dojo",
+    "Dialogue": ["Hoohah! You're trespassing in our FIGHTING DOJO!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 1 dojo after",
+    "Dialogue": ["The prime fighters across the land train here."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 2 dojo",
+    "Dialogue": ["I hear you're good! Show me!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 2 dojo after",
+    "Dialogue": ["Our Master is a pro fighter!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 3 dojo",
+    "Dialogue": ["Nothing tough frightens me! I break boulders for training!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 3 dojo after",
+    "Dialogue": ["The only thing that frightens us is psychic power!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 4 dojo",
+    "Dialogue": ["Hoargh! Take your shoes off!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 4 dojo after",
+    "Dialogue": ["You wait 'til you see our Master! I'm a small fry compared\nto him!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 5 dojo",
+    "Dialogue": ["Grunt! I am the KARATE MASTER! I am the LEADER here!\nYou wish to challenge us? Expect no mercy! Fwaaa!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 5 dojo after",
+    "Dialogue": ["Indeed, I have lost! But, I beseech you, do not take our emblem\nas your trophy! In return, I will give you a prized fighting\nPOKEMON! Choose wichever one you like!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 5 given tm",
+    "Dialogue": ["Ho! Stay and train at Karate with us!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Silph Co Guard",
+    "Dialogue": ["I'm a security guard. Suspicious kids I don't allow in!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Silph Co Guard after",
+    "Dialogue": ["...Snore...","Hah! He's taking a snooze!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 1 Silph Co",
+    "Dialogue": ["Hey kid! What are you doing here?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 1 Silph Co after",
+    "Dialogue": ["SILPH CO. will be merged with TEAM ROCKET!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 2 Silph Co",
+    "Dialogue": ["It's off limits here! Go home!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 2 Silph Co after",
+    "Dialogue": ["Can you solve the maze in here?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 3 Silph Co",
+    "Dialogue": ["No kids are allowed in here!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 3 Silph Co after",
+    "Dialogue": ["Diamond shaped tiles are teleport blocks! They're hi-tech\ntransporters!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 4 Silph Co",
+    "Dialogue": ["Help! I'm a SILPH employee."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 4 Silph Co after",
+    "Dialogue": ["I work for both SILPH and TEAM ROCKET!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Silph Co 1",
+    "Dialogue": ["Eeek! No! Stop! Help! Oh, you're not with TEAM ROCKET. I thought...\nI'm sorry. Here, please take this!","You don't have any room for this.","TM36 is SELFDESTRUCT! It's powerful, but the POKEMON that uses it\nfaints! Be careful."],
+    "Object":[1,"TM36",1],
+    "Already_talk": false
+    },
+    {
+    "name": "Silph Co 1 after",
+    "Dialogue": ["Be careful."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 5 Silph Co",
+    "Dialogue": ["Quit messing with us, kid!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 5 Silph Co after",
+    "Dialogue": ["A hint? You can open doors with a CARD KEY!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 6 Silph Co",
+    "Dialogue": ["I support TEAM ROCKET more than I support SILPH!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 6 Silph Co after",
+    "Dialogue": ["Humph... TEAM ROCKET said that if I helped them, they'd let me\nstudy POKEMON!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Silph Co 2",
+    "Dialogue": ["I work for SILPH. What should I do?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 7 Silph Co",
+    "Dialogue": ["Intruder spotted!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 7 Silph Co after",
+    "Dialogue": ["I better tell the BOSS on 11F!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 8 Silph Co",
+    "Dialogue": ["TEAM ROCKET has taken command of SILPH CO.!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 8 Silph Co after",
+    "Dialogue": ["Fwahahaha! My BOSS has been after this place!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 9 Silph Co",
+    "Dialogue": ["My POKEMON are my loyal soldiers!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 9 Silph Co after",
+    "Dialogue": ["The doors are electronically locked! A CARD KEY opens them!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Silph Co 3",
+    "Dialogue": ["Sssh! Can't you see I'm hiding?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Paper 1",
+    "Dialogue": ["It's a POKEMON REPORT! 4 POKEMON evolve only when traded by\nlink-cable."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Paper 2",
+    "Dialogue": ["It's a POKEMON REPORT! Over 160 POKEMON techniques have been\nconfirmed."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Paper 3",
+    "Dialogue": ["It's a POKEMON REPORT! POKEMON LAB created PORYGON, the first\nvirtual reality POKEMON."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },    
+    {
+    "name": "Trainer 10 Silph Co",
+    "Dialogue": ["Show TEAM ROCKET a little respect!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 10 Silph Co after",
+    "Dialogue": ["Which reminds me. KOFFING evolves into WEEZING!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 11 Silph Co",
+    "Dialogue": ["Whaaat? There shouldn't be any children here?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 11 Silph Co after",
+    "Dialogue": ["You're only on 5F. It's a long way to my BOSS!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 12 Silph Co",
+    "Dialogue": ["We study POKE BALL technology on this floor!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 12 Silph Co after",
+    "Dialogue": ["We worked on the ultimate POKE BALL which would catch anything!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 13 Silph Co",
+    "Dialogue": ["I heard a kid was wandering around."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 13 Silph Co after",
+    "Dialogue": ["It's not smart to pick a fight with TEAM ROCKET!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Silph Co 4",
+    "Dialogue": ["TEAM ROCKET is in an uproar over some intruder. That's you right?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 14 Silph Co",
+    "Dialogue": ["I am one of the 4 ROCKET BROTHERS!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 14 Silph Co after",
+    "Dialogue": ["No matter! My brothers will avenge me!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 15 Silph Co",
+    "Dialogue": ["You dare betray TEAM ROCKET?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 15 Silph Co after",
+    "Dialogue": ["If you stand for justice, you betray evil!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 16 Silph Co",
+    "Dialogue": ["That rotten PRESIDENT! He shouldn't have sent me to the TIKSI\nBRANCH!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 16 Silph Co after",
+    "Dialogue": ["TIKSI BRANCH? It's in Russian no man's land!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Silph Co 5",
+    "Dialogue": ["Oh dear, oh dear. Help me please!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Silph Co 6",
+    "Dialogue": ["Look at him! He's such a coward!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Silph Co 7",
+    "Dialogue": ["They must have targeted SILPH for our POKEMON products."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Silph Co 8",
+    "Dialogue": ["The ROCKETs came and took over the building!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Silph Co 9",
+    "Dialogue": ["TEAM ROCKET is trying to conquer the world with POKEMON!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 17 Silph Co",
+    "Dialogue": ["I am one of the 4 ROCKET BROTHERS!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 17 Silph Co after",
+    "Dialogue": ["Doesn't matter. My brothers will repay the favor!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 18 Silph Co",
+    "Dialogue": ["A child intruder! That must be you!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 18 Silph Co after",
+    "Dialogue": ["Go on home before my BOSS gets ticked off!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 19 Silph Co",
+    "Dialogue": ["Oh ho! I smell a little rat!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 19 Silph Co after",
+    "Dialogue": ["You won't find my boss by just scurrying around!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 20 Silph Co",
+    "Dialogue": ["Heheh! You mistook me for a SILPH worker?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 20 Silph Co after",
+    "Dialogue": ["Despite your age, you are a skilled trainer!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Silph Co 10",
+    "Dialogue": ["You! It's really dangerous here! You came to save me? You can't!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Silph Co 11",
+    "Dialogue": ["It would be bad if TEAM ROCKET took over SILPH or our POKEMON!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Silph Co 12",
+    "Dialogue": ["TEAM ROCKET was after the MASTER BALL which will catch any POKEMON!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 21 Silph Co",
+    "Dialogue": ["That's as far as you'll go!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 21 Silph Co after",
+    "Dialogue": ["If you don't turn back, I'll call for backup!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 22 Silph Co",
+    "Dialogue": ["I am one of the 4 ROCKET BROTHERS!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 22 Silph Co after",
+    "Dialogue": ["I'll leave you up to my brothers!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 23 Silph Co",
+    "Dialogue": ["You're causing us problems!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 23 Silph Co after",
+    "Dialogue": ["So, what do you think of SILPH BUILDING's maze?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Silph Co 13",
+    "Dialogue": ["I wonder if SILPH is finished..."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 24 Silph Co",
+    "Dialogue": ["Your POKEMON have weak points! I can nail them!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 24 Silph Co after",
+    "Dialogue": ["Exploiting weak spots does work! Think about element types!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 25 Silph Co",
+    "Dialogue": ["I am one of the 4 ROCKET BROTHERS!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 25 Silph Co after",
+    "Dialogue": ["My brothers will avenge me!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 26 Silph Co",
+    "Dialogue": ["Your POKEMON seem to adore you, kid!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 26 Silph Co after",
+    "Dialogue": ["If I had started as a trainer at your age..."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Silph Co 14",
+    "Dialogue": ["You look tired! You should take a quick nap! Don't give up!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 27 Silph Co",
+    "Dialogue": ["Enough of your silly games!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 27 Silph Co after",
+    "Dialogue": ["Are you satisfied with beating me? Then go on home!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 28 Silph Co",
+    "Dialogue": ["Welcome to the 10F! So good of you to join me!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 28 Silph Co after",
+    "Dialogue": ["Nice try, but the boardroom is up one more floor!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Silph Co 15",
+    "Dialogue": ["Waaaaa! I'm scared!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 29 Silph Co",
+    "Dialogue": ["Halt! Do you have an appointment with my BOSS?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 29 Silph Co after",
+    "Dialogue": ["Watch your step, my BOSS likes his POKEMON tough!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Rival_Fight",
+    "Dialogue": ["What kept you Player? Hahaha! I thought you'd turn up if I waited\nhere! I guess TEAM ROCKET slowed you down! Not that I care!\nI saw you in SAFFRON, so I decided to see if you got better!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Rival_Fight after",
+    "Dialogue": ["Well, RED! I'm moving on up and ahead! By checking my POKEDEX,\nI'm starting to see what's strong and how they evolve! I'm going\nto the POKEMON LEAGUE to boot out the ELITE FOUR! I'll become\nthe world's most powerful trainer! RED, well good luck to you!\nDon't sweat it! Smell ya!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Silph Co 16",
+    "Dialogue": ["Oh! Hi! You're not a ROCKET! You came to save us? Why, thank you!\nI want you to have this POKEMON for saving us.","It's LAPRAS. It's very intelligent. We kept it in our lab, but it\nwill be much better off with you! I think you will be a good trainer\nfor LAPRAS! It's a good swimmer. It'll give you a lift!"],
+    "Object":["Pokedex","Lapras",1],
+    "Already_talk": false
+    },
+    {
+    "name": "Silph Co 16 after",
+    "Dialogue": ["TEAM ROCKET's BOSS went to the boardroom! Is our PRESIDENT OK?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 31 Silph Co",
+    "Dialogue": ["Stop right there! Don't you move!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 31 Silph Co after",
+    "Dialogue": ["So, you want to see my BOSS?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Giovanni",
+    "Dialogue": ["Ah Player! So we meet again! The PRESIDENT and I are discussing\na vital business proposition. Keep your nose out of grown-up\nmatters... Or, experience a world of pain!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Giovanni after",
+    "Dialogue": ["Blast it all! You ruined our plans for SILPH! But, TEAM ROCKET\nwill never fall! RED! Never forget that all POKEMON exist for\nTEAM ROCKET! I must go, but I shall return!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Secretary",
+    "Dialogue": ["Thank you for rescuing all of us! We admire your courage."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "President",
+    "Dialogue": ["Thank you for saving SILPH! I will never forget you saved us in our\nmoment of peril! I have to thank you in some way! Because I am rich,\nI can give you anything! Here, maybe this will do!","You have no room for this.","You can't buy that anywhere! It's our secret prototype MASTER BALL!\nIt will catch any POKEMON without fail! You should be quiet about\nusing it, though."],
+    "Object":[0,"Masterball",1],
+    "Already_talk": false
+    },
+    {
+    "name": "1 after",
+    "Dialogue": ["I saw ROCKET BOSS escaping SILPH's building."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "2 after",
+    "Dialogue": ["I flew here on my PIDGEOT when I read about SILPH. It's already\nover? I missed the media action."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "3 after",
+    "Dialogue": ["Yeah! TEAM ROCKET is gone! It's safe to go out again!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "4 after",
+    "Dialogue": ["People should be flocking back to SAFFRON now."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "5 after",
+    "Dialogue": ["You beat TEAM ROCKET all alone? That's amazing!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Center 1 after",
+    "Dialogue": ["TEAM ROCKET took off! We can go out safely again! That's great!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Center 2 after",
+    "Dialogue": ["POKEMON growth rates differ from specie [sic] to specie [sic]."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Center 3 after",
+    "Dialogue": ["SILPH CO. is very famous. That's why it attracted TEAM ROCKET!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Mart 4 after",
+    "Dialogue": ["REVIVE is costly, but it revives fainted POKEMON!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Mart 5 after",
+    "Dialogue": ["MAX REPEL lasts longer than SUPER REPEL for keeping weaker POKEMON\naway!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Letter",
+    "Dialogue": ["I was given a PP UP as a gift. It's used for increasing the PP\nof techniques!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "6 after",
+    "Dialogue": ["Thank you for writing. I hope to see you soon!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "7 after",
+    "Dialogue": ["The COPYCAT is cute! I'm getting her a POKE DOLL!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Pidgey",
+    "Dialogue": ["Kurukkoo!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Chansey",
+    "Dialogue": ["Chaan! Sii!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "8",
+    "Dialogue": ["My daughter likes to mimic people. Her mimicry has earned her the\nnickname COPYCAT around here!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "9",
+    "Dialogue": ["My daughter is so self-centered. She only has a few friends."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Copycat",
+    "Dialogue": ["Player: Hi! Do you like POKEMON?\nUh no, I just asked you.\nHuh? You're strange!","Copycat: Hmm? Quit mimicking? But, that's my favorite hobby!","Copycat: Oh wow! A POKE DOLL! For me? Thank you! You can have this, then!","Don't you want this?","TM31 contains my favorite, MIMIC! Use it on a good POKEMON!"],
+    "Object":[1,"TM31",1],
+    "Already_talk": false
+    },
+    {
+    "name": "Copycat after",
+    "Dialogue": ["Player: Hi! Thanks for TM31!\nPardon?\nIs it that fun to mimic my every move?","Copycat: You bet! It's a scream!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Building 1",
+    "Dialogue": ["TM36 is SELFDESTRUCT! It's powerful, but the POKEMON that uses it\nfaints! Be careful."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Building 2",
+    "Dialogue": ["Player! You and your POKEMON saved us!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Building 3",
+    "Dialogue": ["Huh? TEAM ROCKET is gone?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Building 4",
+    "Dialogue": ["TEAM ROCKET took off! You're our hero! Thank you!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Building 5",
+    "Dialogue": ["We got engaged! Heheh!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Building 6",
+    "Dialogue": ["I feel so sorry for him, I have to marry him!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Building 7",
+    "Dialogue": ["Come work for SILPH when you get older!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Building 8",
+    "Dialogue": ["Well, better get back to work!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Building 9",
+    "Dialogue": ["TEAM ROCKET ran because of you!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Building 10",
+    "Dialogue": ["Safe at last! Oh thank you!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Building 11",
+    "Dialogue": ["Wow! You chased off TEAM ROCKET all by yourself?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Building 12",
+    "Dialogue": ["We canceled the MASTER BALL project because of TEAM ROCKET."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Building 13",
+    "Dialogue": ["Thanks for saving us!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Building 14",
+    "Dialogue": ["Thank you so much!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Building 15",
+    "Dialogue": ["Please keep quiet about my crying!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Building 16",
+    "Dialogue": ["Saved at last! Thank you!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Building 17",
+    "Dialogue": ["Welcome! The PRESIDENT is in the boardroom on 11F!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Gym Signpost",
+    "Dialogue": ["SAFFRON CITY POKEMON GYM\nLEADER: SABRINA\nThe Master of Psychic POKEMON!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Plaque",
+    "Dialogue": ["WINNING TRAINERS: Rival"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Gym 1",
+    "Dialogue": ["Yo! Champ in making! SABRINA's POKEMON use psychic power instead of\nforce! Fighting POKEMON are weak against psychic POKEMON! They get\ncreamed before they can even aim a punch!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Gym 1 after",
+    "Dialogue": ["Psychic power, huh? If I had that, I'd make a bundle at the slots!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 1 Gym",
+    "Dialogue": ["SABRINA is young, but she's also our LEADER! You won't reach her\neasily!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 1 Gym after",
+    "Dialogue": ["There used to be 2 POKEMON GYMs in SAFFRON. The FIGHTING DOJO\nnext door lost its GYM status when we went and creamed them!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 2 Gym",
+    "Dialogue": ["You know that power alone isn't enough!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 2 Gym after",
+    "Dialogue": ["SABRINA just wiped out the KARATE MASTER next door!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 3 Gym",
+    "Dialogue": ["Does our unseen power scare you?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 3 Gym after",
+    "Dialogue": ["Psychic POKEMON fear only ghosts and bugs!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 4 Gym",
+    "Dialogue": ["SABRINA is younger than I, but I respect her!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 4 Gym after",
+    "Dialogue": ["In a battle of equals, the one with the stronger will wins!\nIf you wish to beat SABRINA, focus on winning!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 5 Gym",
+    "Dialogue": ["SAFFRON POKEMON GYM is famous for its psychics! You want to see\nSABRINA! I can tell!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 5 Gym after",
+    "Dialogue": ["That's right! I used telepathy to read your mind!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 6 Gym",
+    "Dialogue": ["POKEMON take on the appearance of their trainers. Your POKEMON\nmust be tough, then!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 6 Gym after",
+    "Dialogue": ["I must teach better techniques to my POKEMON!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 7 Gym",
+    "Dialogue": ["You and I, our POKEMON shall fight!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 7 Gym after",
+    "Dialogue": ["I knew that this was going to take place."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Sabrina",
+    "Dialogue": ["I had a vision of your arrival! I have had psychic powers since I\nwas a child. I first learned to bend spoons with my mind.\n I dislike fighting, but if you wish, I will show you my powers!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Sabrina after",
+    "Dialogue": ["Everyone has psychic power! People just don't realize it!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    }
+]

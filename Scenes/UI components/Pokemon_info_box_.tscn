@@ -1,0 +1,418 @@
+[gd_scene load_steps=18 format=2]
+
+[ext_resource path="res://Scenes/Progress bar.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Scenes/UI components/Pokemon_info_box_.gd" type="Script" id=2]
+[ext_resource path="res://assets/pokemon_info/pokemon_box_1.tres" type="Texture" id=3]
+[ext_resource path="res://assets/pokemon_info/button_theme.tres" type="Theme" id=4]
+[ext_resource path="res://assets/pokemon_info/pokemon_box.tres" type="Texture" id=5]
+[ext_resource path="res://assets/pokemon_info/pokemon_menu_background.tres" type="Texture" id=6]
+[ext_resource path="res://assets/pokemon_info/text_pokemon_menu.tres" type="Texture" id=7]
+[ext_resource path="res://assets/pokemon_info/pokemon_menu_background_with_guide.tres" type="Texture" id=8]
+[ext_resource path="res://assets/pokemon_info/selection_texture.tres" type="Texture" id=9]
+[ext_resource path="res://assets/themedark_letters_label.tres" type="Theme" id=10]
+[ext_resource path="res://assets/GAME_FONT.tres" type="DynamicFont" id=11]
+[ext_resource path="res://Scenes/assets/theme_font.tres" type="Theme" id=12]
+
+[sub_resource type="StyleBoxTexture" id=1]
+
+[sub_resource type="Theme" id=2]
+ItemList/colors/font_color = Color( 0, 0, 0, 1 )
+ItemList/colors/font_color_selected = Color( 0, 0, 0, 1 )
+ItemList/colors/guide_color = Color( 0, 0, 0, 0.101961 )
+ItemList/constants/hseparation = 4
+ItemList/constants/icon_margin = 4
+ItemList/constants/line_separation = 2
+ItemList/constants/vseparation = 2
+ItemList/fonts/font = null
+ItemList/styles/bg = SubResource( 1 )
+ItemList/styles/bg_focus = null
+ItemList/styles/cursor = null
+ItemList/styles/cursor_unfocused = null
+ItemList/styles/selected = null
+ItemList/styles/selected_focus = null
+
+[sub_resource type="StyleBoxTexture" id=3]
+texture = ExtResource( 9 )
+region_rect = Rect2( 0, 0, 78, 48 )
+
+[sub_resource type="StyleBoxTexture" id=4]
+texture = ExtResource( 7 )
+region_rect = Rect2( 0, 0, 182, 28 )
+
+[sub_resource type="Theme" id=5]
+Label/colors/font_color = Color( 0, 0, 0, 1 )
+Label/colors/font_color_shadow = Color( 0, 0, 0, 0 )
+Label/colors/font_outline_modulate = Color( 0, 0, 0, 1 )
+Label/constants/line_spacing = 3
+Label/constants/shadow_as_outline = 0
+Label/constants/shadow_offset_x = 1
+Label/constants/shadow_offset_y = 1
+Label/fonts/font = null
+Label/styles/normal = SubResource( 4 )
+
+[node name="Pokemon_info_box" type="Control"]
+margin_top = 8.0
+margin_bottom = 8.0
+theme = ExtResource( 12 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="background" type="TextureRect" parent="."]
+margin_top = -8.0
+margin_right = 1024.0
+margin_bottom = 600.0
+texture = ExtResource( 6 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="background2" type="TextureRect" parent="."]
+visible = false
+margin_top = -8.0
+margin_right = 1024.0
+margin_bottom = 600.0
+texture = ExtResource( 8 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Pokemon1" type="TextureRect" parent="."]
+margin_left = 16.0
+margin_top = 88.0
+margin_right = 352.0
+margin_bottom = 288.0
+texture = ExtResource( 3 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Pokemon2" type="TextureRect" parent="."]
+visible = false
+margin_left = 400.0
+margin_top = 32.0
+margin_right = 1008.0
+margin_bottom = 120.0
+texture = ExtResource( 5 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Pokemon3" type="TextureRect" parent="."]
+visible = false
+margin_left = 400.0
+margin_top = 144.0
+margin_right = 1008.0
+margin_bottom = 232.0
+texture = ExtResource( 5 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Pokemon4" type="TextureRect" parent="."]
+visible = false
+margin_left = 400.0
+margin_top = 256.0
+margin_right = 1008.0
+margin_bottom = 344.0
+texture = ExtResource( 5 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Progress bar" parent="." instance=ExtResource( 1 )]
+position = Vector2( 64, 216 )
+
+[node name="first" type="GridContainer" parent="."]
+margin_left = 136.0
+margin_top = 136.0
+margin_right = 449.0
+margin_bottom = 426.0
+custom_constants/vseparation = 13
+custom_constants/hseparation = 0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="first"]
+margin_right = 196.0
+margin_bottom = 37.0
+text = "POKEMON NAME"
+align = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="first"]
+margin_top = 50.0
+margin_right = 196.0
+margin_bottom = 95.0
+
+[node name="select_pokemon" type="CheckBox" parent="first/HBoxContainer"]
+margin_right = 196.0
+margin_bottom = 45.0
+text = "Select pokemon"
+
+[node name="Level" type="Label" parent="first"]
+margin_top = 108.0
+margin_right = 196.0
+margin_bottom = 145.0
+text = "%s"
+align = 2
+
+[node name="Label2" type="Label" parent="first"]
+margin_top = 158.0
+margin_right = 196.0
+margin_bottom = 195.0
+text = "%s"
+align = 2
+
+[node name="Progress bar2" parent="." instance=ExtResource( 1 )]
+visible = false
+position = Vector2( 720, 48 )
+
+[node name="Progress bar3" parent="." instance=ExtResource( 1 )]
+visible = false
+position = Vector2( 720, 160 )
+
+[node name="Progress bar4" parent="." instance=ExtResource( 1 )]
+visible = false
+position = Vector2( 720, 272 )
+
+[node name="VBoxContainer" type="GridContainer" parent="."]
+margin_left = 520.0
+margin_top = 48.0
+margin_right = 833.0
+margin_bottom = 338.0
+custom_constants/vseparation = 71
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="second" type="VBoxContainer" parent="VBoxContainer"]
+visible = false
+margin_right = 131.0
+margin_bottom = 42.0
+
+[node name="Label" type="Label" parent="VBoxContainer/second"]
+margin_right = 131.0
+margin_bottom = 14.0
+text = "POKEMON NAME"
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer/second"]
+margin_top = 18.0
+margin_right = 131.0
+margin_bottom = 42.0
+
+[node name="select_pokemon2" type="CheckBox" parent="VBoxContainer/second/HBoxContainer"]
+margin_right = 131.0
+margin_bottom = 24.0
+text = "Select pokemon"
+
+[node name="third" type="VBoxContainer" parent="VBoxContainer"]
+visible = false
+margin_top = 113.0
+margin_right = 131.0
+margin_bottom = 155.0
+
+[node name="Label" type="Label" parent="VBoxContainer/third"]
+margin_right = 131.0
+margin_bottom = 14.0
+text = "POKEMON NAME"
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer/third"]
+margin_top = 18.0
+margin_right = 131.0
+margin_bottom = 42.0
+
+[node name="select_pokemon3" type="CheckBox" parent="VBoxContainer/third/HBoxContainer"]
+margin_right = 131.0
+margin_bottom = 24.0
+text = "Select pokemon"
+
+[node name="fourth" type="VBoxContainer" parent="VBoxContainer"]
+visible = false
+margin_top = 226.0
+margin_right = 131.0
+margin_bottom = 268.0
+
+[node name="Label" type="Label" parent="VBoxContainer/fourth"]
+margin_right = 131.0
+margin_bottom = 14.0
+text = "POKEMON NAME"
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer/fourth"]
+margin_top = 18.0
+margin_right = 131.0
+margin_bottom = 42.0
+
+[node name="select_pokemon4" type="CheckBox" parent="VBoxContainer/fourth/HBoxContainer"]
+margin_right = 131.0
+margin_bottom = 24.0
+text = "Select pokemon"
+
+[node name="Exit2" type="Button" parent="."]
+margin_left = 784.0
+margin_top = 496.0
+margin_right = 1016.0
+margin_bottom = 574.0
+theme = ExtResource( 4 )
+custom_fonts/font = ExtResource( 11 )
+text = "EXIT"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ItemList" type="ItemList" parent="."]
+visible = false
+margin_left = 240.0
+margin_top = 304.0
+margin_right = 376.0
+margin_bottom = 456.0
+theme = SubResource( 2 )
+custom_styles/bg = SubResource( 3 )
+custom_constants/vseparation = 0
+custom_constants/hseparation = 0
+max_text_lines = 4
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="levels" type="GridContainer" parent="."]
+margin_left = 632.0
+margin_top = 96.0
+margin_right = 672.0
+margin_bottom = 330.0
+custom_constants/vseparation = 100
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="levels"]
+visible = false
+margin_right = 26.0
+margin_bottom = 37.0
+text = "%s"
+
+[node name="Label2" type="Label" parent="levels"]
+visible = false
+margin_top = 114.0
+margin_right = 19.0
+margin_bottom = 128.0
+text = "%s"
+
+[node name="Label3" type="Label" parent="levels"]
+visible = false
+margin_top = 228.0
+margin_right = 19.0
+margin_bottom = 242.0
+text = "%s"
+
+[node name="hp_total" type="GridContainer" parent="."]
+margin_left = 872.0
+margin_top = 96.0
+margin_right = 912.0
+margin_bottom = 338.0
+custom_constants/vseparation = 100
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="hp_total"]
+visible = false
+margin_right = 19.0
+margin_bottom = 14.0
+text = "%s"
+
+[node name="Label2" type="Label" parent="hp_total"]
+visible = false
+margin_right = 19.0
+margin_bottom = 14.0
+text = "%s"
+
+[node name="Label3" type="Label" parent="hp_total"]
+visible = false
+margin_right = 19.0
+margin_bottom = 14.0
+text = "%s"
+
+[node name="Label" type="Label" parent="."]
+margin_left = 16.0
+margin_top = 488.0
+margin_right = 788.0
+margin_bottom = 592.0
+theme = SubResource( 5 )
+custom_fonts/font = ExtResource( 11 )
+text = "%s"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Menu" type="Node2D" parent="."]
+position = Vector2( 96, 328 )
+scale = Vector2( 2, 2 )
+
+[node name="Data" type="Button" parent="Menu"]
+margin_top = -16.0
+margin_right = 54.0
+margin_bottom = 4.0
+theme = ExtResource( 4 )
+custom_fonts/font = ExtResource( 11 )
+text = "DATA"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Change" type="Button" parent="Menu"]
+margin_top = 8.0
+margin_right = 54.0
+margin_bottom = 28.0
+theme = ExtResource( 4 )
+custom_fonts/font = ExtResource( 11 )
+text = "CHANGE"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Object" type="Button" parent="Menu"]
+margin_top = 32.0
+margin_right = 54.0
+margin_bottom = 52.0
+theme = ExtResource( 4 )
+custom_fonts/font = ExtResource( 11 )
+text = "OBJECT"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Exit" type="Button" parent="Menu"]
+margin_top = 56.0
+margin_right = 54.0
+margin_bottom = 76.0
+theme = ExtResource( 4 )
+custom_fonts/font = ExtResource( 11 )
+text = "EXIT"
+
+[node name="Label" type="Label" parent="Menu"]
+margin_top = 80.0
+margin_right = 54.0
+margin_bottom = 94.0
+theme = ExtResource( 10 )
+text = "%s"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="pressed" from="first/HBoxContainer/select_pokemon" to="." method="_on_select_pokemon_pressed"]
+[connection signal="pressed" from="VBoxContainer/second/HBoxContainer/select_pokemon2" to="." method="_on_select_pokemon2_pressed"]
+[connection signal="pressed" from="VBoxContainer/third/HBoxContainer/select_pokemon3" to="." method="_on_select_pokemon3_pressed"]
+[connection signal="pressed" from="VBoxContainer/fourth/HBoxContainer/select_pokemon4" to="." method="_on_select_pokemon4_pressed"]
+[connection signal="pressed" from="Exit2" to="." method="_on_Exit2_pressed"]
+[connection signal="item_selected" from="ItemList" to="." method="_on_ItemList_item_selected"]
+[connection signal="pressed" from="Menu/Data" to="." method="_on_Data_pressed"]
+[connection signal="pressed" from="Menu/Change" to="." method="_on_Change_pressed"]
+[connection signal="pressed" from="Menu/Object" to="." method="_on_Object_pressed"]
+[connection signal="pressed" from="Menu/Exit" to="." method="_on_Exit_pressed"]

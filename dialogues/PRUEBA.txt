@@ -1,0 +1,1 @@
+{"Fighting":false,"Money":100,"Sprite":1,"name":""}

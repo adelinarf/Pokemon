@@ -1,0 +1,49 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Scenes/Main screen.gd" type="Script" id=1]
+
+[node name="Main screen" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="Button" type="Button" parent="."]
+margin_left = 440.737
+margin_top = 250.033
+margin_right = 645.737
+margin_bottom = 308.033
+text = "SAVED GAMES"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+margin_left = 703.483
+margin_top = 218.249
+margin_right = 951.483
+margin_bottom = 457.249
+text = "SAVED GAMES
+"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ItemList" type="ItemList" parent="."]
+margin_left = 784.003
+margin_top = 250.033
+margin_right = 981.003
+margin_bottom = 498.033
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Start" type="Button" parent="."]
+margin_left = 214.057
+margin_top = 470.926
+margin_right = 392.057
+margin_bottom = 538.926
+text = "START GAME"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]
+[connection signal="item_selected" from="ItemList" to="." method="_on_ItemList_item_selected"]
+[connection signal="pressed" from="Start" to="." method="_on_Start_pressed"]

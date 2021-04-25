@@ -1,0 +1,19 @@
+[{
+    "name": "1",
+    "Dialogue": ["Hi! I work at a POKEMON MART. It's a convenient shop, so please visit us in VIRIDIAN CITY. \n I know, I'll give you a sample! Here you go!","You have too much stuff with you!","We also carry POKE BALLS for catching POKEMON!"],
+    "Object":[0,"Pokeball",1],
+    "Already_talk": false
+    },
+    {
+    "name": "2",
+    "Dialogue": ["See those ledges along the road? It's a bit scary, but you can jump from them.\n You can get back to PALLET TOWN quicker that way."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Mall",
+    "Dialogue": ["Welcome to the PokeMall.","Do you want to buy something?","Come back when you need something"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    }
+]

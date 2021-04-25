@@ -1,0 +1,85 @@
+[{
+    "name": "Trainer 1",
+    "Dialogue": ["This is NUGGET BRIDGE! Beat us 5 trainers and win a fabulous prize! Think you got what it takes?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+	"name": "Trainer 1 after",
+    "Dialogue": ["I did my best, I have no regrets!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 2",
+    "Dialogue": ["I'm second! Now it's serious!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+	"name": "Trainer 2 after",
+    "Dialogue": ["I did my best, I have no regrets!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 3",
+    "Dialogue": ["Here's No. 3! I won't be easy!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+	"name": "Trainer 3 after",
+    "Dialogue": ["I did my best, I have no regrets!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 4",
+    "Dialogue": ["I'm No. 4! Getting tired?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+	"name": "Trainer 4 after",
+    "Dialogue": ["I did my best, so I've no regrets!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 5",
+    "Dialogue": ["OK! I'm No. 5! I'll stomp you!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+	"name": "Trainer 5 after",
+    "Dialogue": ["I did my best, I have no regrets!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 6",
+    "Dialogue": ["Congratulations! You beat our 5 contest trainers! You just earned a fabulous prize!","You don't have any room!","By the way, would you like to join TEAM ROCKET? We're a group dedicated to evil using POKEMON! Want to join? Are you sure? Come on, join us! I'm telling you to join! OK, you need convincing! I'll make you an offer you can't refuse!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+	"name": "Trainer 6 after",
+    "Dialogue": ["With your ability, you could become a top leader in TEAM ROCKET!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 7",
+    "Dialogue": ["I saw your feat from the grass!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+	"name": "Trainer 7 after",
+    "Dialogue": ["I hid because the people on the bridge scared me!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    }
+]

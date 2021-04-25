@@ -1,0 +1,67 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://Scenes/Start_game2.gd" type="Script" id=1]
+[ext_resource path="res://assets/beggining/beggining background.png" type="Texture" id=2]
+[ext_resource path="res://assets/beggining/charactersspritebeg.png" type="Texture" id=3]
+[ext_resource path="res://Scenes/UI components/DIALOG/Dialogue_beggining.tscn" type="PackedScene" id=4]
+
+[sub_resource type="AtlasTexture" id=1]
+flags = 4
+atlas = ExtResource( 3 )
+region = Rect2( 213, 0, 71, 106 )
+
+[sub_resource type="AtlasTexture" id=2]
+flags = 4
+atlas = ExtResource( 3 )
+region = Rect2( 142, 106, 71, 106 )
+
+[sub_resource type="AtlasTexture" id=3]
+flags = 4
+atlas = ExtResource( 3 )
+region = Rect2( 71, 0, 71, 106 )
+
+[sub_resource type="SpriteFrames" id=4]
+animations = [ {
+"frames": [ SubResource( 1 ), SubResource( 2 ) ],
+"loop": true,
+"name": "Pikachu",
+"speed": 5.0
+}, {
+"frames": [ SubResource( 3 ) ],
+"loop": true,
+"name": "Nidoran",
+"speed": 5.0
+} ]
+
+[node name="Start_game_" type="Control"]
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="background" type="Sprite" parent="."]
+position = Vector2( 517.793, 303.194 )
+scale = Vector2( 4.31394, 3.88964 )
+texture = ExtResource( 2 )
+vframes = 2
+hframes = 2
+
+[node name="character" type="Sprite" parent="."]
+position = Vector2( 520.336, 277.525 )
+scale = Vector2( 4.31394, 3.88964 )
+texture = ExtResource( 3 )
+vframes = 2
+hframes = 7
+
+[node name="characters" type="AnimatedSprite" parent="."]
+visible = false
+position = Vector2( 338.023, 456 )
+scale = Vector2( 4.05762, 4.24123 )
+frames = SubResource( 4 )
+animation = "Nidoran"
+
+[node name="Dialogue_beggining" parent="." instance=ExtResource( 4 )]
+position = Vector2( 0, 4.80075 )
+part = 2
+[connection signal="animate" from="Dialogue_beggining" to="." method="_on_Dialogue_beggining_animate"]
+[connection signal="selected" from="Dialogue_beggining" to="." method="_on_Dialogue_beggining_selected"]

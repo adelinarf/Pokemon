@@ -1,0 +1,13 @@
+[{
+    "name": "Guard",
+    "Dialogue": ["Whoa, boy! I'm parched! ... Huh? I can have this drink? Gee, thanks!\n... Glug glug... ... Gulp... If you want to go to SAFFRON CITY..\n... You can go on through. I'll share this with the other guards!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Guard after",
+    "Dialogue": ["Hi, thanks for the cool drinks!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    }
+]

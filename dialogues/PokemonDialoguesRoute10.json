@@ -1,0 +1,277 @@
+[{
+    "name": "Trainer 1",
+    "Dialogue": ["I've been to a POKEMON GYM a few times. But, I lost each time."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 1 after",
+    "Dialogue": ["I noticed some POKEMANIACs prowling around."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "1",
+    "Dialogue": ["I sold a useless NUGGET for 5000$!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "2",
+    "Dialogue": ["I heard that GHOSTs haunt LAVENDER TOWN!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "3",
+    "Dialogue": ["The element types of POKEMON make them stronger than some types \nand weaker than others!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 2",
+    "Dialogue": ["Wow, are you a POKEMANIAC too? Want to see my collection?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 2 after",
+    "Dialogue": ["I have more rare POKEMON at home!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Zapdos",
+    "Dialogue": ["Gyaoo!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 3",
+    "Dialogue": ["POKEMON fight! Ready, go!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 3 after",
+    "Dialogue": ["Oh well, I'll get a ZUBAT as I go!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 4",
+    "Dialogue": ["I draw POKEMON when I'm home."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 4 after",
+    "Dialogue": ["I'm an artist, not a fighter."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 5",
+    "Dialogue": ["I don't often come here, but I will fight you."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 5 after",
+    "Dialogue": ["I like tiny POKEMON, big ones are too scary!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 6",
+    "Dialogue": ["Do you now about costume players?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 6 after",
+    "Dialogue": ["Costume players dress up as POKEMON for fun."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 7",
+    "Dialogue": ["My POKEMON techniques will leave you crying!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 7 after",
+    "Dialogue": ["In mountains, you'll often find rock-type POKEMON."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 8",
+    "Dialogue": ["Hit me with your best shot!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 8 after",
+    "Dialogue": ["I'll raise my POKEMON to beat yours, kid!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 9",
+    "Dialogue": ["This tunnel goes a long way, kid!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 9 after",
+    "Dialogue": ["Watch for ONIX! It can put the squeeze on you!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 10",
+    "Dialogue": ["Hmm. Maybe I'm lost in here..."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 10 after",
+    "Dialogue": ["That sleeping POKEMON on Route 12 forced me to take this detour."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 11",
+    "Dialogue": ["Outsiders like you need to show me some respect!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 11 after",
+    "Dialogue": ["You're talented enough to hike!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 12",
+    "Dialogue": ["Hikers leave twigs as trail markers."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 12 after",
+    "Dialogue": ["I want to go home!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 13",
+    "Dialogue": ["Hahaha! Can you beat my power?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 13 after",
+    "Dialogue": ["I go for power because I hate thinking!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 14",
+    "Dialogue": ["You have a POKEDEX? I want one too!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 14 after",
+    "Dialogue": ["When you finish your POKEDEX, can I have it?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 15",
+    "Dialogue": ["Eek! Don't try anything funny in the dark!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 15 after",
+    "Dialogue": ["I saw a MACHOP in this tunnel!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 16",
+    "Dialogue": ["You have POKEMON! Let's start!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 16 after",
+    "Dialogue": ["Whew! I'm all sweaty now!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 17",
+    "Dialogue": ["I came this far for POKEMON!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 17 after",
+    "Dialogue": ["You looked cute and harmless!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 18",
+    "Dialogue": ["I'm feeling a bit faint from this tough hike."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 18 after",
+    "Dialogue": ["The POKEMON here are so chunky! There should be a pink one \nwith a floral pattern!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 19",
+    "Dialogue": ["Ha-hahah-ah-ha!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 19 after",
+    "Dialogue": ["Haha-ha-choo! Ha-choo! Snort! Snivel!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 20",
+    "Dialogue": ["Ah! This mountain air is delicious!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 20 after",
+    "Dialogue": ["I feel bloated on mountain air!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 21",
+    "Dialogue": ["Hi kid, want to see my POKEMON?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 21 after",
+    "Dialogue": ["I don't like you for beating me!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    }
+]

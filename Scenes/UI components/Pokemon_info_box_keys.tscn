@@ -1,0 +1,75 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://Scenes/UI components/Pokemon_info_selection_keys.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Scenes/UI components/Pokemon_info_box_keys.gd" type="Script" id=2]
+[ext_resource path="res://Scenes/UI components/Three_option_menu.tscn" type="PackedScene" id=3]
+[ext_resource path="res://assets/pokemon_info/pokemon_menu_background.tres" type="Texture" id=6]
+[ext_resource path="res://assets/pokemon_info/text_pokemon_menu.tres" type="Texture" id=7]
+[ext_resource path="res://assets/pokemon_info/pokemon_menu_background_with_guide.tres" type="Texture" id=8]
+[ext_resource path="res://Scenes/assets/theme_font.tres" type="Theme" id=12]
+
+[node name="Pokemon_info_box" type="Control"]
+margin_top = 8.0
+margin_bottom = 8.0
+theme = ExtResource( 12 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="background" type="TextureRect" parent="."]
+margin_top = -8.0
+margin_right = 1024.0
+margin_bottom = 600.0
+texture = ExtResource( 6 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="background2" type="TextureRect" parent="."]
+visible = false
+margin_top = -8.0
+margin_right = 1024.0
+margin_bottom = 600.0
+texture = ExtResource( 8 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Pokemon_info_selection" parent="." instance=ExtResource( 1 )]
+margin_top = 0.0
+margin_bottom = 0.0
+
+[node name="three_option_menu" parent="." instance=ExtResource( 3 )]
+visible = false
+margin_left = -229.247
+margin_top = 230.394
+margin_right = -189.247
+margin_bottom = 270.394
+
+[node name="TextureRect" type="TextureRect" parent="."]
+margin_left = 6.0
+margin_top = 487.0
+margin_right = 785.0
+margin_bottom = 588.0
+texture = ExtResource( 7 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+margin_left = 38.5351
+margin_top = 507.159
+margin_right = 90.5351
+margin_bottom = 544.159
+theme = ExtResource( 12 )
+custom_colors/font_color = Color( 0.529412, 0.529412, 0.529412, 1 )
+text = "Choose a Pokemon"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="selected_slot" from="Pokemon_info_selection" to="." method="_on_Pokemon_info_selection_selected_slot"]
+[connection signal="is_pressed" from="three_option_menu" to="." method="_on_three_option_menu_is_pressed"]

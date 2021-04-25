@@ -1,0 +1,7 @@
+[{
+    "name": "Guard",
+    "Dialogue": ["You don't have the <BADGE> yet! You have to have it to get to\nPOKEMON LEAGUE!","Oh! That is the <BADGE>! OK then! Please, go right ahead!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    }
+]

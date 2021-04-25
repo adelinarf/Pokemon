@@ -1,0 +1,66 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Scenes/player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Scenes/World/Non_playable_character.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Scenes/UI components/Dialog_.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Scenes/World/TEST_SCENE.gd" type="Script" id=4]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource( 4 )
+
+[node name="Character2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 848, 136 )
+number_of_character = 1
+
+[node name="Character" parent="." instance=ExtResource( 2 )]
+position = Vector2( 112, 80 )
+
+[node name="player" parent="." instance=ExtResource( 1 )]
+position = Vector2( 360, 168 )
+
+[node name="Dialog_" parent="." instance=ExtResource( 3 )]
+margin_left = 496.0
+margin_top = 64.0
+margin_right = 496.0
+margin_bottom = 64.0
+
+[node name="Healing" type="GridContainer" parent="."]
+visible = false
+margin_left = 384.0
+margin_top = 24.0
+margin_right = 606.0
+margin_bottom = 118.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="Healing"]
+margin_right = 222.0
+margin_bottom = 14.0
+text = "Do you wanna heal your pokemon?"
+
+[node name="CheckBox" type="CheckBox" parent="Healing"]
+margin_top = 18.0
+margin_right = 222.0
+margin_bottom = 42.0
+text = "Yes"
+
+[node name="CheckBox2" type="CheckBox" parent="Healing"]
+margin_top = 46.0
+margin_right = 222.0
+margin_bottom = 70.0
+text = "No"
+
+[node name="Button" type="Button" parent="Healing"]
+margin_top = 74.0
+margin_right = 222.0
+margin_bottom = 94.0
+text = "ACCEPT"
+[connection signal="change_dialog" from="Character2" to="." method="_on_Character2_change_dialog"]
+[connection signal="show_dialog" from="Character2" to="." method="_on_Character2_show_dialog"]
+[connection signal="change_dialog" from="Character" to="." method="_on_Character_change_dialog"]
+[connection signal="show_dialog" from="Character" to="." method="_on_Character_show_dialog"]
+[connection signal="button_changed" from="Dialog_" to="." method="_on_Dialog__button_changed"]
+[connection signal="pressed" from="Healing/CheckBox" to="." method="_on_CheckBox_pressed"]
+[connection signal="pressed" from="Healing/CheckBox2" to="." method="_on_CheckBox2_pressed"]
+[connection signal="pressed" from="Healing/Button" to="." method="_on_Button_pressed"]

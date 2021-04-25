@@ -1,0 +1,33 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Scenes/UI components/Dialog_.gd" type="Script" id=1]
+
+[node name="Dialog_" type="Control"]
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="GridContainer" type="GridContainer" parent="."]
+margin_left = -48.0
+margin_top = -16.0
+margin_right = 52.0
+margin_bottom = 24.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="GridContainer"]
+margin_right = 100.0
+margin_bottom = 14.0
+text = "Insert text here"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" type="Button" parent="GridContainer"]
+margin_top = 18.0
+margin_right = 100.0
+margin_bottom = 38.0
+text = "NEXT"
+[connection signal="pressed" from="GridContainer/Button" to="." method="_on_Button_pressed"]

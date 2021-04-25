@@ -1,0 +1,295 @@
+[{
+    "name": "Signpost 1",
+    "Dialogue": ["TRAINER TIPS The battle moves of POKEMON are limited by their POWER POINTs, PP. To replenish PP, rest your tired POKEMON at a POKEMON CENTER!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "1",
+    "Dialogue": ["Those POKE BALLS at your waist! You have POKEMON! It's great that you can \n carry and use POKEMON any time, anywhere!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "2",
+    "Dialogue": ["You want to know about the 2 kinds of caterpillar POKEMON?","CATERPIE has no poison, but WEEDLE does. Watch out for its POISON STING!","Oh, OK then!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "3",
+    "Dialogue": ["Oh Grandpa! Don't be so mean!","He hasn't had his coffee yet."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "4",
+    "Dialogue": ["You can't go through here! This is private property!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "5",
+    "Dialogue": ["Yawn! I must have dozed off in the sun. I had this dream about a DROWZEE eating my dream. What's this? Where did this TM come from? This is spooky! Here, you can have this TM.","You have too much stuff already.","TM42 contains DREAM EATER... ...Snore..."],
+    "Object":[0,"TM42",1],
+    "Already_talk": false
+    },
+    {
+    "name": "Center 1",
+    "Dialogue": ["There's a POKEMON CENTER in every town ahead. They don't charge any money either!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name":"Center 2",
+    "Dialogue": ["POKEMON CENTERS heal your tired, hurt or fainted POKEMON!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Center 3",
+    "Dialogue": ["You can use that PC in the corner. The receptionist told me. So kind!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Mart 4",
+    "Dialogue": ["This shop sells many ANTIDOTEs."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Mart 5",
+    "Dialogue": ["No! POTIONs are all sold out!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "6",
+    "Dialogue": ["Whew! I'm trying to memorize all my notes.","Hey! Don't look at my notes!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Notebook",
+    "Dialogue": ["Looked at the notebook! First page... POKE BALLS are used to catch POKEMON. \n Up to 6 POKEMON can be carried. People who raise and make POKEMON fight are called POKEMON trainers.","Second page... A healthy POKEMON may be hard to catch, so weaken it first! \n Poison, burns and other damage are effective!","Third page... POKEMON trainers seek others to engage in POKEMON fights. \n Battles are constantly fought at POKEMON GYMs.","Fourth page... The goal for POKEMON trainers is to beat the top 8 POKEMON GYM LEADERs. \n Do so to earn the right to face... The ELITE FOUR of POKEMON LEAGUE!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "7",
+    "Dialogue": ["Okay! Be sure to read the blackboard carefully!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Blackboard",
+    "Dialogue": ["The blackboard describes POKEMON STATUS changes during battles. \n Which heading do you want to read?","-(SLP) A POKEMON can't attack if it's asleep! POKEMON will stay asleep even after battles. Use AWAKENING to wake them up!","-(BRN) A burn reduces power and speed. It also causes ongoing damage. Burns remain after battles. Use BURN HEAL to cure a burn!","-(PSN) When poisoned, a POKEMON's health steadily drops. Poison lingers after battles. Use an ANTIDOTE to cure poison!","-(FRZ) If frozen, a POKEMON becomes totally immobile! It stays frozen even after the battle ends. Use ICE HEAL to thaw out POKEMON!","-(PAR) Paralysis could make POKEMON moves misfire! Paralysis remains after battles. Use PARLYZ HEAL for treatment!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "8",
+    "Dialogue": ["Coming up with nicknames is fun, but hard. Simple names are the easiest to remember."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "9",
+    "Dialogue": ["My Daddy loves POKEMON too."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Spearow",
+    "Dialogue": ["Tetweet!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Poster",
+    "Dialogue": ["SPEAROW","Name: SPEARY"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Clerk",
+    "Dialogue": ["Hey! You came from PALLET TOWN? You know PROF.OAK, right? \n His order came in. Will you take it to him?","I don't like you","Okay! Say hi to PROF.OAK for me!"],
+    "Object":[0,"Oak's Parcel",1],
+    "Already_talk": false
+    },
+    {
+    "name": "3_after",
+    "Dialogue": ["When I go shop in PEWTER CITY, I have to take the winding trail in VIRIDIAN FOREST."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "4_after",
+    "Dialogue": ["Ahh, I've had my coffee now and I feel great! Sure you can go through! \nAre you in a hurry?","I see you're using a POKEDEX. When you catch a POKEMON, POKEDEX is \nautomatically updated.","Time is money... Go along then."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "6_gym",
+    "Dialogue": ["This POKEMON GYM is always closed. I wonder who the LEADER is?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Gym doors",
+    "Dialogue": ["The GYM's doors are locked..."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Signpost 2",
+    "Dialogue": ["TRAINER TIPS Catch POKEMON and expand your collection! The more you have, the easier it is to fight!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+	"name":"PokemonCenter",
+	"Dialogue":["Hi welcome to the pokemon center","Here we can give life to your pokemon","Do you wanna heal your pokemon?","Be back when you need us","We're healing your pokemon","Your pokemon are ready"],
+	"Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+	"name":"PC",
+	"Dialogue":["You turned on the PC","Which PC do you wanna access?","Oak PC"],
+	"Object":[null,null,null],
+	"Already_talk":false
+	},
+	{
+	"name":"14",
+	"Dialogue":["VIRIDIAN GYM's LEADER returned!"],
+	"Object":[null,null,null],
+	"Already_talk":false
+	},
+	{
+	"name":"Plaque",
+	"Dialogue":["VIRIDIAN CITY POKEMON GYM\nLEADER: GIOVANNI\nWINNING TRAINERS:Rival"],
+	"Object":[null,null,null],
+	"Already_talk":false
+	},
+	{
+	"name":"Gym 1",
+	"Dialogue":["Yo! Champ in making! Even I don't know VIRIDIAN LEADER's identity!\nThis will be the toughest of all the GYM LEADERs! I heard that the\ntrainers here like ground-type POKEMON!"],
+	"Object":[null,null,null],
+	"Already_talk":false
+	},
+	{
+	"name":"Gym 1 after",
+	"Dialogue":["Blow me away! GIOVANNI was the GYM LEADER here?"],
+	"Object":[null,null,null],
+	"Already_talk":false
+	},
+	{
+	"name":"Trainer 1",
+	"Dialogue":["Your POKEMON will cower at the crack of my whip!"],
+	"Object":[null,null,null],
+	"Already_talk":false
+	},
+	{
+	"name":"Trainer 1 after",
+	"Dialogue":["Wait! I was just careless!"],
+	"Object":[null,null,null],
+	"Already_talk":false
+	},
+	{
+	"name":"Trainer 2",
+	"Dialogue":["Karate is the ultimate form of martial arts!"],
+	"Object":[null,null,null],
+	"Already_talk":false
+	},
+	{
+	"name":"Trainer 2 after",
+	"Dialogue":["If my POKEMON were as good at Karate as I.."],
+	"Object":[null,null,null],
+	"Already_talk":false
+	},
+	{
+	"name":"Trainer 3",
+	"Dialogue":["VIRIDIAN GYM was closed for a long time, but now our LEADER\nis back!"],
+	"Object":[null,null,null],
+	"Already_talk":false
+	},
+	{
+	"name":"Trainer 3 after",
+	"Dialogue":["You can go onto POKEMON LEAGUE only by defeating our GYM LEADER!"],
+	"Object":[null,null,null],
+	"Already_talk":false
+	},
+	{
+	"name":"Trainer 4",
+	"Dialogue":["Heh! You must be running out of steam by now!"],
+	"Object":[null,null,null],
+	"Already_talk":false
+	},
+	{
+	"name":"Trainer 4 after",
+	"Dialogue":["You need power to keep up with our GYM LEADER!"],
+	"Object":[null,null,null],
+	"Already_talk":false
+	},
+	{
+	"name":"Trainer 5",
+	"Dialogue":["Rrrroar! I'm working myself into a rage!"],
+	"Object":[null,null,null],
+	"Already_talk":false
+	},
+	{
+	"name":"Trainer 5 after",
+	"Dialogue":["I'm still not worthy!"],
+	"Object":[null,null,null],
+	"Already_talk":false
+	},
+	{
+	"name":"Trainer 6",
+	"Dialogue":["POKEMON and I, we make wonderful music together!"],
+	"Object":[null,null,null],
+	"Already_talk":false
+	},
+	{
+	"name":"Trainer 6 after",
+	"Dialogue":["Do you know the identity of our GYM LEADER?"],
+	"Object":[null,null,null],
+	"Already_talk":false
+	},
+	{
+	"name":"Trainer 7",
+	"Dialogue":["The truly talented win with style!"],
+	"Object":[null,null,null],
+	"Already_talk":false
+	},
+	{
+	"name":"Trainer 7 after",
+	"Dialogue":["The LEADER will scold me!"],
+	"Object":[null,null,null],
+	"Already_talk":false
+	},
+	{
+	"name":"Trainer 8",
+	"Dialogue":["I'm the KARATE KING! Your fate rests with me!"],
+	"Object":[null,null,null],
+	"Already_talk":false
+	},
+	{
+	"name":"Trainer 8 after",
+	"Dialogue":["POKEMON LEAGUE? You? Don't get cocky!"],
+	"Object":[null,null,null],
+	"Already_talk":false
+	},
+	{
+	"name":"Giovanni",
+	"Dialogue":["Fwahahaha! This is my hideout! I planned to resurrect TEAM ROCKET\nhere! But, you have caught me again! So be it! This time, I'm not\nholding back! Once more, you shall face GIOVANNI, the greatest\ntrainer!"],
+	"Object":[null,null,null],
+	"Already_talk":false
+	},
+	{
+	"name":"Giovanni after",
+	"Dialogue":["Having lost, I cannot face my underlings! TEAM ROCKET is finished\nforever! I will dedicate my life to the study of POKEMON!\nLet us meet again some day! Farewell!"],
+	"Object":[null,null,null],
+	"Already_talk":false
+	}
+]

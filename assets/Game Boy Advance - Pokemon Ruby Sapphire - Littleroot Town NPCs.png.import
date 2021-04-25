@@ -1,0 +1,15 @@
+[remap]
+
+importer="texture_atlas"
+type="Texture"
+path="res://.import/Game Boy Advance - Pokemon Ruby Sapphire - Littleroot Town NPCs.png-f13bc32cdc25bb3ba1a88a6cd8a6d598.res"
+
+[deps]
+
+source_file="res://assets/Game Boy Advance - Pokemon Ruby Sapphire - Littleroot Town NPCs.png"
+dest_files=[ "res://.import/Game Boy Advance - Pokemon Ruby Sapphire - Littleroot Town NPCs.png-f13bc32cdc25bb3ba1a88a6cd8a6d598.res" ]
+
+[params]
+
+atlas_file=""
+import_mode=0

@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Scenes/UI components/Start_battle.gd" type="Script" id=1]
+
+[node name="Start_battle" type="Node"]
+script = ExtResource( 1 )
+
+[node name="Label" type="Label" parent="."]
+margin_left = 57.9828
+margin_top = 67.8823
+margin_right = 97.9828
+margin_bottom = 81.8823
+text = "%s You have found a savage pokemon
+"
+__meta__ = {
+"_edit_use_anchors_": false
+}

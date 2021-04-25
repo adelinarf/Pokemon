@@ -1,0 +1,71 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Scenes/UI components/Three_option_menu.gd" type="Script" id=1]
+[ext_resource path="res://assets/beggining/beggining.tres" type="Texture" id=2]
+[ext_resource path="res://assets/button_bag.tres" type="Theme" id=3]
+[ext_resource path="res://assets/selector_black.tres" type="Texture" id=4]
+[ext_resource path="res://Scenes/assets/theme_font.tres" type="Theme" id=5]
+
+[node name="three_option_menu" type="Control"]
+margin_right = 40.0
+margin_bottom = 40.0
+theme = ExtResource( 5 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="TextureRect" parent="."]
+margin_left = 760.0
+margin_top = 40.0
+margin_right = 1008.0
+margin_bottom = 253.0
+texture = ExtResource( 2 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="menu" type="GridContainer" parent="."]
+margin_left = 864.0
+margin_top = 56.0
+margin_right = 936.0
+margin_bottom = 382.0
+custom_constants/vseparation = 24
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Yes" type="Button" parent="menu"]
+margin_right = 36.0
+margin_bottom = 37.0
+theme = ExtResource( 3 )
+text = "YES"
+
+[node name="No" type="Button" parent="menu"]
+margin_top = 61.0
+margin_right = 36.0
+margin_bottom = 98.0
+theme = ExtResource( 3 )
+text = "NO"
+
+[node name="No2" type="Button" parent="menu"]
+margin_top = 122.0
+margin_right = 36.0
+margin_bottom = 159.0
+theme = ExtResource( 3 )
+text = "NO"
+
+[node name="selector" type="TextureRect" parent="."]
+margin_left = 816.0
+margin_top = 64.0
+margin_right = 840.0
+margin_bottom = 96.0
+texture = ExtResource( 4 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="pressed" from="menu/Yes" to="." method="_on_Yes__pressed"]
+[connection signal="pressed" from="menu/No" to="." method="_on_No_pressed"]
+[connection signal="pressed" from="menu/No2" to="." method="_on_No_pressed"]

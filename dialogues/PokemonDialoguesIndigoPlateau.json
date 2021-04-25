@@ -1,0 +1,91 @@
+[{
+    "name": "Plaque",
+    "Dialogue": ["INDIGO PLATEAU\nThe ultimate goal of trainers!\nPOKEMON LEAGUE HQ"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "1",
+    "Dialogue": ["Yo! Champ in making! At POKEMON LEAGUE, you have to face the ELITE\nFOUR in succession. If you lose, you have to start all over again!\nThis is it! Go for it!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "2",
+    "Dialogue": ["From here on, you face the ELITE FOUR one by one! If you win,\na door opens to the next trainer! Good luck!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Lorelei",
+    "Dialogue": ["Welcome to POKEMON LEAGUE! I am LORELEI of the ELITE FOUR!\nNo one can best me when it comes to icy POKEMON! Freezing moves\nare powerful! Your POKEMON will be at my mercy when they are\nfrozen solid! Hahaha! Are you ready?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Lorelei after",
+    "Dialogue": ["You're better than I thought! Go on ahead! You only got a taste\nof POKEMON LEAGUE power!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Bruno",
+    "Dialogue": ["I am BRUNO of the ELITE FOUR! Through rigorous training, people\nand POKEMON can become stronger! I've weight trained with my\nPOKEMON!\nPlayer! We will grind you down with our superior power! Hoo hah!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Bruno after",
+    "Dialogue": ["My job is done! Go face your next challenge!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Agatha",
+    "Dialogue": ["I am AGATHA of the ELITE FOUR! OAK's taken a lot of interest in\nyou, child! That old duff was once tough and handsome! That was\ndecades ago! Now he just wants to fiddle with his POKEDEX!\nHe's wrong! POKEMON are for fighting!","Player! I'll show you how a real trainer fights!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Agatha after",
+    "Dialogue": ["You win! I see what the old duff sees in you now! I have nothing\nelse to say! Run along now, child!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Lance",
+    "Dialogue": ["Ah! I heard about you Player! I lead the ELITE FOUR! You can call me\nLANCE the dragon trainer! You know that dragons are mythical\nPOKEMON! They're hard to catch and raise, but their powers are\nsuperior! They're virtually indestructible!","Well, are you ready to lose? Your LEAGUE challenge ends with me, Player!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Lance after",
+    "Dialogue": ["I still can't believe my dragons lost to you, Player! You are now\nthe POKEMON LEAGUE champion!","...Or, you would have been, but you have one more challenge\nahead. You have to face another trainer! His name is...Rival!\nHe beat the ELITE FOUR before you! He is the real POKEMON LEAGUE\nchampion!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Rival_Fight",
+    "Dialogue": ["Hey! I was looking forward to seeing you, Player! My rival should be\nstrong to keep me sharp! While working on POKEDEX, I looked all over\nfor powerful POKEMON! Not only that, I assembled teams that would\nbeat any POKEMON type! And now! I'm the POKEMON LEAGUE champion!","Player! Do you know what that means? I'll tell you! I am the most\npowerful trainer in the world!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Rival_Fight after",
+    "Dialogue": ["NO! That can't be! You beat my best! After all that work to become\nLEAGUE champ? My reign is over already? It's not fair!","Why? Why did I lose? I never made any mistakes raising my POKEMON...\nDarn it! You're the new POKEMON LEAGUE champion! Although I don't\nlike to admit it."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Oak",
+    "Dialogue": ["Player!","So, you won! Congratulations! You're the new POKEMON LEAGE champion!\nYou've grown up so much since you first left with <POKEMON>! RED,\nyou have come of age!","Rival! I'm disappointed! I came when I heard you beat the ELITE FOUR!\nBut, when I got here, you had already lost! BLUE! Do you understand\nwhy you lost? You have forgotten to treat your POKEMON with trust\nand love! Without them, you will never become a champ again!","Player! You understand that your victory was not just your own doing!\nThe bond you share with your POKEMON is marvelous!","Player! Come with me!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Oak after",
+    "Dialogue": ["Er-hem! Congratulations Player! This floor is the POKEMON HALL OF FAME!\nPOKEMON LEAGUE champions are honored for their exploits here!\nTheir POKEMON are also recorded in the HALL OF FAME!","Player! You have endeavored hard to become the new LEAGUE champion!\nCongratulations, Player, you and your POKEMON are HALL OF FAMERs!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    }
+]

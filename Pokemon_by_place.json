@@ -1,0 +1,61 @@
+[{
+    "Grassland": [
+		"Ampharos", "Arbok", "Arcanine", "Bayleef", "Bellossom", "Blaziken","Bulbasaur", "Castform", 
+"Chikorita", "Chimecho", "Combusken", "Cyndaquil","Dodrio", "Doduo", "Drowzee", "Ekans", "Electabuzz", 
+"Electrike","Elekid", "Entei", "Farfetch'd", "Flaaffy", "Furret", "Girafarig","Gloom", "Growlithe", 
+"Gulpin", "Hoppip", "Hypno", "Igglybuff","Ivysaur", "Jigglypuff", "Jumpluff", "Kangaskhan", "Lickitung", 
+"Linoone","Mareep", "Meganium", "Mightyena", "Miltank", "Minun", "Misdreavus","Nidoking", "Nidoqueen", 
+"Nidoran", "Nidorina", "Nidorino","Ninetales", "Oddish", "Plusle", "Ponyta", 
+"Poochyena", "Quilava","Raikou", "Rapidash", "Raticate", "Rattata", "Roselia", "Scizor","Scyther", 
+"Sentret", "Seviper", "Skiploom", "Spinda", "Sunflora","Sunkern", "Swalot", "Swellow", "Taillow", 
+"Tangela", "Tauros","Suicune", "Torchic", "Typhlosion", "Venusaur", "Vileplume", "Vulpix","Wigglytuff", "Zangoose", "Zigzagoon"
+    ],
+    "Forest": [
+		"Aipom", "Altaria", "Ariados", "Beautifly", "Beedrill", "Bellsprout","Breloom", "Butterfree", 
+"Cascoon", "Caterpie", "Celebi", "Delcatty","Dusclops", "Duskull", "Dustox", "Exeggcute", "Exeggutor", 
+"Forretress","Grovyle", "Heracross", "Hoothoot", "Illumise", "Kakuna", "Kecleon","Ledian", "Ledyba", 
+"Metapod", "Murkrow", "Natu", "Nincada","Ninjask", "Noctowl", "Nuzleaf", "Paras", "Parasect", "Pichu","Pidgeot", 
+"Pidgeotto", "Pidgey", "Pikachu", "Pineco", "Pinsir","Raichu", "Sceptile", "Seedot", 
+"Shedinja", "Shiftry", "Shroomish","Silcoon", "Skitty", "Slaking", "Slakoth", "Sneasel", "Spinarak","Stantler", 
+"Sudowoodo", "Swablu", "Togepi", "Togetic", "Treecko","Tropius", "Venomoth", "Venonat", "Victreebel", "Vigoroth", "Volbeat", 
+"Weedle", "Weepinbell", "Wurmple", "Xatu", "Yanma"
+	],
+	"Water's edge": [
+		"Anorith", "Armaldo", "Azumarill", "Azurill", "Barboach", "Blastoise","Corphish", "Crawdaunt", 
+"Croconaw", "Dragonair", "Dragonite", "Dratini","Feebas", "Feraligatr", "Goldeen", "Golduck", "Gyarados", 
+"Kingler","Krabby", "Latias", "Latios", "Lombre", "Lotad", "Ludicolo","Magikarp", "Marill", "Marshtomp", 
+"Masquerain", "Milotic", "Mudkip","Politoed", "Poliwag", "Poliwhirl", "Poliwrath", "Psyduck", "Quagsire","Seaking", "Slowbro", "Slowking", "Slowpoke", "Squirtle", "Surskit", "Swampert", "Totodile", 
+"Wartortle", "Whiscash", "Wooper"
+	],
+	"Sea": [
+		"Carvanha", "Chinchou", "Clamperl", "Cloyster", "Corsola", "Cradily","Dewgong", "Gorebyss", 
+"Horsea", "Huntail", "Kabuto", "Kabutops","Kingdra", "Kyogre", "Lanturn", "Lapras", "Lileep", "Luvdisc", "Mantine", "Octillery", "Omanyte", "Omastar", "Pelipper", "Qwilfish","Relicanth", "Remoraid", "Seadra", 
+"Sealeo", "Seel", "Sharpedo","Shellder", "Spheal", "Starmie", "Staryu", "Tentacool", "Tentacruel", 
+"Wailmer", "Wailord", "Walrein", "Wingull"
+	],
+	"Cave": [
+		"Crobat", "Diglett", "Dugtrio", "Dunsparce", "Exploud", "Gastly","Gengar", "Glalie", "Golbat", 
+"Haunter", "Loudred", "Lunatone","Mawile", "Nosepass", "Onix", "Piloswine", "Regice", "Regirock", "Registeel", "Sableye", "Shelgon", 
+"Snorunt", "Solrock", "Steelix", "Swinub", "Whismur", "Wobbuffet", "Wynaut", "Zubat"
+	],
+	"Mountain": [
+		"Absol", "Aerodactyl", "Aggron", "Aron", "Camerupt", "Charizard","Charmander", "Charmeleon", 
+"Clefable", "Clefairy", "Cleffa", "Cubone","Delibird", "Geodude", "Gligar", "Golem", "Graveler", "Grumpig","Hariyama", "Lairon", "Larvitar", "Machamp", "Machoke", "Machop","Magby", "Magcargo", "Magmar", 
+"Makuhita", "Mankey", "Marowak","Medicham", "Meditite", "Primeape", "Pupitar", "Shuckle", "Slugma","Snorlax", "Spoink", "Teddiursa", "Torkoal", "Tyranitar", "Ursaring"
+	],
+	"Rough-terrain": [
+		"Bagon", "Baltoy", "Beldum", "Cacnea", "Cacturne", "Claydol","Donphan", "Fearow", "Flygon", 
+"Groudon", "Houndoom", "Houndour","Magnemite", "Magneton", "Manectric", "Metagross", "Metang", "Numel","Phanpy", "Rhydon", "Rhyhorn", "Salamence", "Sandshrew", "Sandslash", "Skarmory", "Spearow", 
+"Trapinch", "Vibrava"
+	],
+	"Urban":[
+		"Abra", "Alakazam", "Banette", "Blissey", "Chansey", "Ditto","Eevee", "Electrode", "Espeon", 
+"Flareon", "Gardevoir", "Granbull","Grimer", "Hitmonchan", "Hitmonlee", "Hitmontop", "Jolteon", "Jynx","Kadabra", "Kirlia", "Koffing", "Meowth", "Mr. Mime", "Muk","Persian", "Porygon", "Porygon2", "Ralts", 
+"Shuppet", "Smeargle","Smoochum", "Snubbull", "Tyrogue", "Umbreon", "Vaporeon", "Voltorb", "Weezing"
+	],
+	"Rare":[
+		"Articuno", "Deoxys", "Ho-Oh", "Jirachi", "Lugia", "Mew", "Mewtwo", "Moltres", "Rayquaza", "Unown", "Zapdos"
+	]}
+]
+	
+	

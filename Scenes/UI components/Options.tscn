@@ -1,0 +1,116 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Scenes/UI components/Options.gd" type="Script" id=1]
+[ext_resource path="res://assets/background_options.tres" type="Texture" id=2]
+[ext_resource path="res://assets/button_bag.tres" type="Theme" id=3]
+[ext_resource path="res://Scenes/assets/theme_font.tres" type="Theme" id=4]
+[ext_resource path="res://assets/themedark_letters_label.tres" type="Theme" id=5]
+
+[node name="Options" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 3.1748
+margin_right = 3.1748
+theme = ExtResource( 4 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="TextureRect" parent="."]
+margin_left = 57.5779
+margin_top = 19.4054
+margin_right = 761.578
+margin_bottom = 143.405
+texture = ExtResource( 2 )
+expand = true
+
+[node name="TextureRect2" type="TextureRect" parent="."]
+margin_left = 54.0
+margin_top = 169.0
+margin_right = 1002.0
+margin_bottom = 564.0
+texture = ExtResource( 2 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+margin_left = 141.347
+margin_top = 67.2382
+margin_right = 192.347
+margin_bottom = 81.2382
+theme = ExtResource( 5 )
+text = "Options "
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="GridContainer" type="GridContainer" parent="."]
+margin_left = 144.08
+margin_top = 236.616
+margin_right = 372.08
+margin_bottom = 332.616
+theme = ExtResource( 5 )
+custom_constants/vseparation = 20
+custom_constants/hseparation = 50
+columns = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="GridContainer"]
+margin_top = 3.0
+margin_right = 238.0
+margin_bottom = 40.0
+text = "Text animation velocity"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="OptionButton" type="OptionButton" parent="GridContainer"]
+margin_left = 288.0
+margin_right = 317.0
+margin_bottom = 43.0
+
+[node name="Label3" type="Label" parent="GridContainer"]
+margin_top = 63.0
+margin_right = 238.0
+margin_bottom = 100.0
+text = "Sound volume"
+
+[node name="HSlider" type="HSlider" parent="GridContainer"]
+margin_left = 288.0
+margin_top = 63.0
+margin_right = 317.0
+margin_bottom = 79.0
+
+[node name="Label2" type="Label" parent="GridContainer"]
+margin_top = 123.0
+margin_right = 238.0
+margin_bottom = 160.0
+text = "nienfioenifoe"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="OptionButton2" type="OptionButton" parent="GridContainer"]
+margin_left = 288.0
+margin_top = 120.0
+margin_right = 317.0
+margin_bottom = 163.0
+
+[node name="Button" type="Button" parent="."]
+margin_left = 816.816
+margin_top = 457.773
+margin_right = 858.816
+margin_bottom = 477.773
+theme = ExtResource( 3 )
+text = "Back"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="item_selected" from="GridContainer/OptionButton" to="." method="_on_OptionButton_item_selected"]
+[connection signal="value_changed" from="GridContainer/HSlider" to="." method="_on_HSlider_value_changed"]
+[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]

@@ -1,0 +1,133 @@
+[{
+    "name": "Sleeping Snorlax",
+    "Dialogue": ["A sleeping POKEMON blocks the way!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Wake up Snorlax",
+    "Dialogue": ["A sleeping POKEMON blocks the way!","Player played the POKE FLUTE.","SNORLAX woke up!","It attacked in a grumpy rage!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Defeat Snorlax",
+    "Dialogue": ["SNORLAX calmed down! With a big yawn, it returned to the mountains!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "1",
+    "Dialogue": ["There's a lookout spot upstairs."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "2",
+    "Dialogue": ["My POKEMON's ashes are stored in POKEMON TOWER. You can have this\nTM. I don't need it any more...","You don't have room for this.","TM39 is a move called SWIFT. It's very accurate, so use it during\nbattles you can't afford to lose."],
+    "Object":[1,"TM39",1],
+    "Already_talk": false
+    },
+    {
+    "name": "2 after",
+    "Dialogue": ["TM39 is a move called SWIFT. It's very accurate, so use it during\nbattles you can't afford to lose."],
+    "Object":[1,"TM39",1],
+    "Already_talk": false
+    },
+    {
+    "name": "3",
+    "Dialogue": ["I'm the FISHING GURU's brother! I simply Looove fishing!\nDo you like to fish!","Oh... That's so disappointing...","Grand! I like your style! Take this and fish, young one!"],
+    "Object":[1,"Super Rod",1],
+    "Already_talk": false
+    },
+    {
+    "name": "3 after",
+    "Dialogue": ["Fishing is a way of life! From the seas to rivers, go out and\nland the big one!"],
+    "Object":[1,"Super Rod",1],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 1",
+    "Dialogue": ["Yeah! I got a bite, here!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 1 after",
+    "Dialogue": ["Hang on! My line's snagged!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 2",
+    "Dialogue": ["Be patient! Fishing is a waiting game!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 2 after",
+    "Dialogue": ["With a better ROD, I could catch better POKEMON!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 3",
+    "Dialogue": ["The FISHING FOOL vs. POKEMON KID!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 3 after",
+    "Dialogue": ["You beat me at POKEMON, but I'm good at fishing!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 4",
+    "Dialogue": ["I'd rather be working!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 4 after",
+    "Dialogue": ["It's all right. Losing doesn't bud me any more."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 5",
+    "Dialogue": ["Electricity is my specialty!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 5 after",
+    "Dialogue": ["Water conducts electricity, so you should zap sea POKEMON!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 6",
+    "Dialogue": ["You never know what you could catch!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 6 after",
+    "Dialogue": ["I catch MAGIKARP all the time, but they're so weak!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 7",
+    "Dialogue": ["Have you found a MOON STONE?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 7 after",
+    "Dialogue": ["I could have made my POKEMON evolve with MOON STONE!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    }
+]

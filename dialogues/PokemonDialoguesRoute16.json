@@ -1,0 +1,121 @@
+[{
+    "name": "Signpost",
+    "Dialogue": ["Enjoy the slope!\nCYCLING ROAD"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "1",
+    "Dialogue": ["CYCLING ROAD is a downhill course by the sea. It's a great ride.","Excuse me! Wait up please! No pedestrians are allowed on CYCLING\nROAD!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "2",
+    "Dialogue": ["We're going riding together!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "3",
+    "Dialogue": ["I'm going for a ride with my girl friend!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "4",
+    "Dialogue": ["How'd you get in? Good effort!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "5",
+    "Dialogue": ["Oh, you found my secret retreat! Please don't tell anyone I'm here.\nI'll make it up to you with this!","You don't have any room for this.","Hm02 is FLY. It will take you back to any town. Put it to good use!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "5 after",
+    "Dialogue": ["Hm02 is FLY. It will take you back to any town. Put it to good use!"],
+    "Object":[1,"Hm02",1],
+    "Already_talk": false
+    },
+    {
+    "name": "Fearow",
+    "Dialogue": ["Kyueen!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 1",
+    "Dialogue": ["What do you want?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 1 after",
+    "Dialogue": ["We like just hanging here, what's it to you?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 2",
+    "Dialogue": ["Nice BIKE! Hand it over!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 2 after",
+    "Dialogue": ["Forget it, who needs your BIKE!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 3",
+    "Dialogue": ["Come out and play, little mouse!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 3 after",
+    "Dialogue": ["I hate losing! Get away from me!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 4",
+    "Dialogue": ["Hey, you just bumped me!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 4 after",
+    "Dialogue": ["You can also get to FUCHSIA from VERMILION using a coastal road."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 5",
+    "Dialogue": ["I'm feeling hungry and mean!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 5 after",
+    "Dialogue": ["I like my POKEMON ferocious! They tear up enemies!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 6",
+    "Dialogue": ["Sure, I'll go!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 6 after",
+    "Dialogue": ["I like harassing people with my vicious POKEMON!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    }
+]

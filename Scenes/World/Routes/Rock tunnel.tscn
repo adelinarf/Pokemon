@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Scenes/Door.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Scenes/World/Routes/Rock tunnel.gd" type="Script" id=2]
+[ext_resource path="res://Scenes/player.tscn" type="PackedScene" id=3]
+
+[node name="Rock tunnel" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="Entrance" parent="." instance=ExtResource( 1 )]
+position = Vector2( 512.335, 34.0421 )
+
+[node name="player" parent="." instance=ExtResource( 3 )]
+position = Vector2( 537.03, 249.555 )
+
+[node name="Exit" parent="." instance=ExtResource( 1 )]
+position = Vector2( 525.805, 370.781 )
+[connection signal="tree_exiting" from="." to="." method="_on_Rock_tunnel_tree_exiting"]
+[connection signal="area_entered" from="Entrance" to="." method="_on_Entrance_area_entered"]
+[connection signal="area_entered" from="Exit" to="." method="_on_Exit_area_entered"]

@@ -1,0 +1,23 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Scenes/UI components/Dialogs.gd" type="Script" id=1]
+
+[node name="Dialogs" type="Control"]
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="AcceptDialog" type="AcceptDialog" parent="."]
+visible = true
+self_modulate = Color( 0.996078, 0.984314, 0.984314, 1 )
+margin_left = 239.779
+margin_top = 493.279
+margin_right = 728.779
+margin_bottom = 587.279
+window_title = "This person says..."
+dialog_text = "%s"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="confirmed" from="AcceptDialog" to="." method="_on_AcceptDialog_confirmed"]

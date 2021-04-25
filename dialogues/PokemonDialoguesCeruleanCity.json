@@ -1,0 +1,229 @@
+[{
+    "name": "1",
+    "Dialogue": ["You're making an encyclopedia on POKEMON? That sounds amusing."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "2",
+    "Dialogue": ["I want a bright red BICYCLE! I'll keep it at home, so it won't get dirty!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "3",
+    "Dialogue": ["SLOWBRO, WITHDRAW! No! That's wrong! It's so hard to control POKEMON! Your POKEMON's obedience depends on your abilities as a trainer!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "4",
+    "Dialogue": ["You're a trainer too? Collecting, fighting, it's a tough life."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "5",
+    "Dialogue": ["That bush in front of the shop is in the way. There might be a way around."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "6",
+    "Dialogue": ["The people here were robbed. It's obvious that TEAM ROCKET is behind this most heinous crime! Even our POLICE force has trouble with the ROCKETs!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "7",
+    "Dialogue": ["This is CERULEAN CAVE! Horribly strong POKEMON live in there! The POKEMON LEAGUE champion is the only person who is allowed in!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Mewtwo",
+    "Dialogue": ["Mew!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Center 1",
+    "Dialogue": ["BILL has lots of POKEMON! He collects rare ones too!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Center 2",
+    "Dialogue": ["Have you heard about BILL? Everyone calls him a POKEMANIAC! I think people are just jealous of BILL, though. Who wouldn't want to boast about their POKEMON?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Center 3",
+    "Dialogue": ["That BILL! I heard that he'll do whatever it takes to get rare POKEMON!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Mart 4",
+    "Dialogue": ["Use REPEL to keep bugs and weak POKEMON away. Put your strongest POKEMON at the top of the list for best results!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Mart 5",
+    "Dialogue": ["Have you seen any RARE CANDY? It's supposed to make POKEMON go up one level!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Bicycle",
+    "Dialogue": ["A shiny new BICYCLE!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Bicycle Store",
+    "Dialogue": ["Hi! Welcome to our BIKE SHOP. Have we got just the BIKE for you! It's a cool BIKE! Do you want it? It costs P1,000,000.","Ok then","Sorry! You can't afford it! Come back again some time!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Bicycle Store voucher",
+    "Dialogue": ["Oh, that's... A BIKE VOUCHER! OK! Here you go!","You better make room for this!","How do you like your new BICYCLE? You can take it on CYCLING ROAD and in caves!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Bicycle Store 1",
+    "Dialogue": ["A plain city BIKE is good enough for me! You can't put a shopping basket on an MTB!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Bicycle Store 2",
+    "Dialogue": ["These BIKEs are cool, but they're way expensive!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "9",
+    "Dialogue": ["Hello there! Do you want to trade your POLIWHIRL for JYNX?","Well, if you don't want to...","Hmm? This isn't POLIWHIRL. Think of me when you get one.","Okay, connect the cables like so!","The POLIWHIRL you traded to me went and evolved!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "10",
+    "Dialogue": ["My husband likes trading POKEMON. If you are a collector, would you please trade with him?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "11",
+    "Dialogue": ["POKEMON BADGES are owned only by skilled trainers. I see you have at least one. Those BADGEs have amazing secrets! Now then... Which of the 8 BADGEs should I describe?","-(BOULDERBADGE) The ATTACK of all POKEMON increases a little bit. It also lets you use FLASH any time you desire.","-(CASCADEBADGE) POKEMON up to L30 will obey you. Any higher, they become unruly! It also lets you use CUT outside of battle.","-(THUNDERBADGE) The SPEED of all POKEMON increases a little bit. It also lets you use FLY outside of battle.","-(RAINBOWBADGE) POKEMON up to L50 will obey you. Any higher, they become unruly! It also lets you use STRENGTH out-side of battle.","-(SOULDBADGE) The DEFENSE of all POKEMON increases a little bit. It also lets you use SURF outside of battle.","-(MARSHBADGE) POKEMON up to L70 will obey you. Any higher, they become unruly!","-(VOLCANOBADGE) Your POKEMON's SPECIAL abilities increase a bit.","-(EARTHBADGE) All POKEMON will obey you!","-(CANCEL) Come visit me any time you wish."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "12",
+    "Dialogue": ["TEAM ROCKET must be trying to DIG their way into no good!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "13",
+    "Dialogue": ["Those miserable ROCKETs! Look what they did here! They stole a TM for teaching POKEMON how to DIG holes! That cost me a bundle, it did!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 1",
+    "Dialogue": ["Hey! Stay out! It's not your yard! Huh? Me? I'm an innocent bystander! Don't you believe me?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 1 after",
+    "Dialogue": ["OK! I'll return the TM I stole!","Make room for this! I can't run until I give it to you!","I better get moving! Bye!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "13 after",
+    "Dialogue": ["I figure what's lost is lost! I decided to teach DIGLETT how to DIG without a TM!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Rival_Fight",
+    "Dialogue": ["Yo! Player! You're still struggling along back here? I'm doing great! I caught a bunch of strong and smart POKEMON! Here, let me see what you caught, Player!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Rival_Fight_after",
+    "Dialogue": ["Hey, guess what? I went to BILL's and got him to show me his rare POKEMON! That added a lot of pages to my POKEDEX! After all, BILL's world famous as a POKEMANIAC! He invented the POKEMON Storage System on PC! Since you're using his system, go thank him! Well, I better get rolling! Smell ya later!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Gym Signpost",
+    "Dialogue": ["CERULEAN CITY POKEMON GYM \nLEADER: MISTY \nThe Tomboyish Mermaid!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Gym Plaque",
+    "Dialogue": ["WINNING TRAINERS: Rival"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Gym 1",
+    "Dialogue": ["Yo! Champ in making! Here's my advice! The LEADER, MISTY, is a pro \nwho uses water POKEMON! You can drain all their water with plant \nPOKEMON! Or, zap them with electricity!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Gym 1 after",
+    "Dialogue": ["You beat MISTY! What'd I tell ya? You and me kid, we make a pretty\ndarn good team!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Gym Trainer 1",
+    "Dialogue": ["Splash! I'm first up! Let's do it!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Gym Trainer 1 after",
+    "Dialogue": ["MISTY is going to keep improving! She won't lose to someone\nlike you!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Gym Trainer 2",
+    "Dialogue": ["I'm more than good enough for you! MISTY can wait!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Gym Trainer 2 after",
+    "Dialogue": ["You have to face other trainers to find out how good you really\nare."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Misty",
+    "Dialogue": ["Hi, you're a new face! Trainers who want to turn pro have to\nhave a policy about POKEMON! What is your approach when you\ncatch POKEMON? My policy is an all-out offensive with water-type\nPOKEMON!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Misty after",
+    "Dialogue": ["TM11 teaches BUBBLEBEAM! Use it on an aquatic POKEMON!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    }
+]

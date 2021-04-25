@@ -1,0 +1,49 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://assets/dialogue.tres" type="Texture" id=1]
+[ext_resource path="res://Scenes/assets/theme_font.tres" type="Theme" id=2]
+[ext_resource path="res://Scenes/UI components/DIALOG/Dialogue.gd" type="Script" id=3]
+[ext_resource path="res://Scenes/UI components/Two_option_menu.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Scenes/UI components/Three_option_menu.tscn" type="PackedScene" id=5]
+
+[node name="Dialogue" type="Node2D"]
+script = ExtResource( 3 )
+
+[node name="TextureRect" type="TextureRect" parent="."]
+margin_top = 408.0
+margin_right = 1027.0
+margin_bottom = 597.0
+texture = ExtResource( 1 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+margin_left = 53.2182
+margin_top = 452.345
+margin_right = 964.218
+margin_bottom = 560.345
+theme = ExtResource( 2 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "dialogue text here"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="two_option_menu" parent="." instance=ExtResource( 4 )]
+visible = false
+
+[node name="Label2" type="Label" parent="."]
+margin_left = 385.536
+margin_top = 192.0
+margin_right = 581.536
+margin_bottom = 285.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="three_option_menu" parent="." instance=ExtResource( 5 )]
+visible = false
+[connection signal="is_pressed" from="two_option_menu" to="." method="_on_two_option_menu_is_pressed"]
+[connection signal="is_pressed" from="three_option_menu" to="." method="_on_three_option_menu_is_pressed"]

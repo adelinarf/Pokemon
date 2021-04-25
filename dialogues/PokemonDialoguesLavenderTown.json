@@ -1,0 +1,397 @@
+[{
+    "name": "Signpost 1",
+    "Dialogue": ["New SILPH SCOPE! Make the Invisible Plain to See! \nSILPH CO."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Signpost 2",
+    "Dialogue": ["May the Souls of POKEMON Rest Easy \nPOKEMON TOWER"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "1",
+    "Dialogue": ["GHOSTs appeared in POKEMON TOWER. I think they're the spirits of \nPOKEMON that the ROCKETs killed."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "2",
+    "Dialogue": ["This town is known as the grave site of POKEMON. Memorial services\nare held in POKEMON TOWER."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "3",
+    "Dialogue": ["Do you believe in GHOSTs?","Hahaha, I guess not. That white hand on your shoulder,\nit's not real.","Really? So there are believers..."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Center 1",
+    "Dialogue": ["I saw CUBONE's mother die trying to escape from TEAM ROCKET!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Center 2",
+    "Dialogue": ["CUBONEs wear skulls, right? People will pay a lot for one!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Center 3",
+    "Dialogue": ["TEAM ROCKET will do anything for the sake of gold!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Mart 4",
+    "Dialogue": ["I'm searching for items that raise the abilities of POKEMON\nduring a single battle. X ATTACK, X DEFEND, X SPEED and X SPECIAL\nare what I'm after. Do you know where I can get them?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Mart 5",
+    "Dialogue": ["You know REVIVE? It revives any fainted POKEMON!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Booklet",
+    "Dialogue": ["POKEMON Monthly Grand Prize Drawing!\nThe application form is... Gone! It's been clipped out!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "6",
+    "Dialogue": ["That's odd, MR.FUJI isn't here. Where'd he go?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "6 after",
+    "Dialogue": ["MR.FUJI had been praying alone for CUBONE's mother."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "7",
+    "Dialogue": ["This is really MR.FUJI's house. He's really kind! He looks after\nabandoned and orphaned POKEMON!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "7 after",
+    "Dialogue": ["It's so warm! POKEMON are so nice to hug!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Psyduck",
+    "Dialogue": ["Gwappa!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Nidorino",
+    "Dialogue": ["Gaoo!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "8",
+    "Dialogue": ["I hate those horrible ROCKETs! That poor CUBONE's mother...\nIt was killed trying to escape from TEAM ROCKET!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "8 after",
+    "Dialogue": ["The GHOST of POKEMON TOWER is gone! Someone must have soothed its\nrestless soul!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Cubone",
+    "Dialogue": ["Kyarugoo!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Name Rater",
+    "Dialogue": ["Hello, hello! I am the official NAME RATER! Want me to rate the \nnicknames of your POKEMON?","Fine! Come any time you like!","Which POKEMON should I look at?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Tower 1",
+    "Dialogue": ["POKEMON TOWER was erected in the memory of POKEMON that had died."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Tower 2",
+    "Dialogue": ["I came to pray for my CLEFAIRY. Sniff! I can't stop crying..."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Tower 3",
+    "Dialogue": ["Did you come to pay respects? Bless you!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Tower 4",
+    "Dialogue": ["My GROWLITHE... Why did you die?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Tower 5",
+    "Dialogue": ["I am a CHANNELER! There are spirits up to mischief!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Tower 6",
+    "Dialogue": ["Even we could not identify the wayward GHOSTs! A SILPH SCOPE might\nbe able to unmask them."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Rival_Fight",
+    "Dialogue": ["Hey, Player! What brings you here? Your POKEMON don't look dead!\nI can at least make them faint! Let's go, pal!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Rival_Fight after",
+    "Dialogue": ["How's your POKEDEX coming, pal? I just caught a CUBONE! I can't\nfind the grown-up MAROWAK yet! I doubt there are any left!\nWell, I better get going! I've got a lot to accomplish, pal!\nSmell ya later!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Tower 7",
+    "Dialogue": ["Come, child! I sealed this space with white magic! You can rest\nhere!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 1",
+    "Dialogue": ["Urrg...Awaa...Huhu...graa.."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 1 after",
+    "Dialogue": ["The GHOSTs can be identified by the SILPH SCOPE."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 2",
+    "Dialogue": ["Be gone! Evil spirit!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 2 after",
+    "Dialogue": ["My friends were possessed too!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 3",
+    "Dialogue": ["Kekeke.... Kwaaah!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 3 after",
+    "Dialogue": ["Sorry! I was possessed!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 4",
+    "Dialogue": ["Be cursed with me! Kwaaah!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 4 after",
+    "Dialogue": ["We can't crack the identity of the GHOSTs."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 5",
+    "Dialogue": ["Huhuhu... Beat me not!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 5 after",
+    "Dialogue": ["May the departed souls of POKEMON rest in peace..."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 6",
+    "Dialogue": ["GHOST! No! Kwaaah!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 6 after",
+    "Dialogue": ["I must have been dreaming..."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 7",
+    "Dialogue": ["You...shall...join...us..."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 7 after",
+    "Dialogue": ["I was possessed!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 8",
+    "Dialogue": ["Give...me...your...soul..."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 8 after",
+    "Dialogue": ["I was under possession!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 9",
+    "Dialogue": ["Zombies!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 9 after",
+    "Dialogue": ["I regained my senses!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 10",
+    "Dialogue": ["Urgah... Urff..."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 10 after",
+    "Dialogue": ["I fell to evil spirits despite my training!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 11",
+    "Dialogue": ["Give...me...blood..."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 11 after",
+    "Dialogue": ["I feel anemic and weak..."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 12",
+    "Dialogue": ["Ke...ke...ke...ke...ke...ke!!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 12 after",
+    "Dialogue": ["What's going on here?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 13",
+    "Dialogue": ["Urff... Kwaah!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 13 after",
+    "Dialogue": ["Hair didn't fall out! It was an evil spirit!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 14",
+    "Dialogue": ["What do you want? Why are you here?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 14 after",
+    "Dialogue": ["I'm not going to forget this!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 15",
+    "Dialogue": ["This old guy came and complained about us harming useless\nPOKEMON! We're talking it over as adults!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 15 after",
+    "Dialogue": ["POKEMON are only good for making money! Stay out of our business!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 16",
+    "Dialogue": ["You're not saving anyone, kid!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 16 after",
+    "Dialogue": ["You're not getting away with this!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Fuji",
+    "Dialogue": ["Heh? You came to save me? Thank you. But, I came here of my own\nfree will. I came to calm the soul of CUBONE's mother. I think\nMAROWAK's spirit has gone to the afterlife. I must thank you for\nyour kind concern! Follow me to my home, POKEMON HOUSE at the\nfoot of this tower."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Fuji2",
+    "Dialogue": ["Player. Your POKEDEX quest may fail without love for your POKEMON.\nI think this may help your quest.","You must make room for this!","Upon hearing POKE FLUTE, sleeping POKEMON will spring awake.\nIt works on all sleeping POKEMON."],
+    "Object":[1,"PokeFlute",1],
+    "Already_talk": false
+    },
+    {
+    "name": "Fuji2 after",
+    "Dialogue": ["Has my FLUTE helped you?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Ghost",
+    "Dialogue": ["Be gone... Intruders..."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+]

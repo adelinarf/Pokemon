@@ -1,0 +1,182 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://Scenes/Battle_.gd" type="Script" id=1]
+[ext_resource path="res://Scenes/Progress bar.tscn" type="PackedScene" id=2]
+[ext_resource path="res://assets/pokemon_battle/background_battle.tres" type="Texture" id=3]
+[ext_resource path="res://assets/pokemon_battle/bar_background.tres" type="Texture" id=4]
+[ext_resource path="res://assets/pokemon_battle/battle_dialogue.tres" type="Texture" id=5]
+[ext_resource path="res://Scenes/UI components/menu_moves_in_battle.tscn" type="PackedScene" id=6]
+[ext_resource path="res://Scenes/UI components/menu_key.tscn" type="PackedScene" id=8]
+[ext_resource path="res://assets/themedark_letters_label.tres" type="Theme" id=9]
+
+[node name="Battle" type="Control"]
+theme = ExtResource( 9 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Background" type="Sprite" parent="."]
+position = Vector2( 504.813, 209.812 )
+scale = Vector2( 4.33899, 4.00327 )
+texture = ExtResource( 3 )
+vframes = 4
+hframes = 3
+frame = 1
+
+[node name="back_bar_enemy" type="Sprite" parent="."]
+position = Vector2( 219.337, 72.6674 )
+scale = Vector2( 3.94226, 3.76821 )
+texture = ExtResource( 4 )
+vframes = 2
+
+[node name="back_bar_enemy2" type="Sprite" parent="."]
+position = Vector2( 800, 352 )
+scale = Vector2( 3.94226, 3.76821 )
+texture = ExtResource( 4 )
+vframes = 2
+frame = 1
+
+[node name="enemy_sprite" type="Sprite" parent="."]
+position = Vector2( 736, 160 )
+scale = Vector2( 3, 3 )
+
+[node name="player_sprite" type="Sprite" parent="."]
+position = Vector2( 160, 368 )
+scale = Vector2( 4, 4 )
+
+[node name="dialogue" type="TextureRect" parent="."]
+margin_top = 432.0
+margin_right = 1024.0
+margin_bottom = 600.0
+texture = ExtResource( 5 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Progress bar enemy" parent="." instance=ExtResource( 2 )]
+position = Vector2( 98.6697, 59.9955 )
+
+[node name="Progress bar player" parent="." instance=ExtResource( 2 )]
+position = Vector2( 712, 336 )
+
+[node name="menu" parent="." instance=ExtResource( 8 )]
+position = Vector2( 616, 432 )
+scale = Vector2( 2.33, 2.33 )
+
+[node name="menu_movements" parent="." instance=ExtResource( 6 )]
+visible = false
+position = Vector2( 0, 432 )
+scale = Vector2( 2.22, 2.5 )
+
+[node name="someoneplays" type="Label" parent="."]
+margin_left = 437.547
+margin_top = 243.201
+margin_right = 547.547
+margin_bottom = 257.201
+text = "%s"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="winlose" type="Label" parent="."]
+margin_left = 828.623
+margin_top = 61.9086
+margin_right = 908.623
+margin_bottom = 75.9086
+text = "You have %s"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="enemymove" type="Label" parent="."]
+margin_left = 56.0
+margin_top = 480.0
+margin_right = 159.0
+margin_bottom = 494.0
+text = "%s has used %s"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+margin_left = 40.0
+margin_top = 160.0
+margin_right = 331.0
+margin_bottom = 174.0
+text = "THIS APPEARS AFTER THEY WIN THEIR POINTS"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label2" type="Label" parent="."]
+margin_left = 47.5595
+margin_top = 188.978
+margin_right = 371.56
+margin_bottom = 202.978
+text = "THIS APPEARS AFTER THEY WIN THEIR POINTS TOO"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="new_pokemon_name" type="GridContainer" parent="."]
+visible = false
+margin_left = 680.175
+margin_top = 167.395
+margin_right = 738.175
+margin_bottom = 207.395
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label2" type="Label" parent="new_pokemon_name"]
+margin_right = 377.0
+margin_bottom = 37.0
+text = "What's your new pokemon nickname?"
+
+[node name="LineEdit" type="LineEdit" parent="new_pokemon_name"]
+margin_top = 41.0
+margin_right = 377.0
+margin_bottom = 65.0
+
+[node name="Label" type="Label" parent="new_pokemon_name"]
+margin_top = 69.0
+margin_right = 377.0
+margin_bottom = 106.0
+text = "Press enter to continue"
+
+[node name="enemy_name" type="Label" parent="."]
+margin_left = 56.0
+margin_top = 32.0
+margin_right = 100.0
+margin_bottom = 46.0
+text = "enemy"
+
+[node name="player_name" type="Label" parent="."]
+margin_left = 688.0
+margin_top = 312.0
+margin_right = 732.0
+margin_bottom = 326.0
+text = "player"
+
+[node name="enemy_level" type="Label" parent="."]
+margin_left = 240.0
+margin_top = 40.0
+margin_right = 290.0
+margin_bottom = 54.0
+text = "number"
+
+[node name="player_level" type="Label" parent="."]
+margin_left = 864.0
+margin_top = 312.0
+margin_right = 914.0
+margin_bottom = 326.0
+text = "number"
+
+[node name="Timer" type="Timer" parent="."]
+[connection signal="selected_by_key" from="menu" to="." method="_on_menu_selected_by_key"]
+[connection signal="selected_by_key" from="menu_movements" to="." method="_on_menu_movements_selected_by_key"]
+[connection signal="show_move" from="menu_movements" to="." method="_on_menu_movements_show_move"]
+[connection signal="text_entered" from="new_pokemon_name/LineEdit" to="." method="_on_LineEdit_text_entered"]
+[connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]

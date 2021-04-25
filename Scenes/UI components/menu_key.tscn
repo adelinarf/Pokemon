@@ -1,0 +1,70 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://assets/pokemon_battle/options_battle.tres" type="Texture" id=1]
+[ext_resource path="res://assets/pokemon_battle/selector.tres" type="Texture" id=2]
+[ext_resource path="res://Scenes/UI components/menu_key.gd" type="Script" id=3]
+[ext_resource path="res://assets/button_bag.tres" type="Theme" id=4]
+
+[node name="menu" type="Node2D"]
+script = ExtResource( 3 )
+
+[node name="TextureRect" type="TextureRect" parent="."]
+margin_right = 176.0
+margin_bottom = 72.0
+texture = ExtResource( 1 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Fight" type="Button" parent="."]
+margin_left = 24.0
+margin_top = 16.0
+margin_right = 88.0
+margin_bottom = 36.0
+theme = ExtResource( 4 )
+toggle_mode = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Pokemon" type="Button" parent="."]
+margin_left = 24.0
+margin_top = 40.0
+margin_right = 88.0
+margin_bottom = 60.0
+theme = ExtResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Bag" type="Button" parent="."]
+margin_left = 96.0
+margin_top = 16.0
+margin_right = 160.0
+margin_bottom = 36.0
+theme = ExtResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Run" type="Button" parent="."]
+margin_left = 96.0
+margin_top = 40.0
+margin_right = 160.0
+margin_bottom = 60.0
+theme = ExtResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="selector" type="TextureRect" parent="."]
+margin_left = 5.879
+margin_top = 13.879
+margin_right = 45.879
+margin_bottom = 53.879
+focus_neighbour_right = NodePath("../Fight")
+texture = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}

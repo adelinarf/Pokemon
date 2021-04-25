@@ -1,0 +1,106 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://Scenes/Battle_ending_.gd" type="Script" id=1]
+[ext_resource path="res://assets/pokemon_battle/background_battle.tres" type="Texture" id=2]
+[ext_resource path="res://assets/pokemon_battle/battle_dialogue.tres" type="Texture" id=3]
+[ext_resource path="res://Scenes/UI components/Two_option_menu.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Scenes/assets/theme_font.tres" type="Theme" id=14]
+
+[sub_resource type="Animation" id=1]
+resource_name = "fade out"
+length = 3.0
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.4, 0.9, 1.4, 1.9, 2.3, 3 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 0.156863 ), Color( 0, 0, 0, 0 ), Color( 0, 0, 0, 0.4 ), Color( 0, 0, 0, 0.6 ), Color( 0, 0, 0, 0.760784 ), Color( 0, 0, 0, 0.901961 ), Color( 0, 0, 0, 1 ) ]
+}
+
+[node name="Battle_beggining" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+theme = ExtResource( 14 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="background" type="Sprite" parent="."]
+position = Vector2( 504.813, 209.812 )
+scale = Vector2( 4.339, 4.003 )
+texture = ExtResource( 2 )
+vframes = 4
+hframes = 3
+frame = 1
+
+[node name="dialogue" type="TextureRect" parent="."]
+margin_top = 432.0
+margin_right = 1024.0
+margin_bottom = 600.0
+texture = ExtResource( 3 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="text" type="Label" parent="."]
+margin_left = 64.0
+margin_top = 504.0
+margin_right = 354.0
+margin_bottom = 518.0
+text = "Oh no!, you have found a savage %s Level %s"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="enemy" type="Sprite" parent="."]
+position = Vector2( 736, 160 )
+scale = Vector2( 3, 3 )
+
+[node name="player" type="Sprite" parent="."]
+position = Vector2( 160, 368 )
+scale = Vector2( 3, 3 )
+
+[node name="Timer" type="Timer" parent="."]
+
+[node name="two_option_menu" parent="." instance=ExtResource( 4 )]
+visible = false
+margin_left = -8.59052
+margin_top = 233.594
+margin_right = 31.4095
+margin_bottom = 273.594
+
+[node name="ColorRect" type="ColorRect" parent="."]
+visible = false
+margin_right = 1030.0
+margin_bottom = 610.0
+color = Color( 0, 0, 0, 0.156863 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="ColorRect"]
+"anims/fade out" = SubResource( 1 )
+
+[node name="Label" type="Label" parent="."]
+visible = false
+margin_left = 299.68
+margin_top = 128.434
+margin_right = 339.68
+margin_bottom = 165.434
+text = "Your pokemon are hurt
+You will be send to a pokemon center
+to heal them"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="tree_exiting" from="." to="." method="_on_Battle_beggining_tree_exiting"]
+[connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]
+[connection signal="is_pressed" from="two_option_menu" to="." method="_on_two_option_menu_is_pressed"]
+[connection signal="animation_finished" from="ColorRect/AnimationPlayer" to="." method="_on_AnimationPlayer_animation_finished"]

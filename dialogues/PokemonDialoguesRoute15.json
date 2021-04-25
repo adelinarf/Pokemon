@@ -1,0 +1,132 @@
+[{
+    "name": "Trainer 1",
+    "Dialogue": ["What's cool? Trading POKEMON!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 1 after",
+    "Dialogue": ["I trade POKEMON with my friends!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 2",
+    "Dialogue": ["Oh, you're a little cutie!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 2 after",
+    "Dialogue": ["I forgive you! I can take it!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 3",
+    "Dialogue": ["You look gentle, so I think I can beat you!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 3 after",
+    "Dialogue": ["I'm afraid of BIKERs, they look so ugly and mean!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 4",
+    "Dialogue": ["Hey kid! C'mon! I just got these!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 4 after",
+    "Dialogue": ["You only live once, so I live as an outlaw! TEAM ROCKET RULES!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 5",
+    "Dialogue": ["Fork over all your cash when you lose to me, kid!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 5 after",
+    "Dialogue": ["I was just joking about the money!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 6",
+    "Dialogue": ["I raise POKEMON because I live alone!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 6 after",
+    "Dialogue": ["I just like going home to be with my POKEMON!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 7",
+    "Dialogue": ["Let me try out the POKEMON I just got in a trade!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 7 after",
+    "Dialogue": ["You can't change the nickname of any POKEMON you get in a trade.\nOnly the Original Trainer can."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 8",
+    "Dialogue": ["Hmm? My birds are shivering! You're good, aren't you?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 8 after",
+    "Dialogue": ["Did you know that moves like EARTHQUAKE don't have any effect\non birds?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 9",
+    "Dialogue": ["When I whistle, I can summon bird POKEMON!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 9 after",
+    "Dialogue": ["Maybe I'm not cut out for battles."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },{
+    "name": "Trainer 10",
+    "Dialogue": ["Want to play with my POKEMON?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 10 after",
+    "Dialogue": ["I'll go train with weaker people."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "1",
+    "Dialogue": ["Are you working on a POKEDEX? PROF.OAK's AIDE came by here."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "2",
+    "Dialogue": ["Hi! Remember me? I'm PROF.OAK's AIDE! If you caught 50 kinds of\nPOKEMON, I'm supposed to give you an EXP.ALL! So, Player! Have you\ncaught at least 50 kinds of POKEMON?","Oh. I see. When you get 50 kinds, come back for EXP.ALL.","Let's see... Uh-oh! You have caught only <##> kinds of POKEMON!\nYou need 50 kinds if you want the EXP.ALL.","Great! You have caught <##> kinds of POKEMON! Congratulations!\nHere you go!","EXP.ALL gives EXP points to all the POKEMON with you, even if they\ndon't fight. It does, however, reduce the amount of EXP for each\nPOKEMON. If you don't need it, you should store it via PC."],
+    "Object":[1,"Exp.All",1],
+    "Already_talk": false
+    }
+]

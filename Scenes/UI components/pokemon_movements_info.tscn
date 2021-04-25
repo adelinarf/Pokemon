@@ -1,0 +1,32 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://assets/pokemon_info_slides/pokemon_types.tres" type="Texture" id=1]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 64, 24 )
+scale = Vector2( 3.3, 3.42308 )
+texture = ExtResource( 1 )
+vframes = 6
+hframes = 3
+
+[node name="name" type="Label" parent="."]
+margin_left = 338.0
+margin_top = 20.0
+margin_right = 378.0
+margin_bottom = 34.0
+text = "Name"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="pp" type="Label" parent="."]
+margin_left = 304.189
+margin_top = 49.0
+margin_right = 376.189
+margin_bottom = 63.0
+text = "PP %s / %h"
+__meta__ = {
+"_edit_use_anchors_": false
+}

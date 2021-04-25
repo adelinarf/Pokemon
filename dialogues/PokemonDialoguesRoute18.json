@@ -1,0 +1,55 @@
+[{
+    "name": "Trainer 1",
+    "Dialogue": ["This is my turf! Get out of here!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 1 after",
+    "Dialogue": ["This is my fave POKEMON hunting area!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 2",
+    "Dialogue": ["Kurukkoo! How do you like my bird call?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 2 after",
+    "Dialogue": ["I also collect sea POKEMON on weekends!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 3",
+    "Dialogue": ["I always check every grassy area for new POKEMON."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 3 after",
+    "Dialogue": ["I wish I had a BIKE!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Signpost",
+    "Dialogue": ["CYCLING ROAD\nNo pedestrians permitted!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "1",
+    "Dialogue": ["CYCLING ROAD is all uphill from here."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "2",
+    "Dialogue": ["I'm looking for SLOWBRO! Wanna trade one for LICKITUNG?","Awww! Oh well...","What? That's not SLOWBRO! If you get one, come back here!","Okay, connect the cable like so!","Hey thanks!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    }
+]

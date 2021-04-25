@@ -1,0 +1,133 @@
+[{
+    "name": "Trainer 1",
+    "Dialogue": ["I just got down from MT.MOON, but I'm ready!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+	"name": "Trainer 1 after",
+    "Dialogue": ["Drat! A ZUBAT bit me back in there."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 2",
+    "Dialogue": ["Local trainers come here to practice!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+	"name": "Trainer 2 after",
+    "Dialogue": ["All POKEMON have weaknesses. It's best to raise different kinds."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 3",
+    "Dialogue": ["You're going to see BILL? First, let's fight!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+	"name": "Trainer 3 after",
+    "Dialogue": ["The trail below is a shortcut to CERULEAN CITY."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 4",
+    "Dialogue": ["Dad took me to a great party on S.S.ANNE at VERMILION CITY!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+	"name": "Trainer 4 after",
+    "Dialogue": ["On S.S.ANNE, I saw trainers from around the world."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 5",
+    "Dialogue": ["Hi! My boy friend is cool!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+	"name": "Trainer 5 after",
+    "Dialogue": ["I wish my guy was as good as you!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 6",
+    "Dialogue": ["I'm off to see a POKEMON collector at the cape!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+	"name": "Trainer 6 after",
+    "Dialogue": ["The collector has many rare kinds of POKEMON."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 7",
+    "Dialogue": ["I'm a cool guy. I've got a girl friend!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+	"name": "Trainer 7 after",
+    "Dialogue": ["Oh well. My girl will cheer me up."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 8",
+    "Dialogue": ["I knew I had to fight you!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+	"name": "Trainer 8 after",
+    "Dialogue": ["If your POKEMON gets confused or falls asleep, switch it!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 9",
+    "Dialogue": ["My friend has a cute POKEMON. I'm so jealous!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+	"name": "Trainer 9 after",
+    "Dialogue": ["You came from MT.MOON? May I have a CLEFAIRY?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Bill",
+    "Dialogue": ["Hiya! I'm a POKEMON... ...No I'm not! Call me BILL! I'm a true blue POKEMANIAC! Hey! What's with that skeptical look? I'm not joshing you, I screwed up an experiment and got combined with a POKEMON! So, how about it? Help me out here!","No!? Come on, you gotta help a guy in deep trouble! What do you say, chief? Please? OK? All right! When I'm in the TELEPORTER, go to my PC and run the Cell Separation System!","When I'm in the TELEPORTER, go to my PC and run the Cell Separation System!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Machine",
+    "Dialogue": ["Player initiated TELEPORTER's Cell Separator!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Bill after",
+    "Dialogue": ["Yeehah! Thanks, bud! I owe you one! So, did you come to see my POKEMON collection? You didn't? That's a bummer. I've got to thank you... Oh here, maybe this'll do.","RED received an S.S.TICKET!","That cruise ship, S.S.ANNE, is in VERMILION CITY. Its passengers are all trainers! They invited me to their party, but I can't stand fancy do's. Why don't you go instead of me?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Bill_before_leaving",
+    "Dialogue": ["Look, bud, just check out some of my rare POKEMON on my PC!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    }
+]

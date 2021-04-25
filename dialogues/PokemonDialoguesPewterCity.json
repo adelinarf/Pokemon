@@ -1,0 +1,271 @@
+[{
+    "name": "Signpost 1",
+    "Dialogue": ["TRAINER TIPS Any POKEMON that takes part in battle, however short, earns EXP!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Signpost 2",
+    "Dialogue": ["NOTICE! Thieves have been stealing POKEMON fossils at MT.MOON! Please call PEWTER POLICE with any info!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },    
+    {
+    "name": "1",
+    "Dialogue": ["There aren't many serious POKEMON trainers here!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "2",
+    "Dialogue": ["They're all like BUG CATCHERs, but PEWTER GYM's BROCK is totally into it!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "3",
+    "Dialogue": ["Did you check out the MUSEUM?","Really? You absolutely have to go!","Weren't those fossils from MT.MOON amazing?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "3_after",
+    "Dialogue": ["It's right here! You have to pay to get in, but it's worth it! See you around!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },    
+    {
+    "name": "4",
+    "Dialogue": ["You're a trainer right? BROCK's looking for new challengers! Follow me!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "4_after",
+    "Dialogue": ["If you have the right stuff, go take on BROCK!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "5",
+    "Dialogue": ["It's rumored that CLEFAIRYs came from the moon! They appeared after MOON STONE fell on MT.MOON."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "6",
+    "Dialogue": ["Psssst! Do you know what I'm doing?","I'm spraying REPEL to keep POKEMON out of my garden!","That's right! It's hard work!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Center Jigglypuff",
+    "Dialogue": ["Puu pupuu!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Center 1",
+    "Dialogue": ["Yawn! When JIGGLYPUFF sings, POKEMON get drowsy... ...Me too... Snore..."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Center 2",
+    "Dialogue": ["What!? TEAM ROCKET is at MT.MOON? Huh? I'm on the phone! Scram!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Mart 4",
+    "Dialogue": ["Good things can happen if you raise POKEMON diligently, even the weak ones!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Mart 5",
+    "Dialogue": ["A shady, old man got me to buy this really weird fish POKEMON! It's totally weak and it cost P500!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "5",
+    "Dialogue": ["POKEMON learn new techniques as they grow! But, some moves must be taught by the trainer!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "6",
+    "Dialogue": ["POKEMON become easier to catch when they are hurt or asleep! But, it's not a sure thing!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Nidoran",
+    "Dialogue": ["Bowbow!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "7",
+    "Dialogue": ["NIDORAN sit!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "8",
+    "Dialogue": ["Our POKEMON's an outsider, so it's hard to handle. An outsider is a POKEMON that you get in a trade. It grows fast, but it may ignore an unskilled trainer in battle! If only we had some BADGEs..."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Museum 1 Scientist1",
+    "Dialogue": ["It's 50$ for a child's ticket. Would you like to come in?","Come again!","Right, 50$! Thank you! Take plenty of time to look!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Exhibit A",
+    "Dialogue": ["AERODACTYL Fossil A primitive and rare POKEMON."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Exhibit B",
+    "Dialogue": ["KABUTOPS Fossil A primitive and rare POKEMON."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Exhibit C",
+    "Dialogue": ["Meteorite that fell on MT.MOON. (MOON STONE?)"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Exhibit D",
+    "Dialogue": ["SPACE SHUTTLE COLUMBIA"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Museum 1 2",
+    "Dialogue": ["That is one magnificent fossil!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Museum 1 Scientist2",
+    "Dialogue": ["We have a space exhibit now."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Museum 1 4",
+    "Dialogue": ["MOON STONE? What's so special about it?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Museum 1 5",
+    "Dialogue": ["July 20, 1969! The 1st lunar landing! I bought a color TV to watch it!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Museum 1 6",
+    "Dialogue": ["I want a PIKACHU! It's so cute! I asked my Daddy to catch me one!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Museum 1 7",
+    "Dialogue": ["Yeah, a PIKACHU soon, I promise!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Museum 2 Scientist1",
+    "Dialogue": ["You can't sneak in the back way! Oh, whatever! Do you know what AMBER is?","AMBER is fossilized tree sap.","There's a lab somewhere trying to resurrect ancient POKEMON from AMBER."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Museum 2 Scientist3",
+    "Dialogue": ["We are proud of 2 fossils of very rare, prehistoric POKEMON!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Museum 2 Pedestal",
+    "Dialogue": ["The AMBER is clear and gold!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Museum 2 Scientist4",
+    "Dialogue": ["Ssh! I think that this chunk of AMBER contains POKEMON DNA! It would be great \n if POKEMON could be resurrected from it. But, my colleagues just ignore me! \nSo I have a favor to ask! Take this to a POKEMON LAB and get it examined!","You don't have space for this!","Ssh! Get the OLD AMBER checked!"],
+    "Object":[0,"Amber",1],
+    "Already_talk": false
+    },
+    {
+    "name": "Gym Signpost",
+    "Dialogue": ["PEWTER CITY POKEMON GYM LEADER: BROCK The Rock Solid POKEMON Trainer!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Gym Plaque",
+    "Dialogue": ["WINNING TRAINERS: Rival"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Gym 1",
+    "Dialogue": ["Hiya! I can tell you have what it takes to become a POKEMON champ! I'm no trainer, but I can tell you how to win! Let me take you to the top!","It's a free service! Let's get happening!","All right! Let's get happening!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Gym 1 won",
+    "Dialogue": ["Just as I thought! You're POKEMON champ material!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },    
+    {
+    "name": "Gym Trainer 1",
+    "Dialogue": ["Stop right there, kid! You're still light years from facing BROCK!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Gym Trainer 1 after",
+    "Dialogue": ["You're pretty hot, but not as hot as BROCK!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Brock",
+    "Dialogue": ["I'm BROCK! I'm PEWTER's GYM LEADER! I believe in rock hard defense and determination! That's why my POKEMON are all the rock-type! Do you still want to challenge me? Fine then! Show me your best!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Brock after",
+    "Dialogue": ["There are all kinds of trainers in the world! \nYou appear to be very gifted as a POKENON trainer! Go to the GYM in CERULEAN and test your abilities!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Brock_after_battle_lost",
+    "Dialogue": ["Luck next time, loser!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Brock_after_battle_won",
+    "Dialogue": ["I took you for granted. As proof of your victory, here's the BOULDERBADGE! That's an official POKEMON LEAGUE BADGE! Its bearer's POKEMON become more powerful! The technique FLASH can now be used any time!","Wait! Take this with you!","You don't have room for this!","A TM contains a technique that can be taught to POKEMON! A TM is good only once! So when you use one to teach a new technique, pick the POKEMON carefully! TM34 contains BIDE! Your POKEMON will absorb damage in battle then pay it back double!","There are all kinds of trainers in the world! You appear to be very gifted as a POKENON trainer! Go to the GYM in CERULEAN and test your abilities!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    }
+]

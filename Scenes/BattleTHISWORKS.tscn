@@ -1,0 +1,160 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Scenes/Battle.gd" type="Script" id=1]
+[ext_resource path="res://Scenes/Progress bar.tscn" type="PackedScene" id=2]
+
+[node name="Battle" type="Control"]
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Progress bar enemy" parent="." instance=ExtResource( 2 )]
+
+[node name="Progress bar player" parent="." instance=ExtResource( 2 )]
+
+[node name="Fight_box" type="HBoxContainer" parent="."]
+margin_left = 779.798
+margin_top = 487.858
+margin_right = 921.798
+margin_bottom = 535.858
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HBoxContainer" type="VBoxContainer" parent="Fight_box"]
+margin_right = 72.0
+margin_bottom = 47.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Fight1" type="Button" parent="Fight_box/HBoxContainer"]
+margin_right = 72.0
+margin_bottom = 20.0
+text = "Lucha"
+
+[node name="Pokemon" type="Button" parent="Fight_box/HBoxContainer"]
+margin_top = 24.0
+margin_right = 72.0
+margin_bottom = 44.0
+text = "Pokemon"
+
+[node name="HBoxContainer2" type="VBoxContainer" parent="Fight_box"]
+margin_left = 76.0
+margin_right = 138.0
+margin_bottom = 47.0
+
+[node name="Bag" type="Button" parent="Fight_box/HBoxContainer2"]
+margin_right = 62.0
+margin_bottom = 20.0
+text = "Mochila"
+
+[node name="Run" type="Button" parent="Fight_box/HBoxContainer2"]
+margin_top = 24.0
+margin_right = 62.0
+margin_bottom = 44.0
+text = "Huida"
+
+[node name="PlayerBox" type="HBoxContainer" parent="."]
+visible = false
+margin_left = 246.875
+margin_top = 490.069
+margin_right = 435.875
+margin_bottom = 538.069
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="PlayerBox"]
+margin_top = 21.0
+margin_right = 47.0
+margin_bottom = 35.0
+text = "Attacks"
+
+[node name="HBoxContainer" type="VBoxContainer" parent="PlayerBox"]
+margin_left = 51.0
+margin_right = 91.0
+margin_bottom = 56.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Attack1" type="Button" parent="PlayerBox/HBoxContainer"]
+margin_right = 40.0
+margin_bottom = 20.0
+text = "- %s"
+
+[node name="Attack2" type="Button" parent="PlayerBox/HBoxContainer"]
+margin_top = 24.0
+margin_right = 40.0
+margin_bottom = 44.0
+text = "- %s"
+
+[node name="HBoxContainer2" type="VBoxContainer" parent="PlayerBox"]
+margin_left = 95.0
+margin_right = 135.0
+margin_bottom = 56.0
+
+[node name="Attack3" type="Button" parent="PlayerBox/HBoxContainer2"]
+margin_right = 40.0
+margin_bottom = 20.0
+text = "- %s"
+
+[node name="Attack4" type="Button" parent="PlayerBox/HBoxContainer2"]
+margin_top = 24.0
+margin_right = 40.0
+margin_bottom = 44.0
+text = "- %s"
+
+[node name="HBoxContainer3" type="VBoxContainer" parent="PlayerBox"]
+margin_left = 139.0
+margin_right = 192.0
+margin_bottom = 56.0
+
+[node name="Label" type="Label" parent="PlayerBox/HBoxContainer3"]
+margin_right = 53.0
+margin_bottom = 14.0
+text = "PP %s"
+
+[node name="Label2" type="Label" parent="PlayerBox/HBoxContainer3"]
+margin_top = 18.0
+margin_right = 53.0
+margin_bottom = 32.0
+text = "Type %s"
+
+[node name="Fight" type="Button" parent="PlayerBox/HBoxContainer3"]
+margin_top = 36.0
+margin_right = 53.0
+margin_bottom = 56.0
+text = "Use"
+
+[node name="someoneplays" type="Label" parent="."]
+margin_left = 437.547
+margin_top = 243.201
+margin_right = 547.547
+margin_bottom = 257.201
+text = "The %s is playing"
+
+[node name="winlose" type="Label" parent="."]
+margin_left = 828.623
+margin_top = 61.9086
+margin_right = 908.623
+margin_bottom = 75.9086
+text = "You have %s"
+
+[node name="enemymove" type="Label" parent="."]
+margin_left = 778.0
+margin_top = 178.0
+margin_right = 881.0
+margin_bottom = 192.0
+text = "%s has used %s"
+[connection signal="pressed" from="Fight_box/HBoxContainer/Fight1" to="." method="_on_Fight1_pressed"]
+[connection signal="pressed" from="Fight_box/HBoxContainer/Pokemon" to="." method="_on_Pokemon_pressed"]
+[connection signal="pressed" from="Fight_box/HBoxContainer2/Bag" to="." method="_on_Bag_pressed"]
+[connection signal="pressed" from="Fight_box/HBoxContainer2/Run" to="." method="_on_Run_pressed"]
+[connection signal="pressed" from="PlayerBox/HBoxContainer/Attack1" to="." method="_on_Attack1_pressed"]
+[connection signal="pressed" from="PlayerBox/HBoxContainer/Attack2" to="." method="_on_Attack2_pressed"]
+[connection signal="pressed" from="PlayerBox/HBoxContainer2/Attack3" to="." method="_on_Attack3_pressed"]
+[connection signal="pressed" from="PlayerBox/HBoxContainer2/Attack4" to="." method="_on_Attack4_pressed"]
+[connection signal="pressed" from="PlayerBox/HBoxContainer3/Fight" to="." method="_on_Fight_pressed"]

@@ -1,0 +1,58 @@
+[{
+	"Bulbasaur":{"name":"Rival","Name_dialogue":"Rival","Is_in":"PalletTown","Pokemon":[["Charmander",5]],"Is_fighting":0,"Class":"Bird keeper","Dialogue":["Yeah! Am I great or what?","WHAT? Unbelievable! I picked the wrong POKEMON!"]},
+	"Charmander":{"name":"Rival","Name_dialogue":"Rival","Is_in":"PalletTown","Pokemon":[["Squirtle",5]],"Is_fighting":0,"Class":"Bird keeper","Dialogue":["Yeah! Am I great or what?","WHAT? Unbelievable! I picked the wrong POKEMON!"]},
+	"Squirtle":{"name":"Rival","Name_dialogue":"Rival","Is_in":"PalletTown","Pokemon":[["Bulbasaur",5]],"Is_fighting":0,"Class":"Bird keeper","Dialogue":["Yeah! Am I great or what?","WHAT? Unbelievable! I picked the wrong POKEMON!"]}
+	},
+	{
+	"Bulbasaur":{"name":"Rival","Name_dialogue":"Rival","Is_in":"CeruleanCity","Pokemon":[["Pidgeotto",17],["Rattata",15],["Abra",16],["Charmander",18]],"Is_fighting":0,"Class":"Bird keeper","Dialogue":["You lost Player","Hey! Take it easy! You won already!"]},
+	"Charmander":{"name":"Rival","Name_dialogue":"Rival","Is_in":"CeruleanCity","Pokemon":[["Pidgeotto",17],["Rattata",15],["Abra",16],["Squirtle",18]],"Is_fighting":0,"Class":"Bird keeper","Dialogue":["You lost Player","Hey! Take it easy! You won already!"]},
+	"Squirtle":{"name":"Rival","Name_dialogue":"Rival","Is_in":"CeruleanCity","Pokemon":[["Pidgeotto",17],["Rattata",15],["Abra",16],["Bulbasaur",18]],"Is_fighting":0,"Class":"Bird keeper","Dialogue":["You lost Player","Hey! Take it easy! You won already!"]}
+	},
+	{
+	"Bulbasaur":{"name":"Rival","Name_dialogue":"Rival_Anne","Is_in":"VermilionCity","Pokemon":[["Pidgeotto",19],["Raticate",16],["Kadabra",18],["Charmeleon",20]],"Is_fighting":0,"Class":"Bird keeper","Dialogue":["","Humph! At least you're raising your POKEMON!"]},
+	"Charmander":{"name":"Rival","Name_dialogue":"Rival_Anne","Is_in":"VermilionCity","Pokemon":[["Pidgeotto",19],["Raticate",16],["Kadabra",18],["Wartortle",20]],"Is_fighting":0,"Class":"Bird keeper","Dialogue":["","Humph! At least you're raising your POKEMON!"]},
+	"Squirtle":{"name":"Rival","Name_dialogue":"Rival_Anne","Is_in":"VermilionCity","Pokemon":[["Pidgeotto",19],["Raticate",16],["Kadabra",18],["Ivysaur",20]],"Is_fighting":0,"Class":"Bird keeper","Dialogue":["","Humph! At least you're raising your POKEMON!"]}
+	},
+	{
+	"Bulbasaur":{"name":"Rival","Name_dialogue":"Rival","Is_in":"LavenderTown","Pokemon":[["Pidgeotto",25],["Kadabra",20],["Exeggcute",23],["Charmeleon",25]],"Is_fighting":0,"Class":"Bird keeper","Dialogue":["","Humph! At least you're raising your POKEMON!"]},
+	"Charmander":{"name":"Rival","Name_dialogue":"Rival","Is_in":"LavenderTown","Pokemon":[["Pidgeotto",25],["Growlithe",23],["Kadabra",20],["Wartortle",25]],"Is_fighting":0,"Class":"Bird keeper","Dialogue":["","Humph! At least you're raising your POKEMON!"]},
+	"Squirtle":{"name":"Rival","Name_dialogue":"Rival","Is_in":"LavenderTown","Pokemon":[["Pidgeotto",25],["Exeggcute",23],["Kadabra",20],["Ivysaur",25]],"Is_fighting":0,"Class":"Bird keeper","Dialogue":["","Humph! At least you're raising your POKEMON!"]}
+	},
+	{
+	"Bulbasaur":{"name":"Rival","Name_dialogue":"Rival","Is_in":"SaffronCity","Pokemon":[["Pidgeot",37],["Alakazam",35],["Exeggcute",38],["Charizard",40]],"Is_fighting":0,"Class":"Bird keeper","Dialogue":["","Oh ho! So, you are ready for BOSS ROCKET!"]},
+	"Charmander":{"name":"Rival","Name_dialogue":"Rival","Is_in":"SaffronCity","Pokemon":[["Pidgeot",37],["Alakazam",35],["Exeggcute",35],["Blastoise",40]],"Is_fighting":0,"Class":"Bird keeper","Dialogue":["","Oh ho! So, you are ready for BOSS ROCKET!"]},
+	"Squirtle":{"name":"Rival","Name_dialogue":"Rival","Is_in":"SaffronCity","Pokemon":[["Pidgeot",37],["Alakazam",35],["Growlithe",35],["Venusaur",40]],"Is_fighting":0,"Class":"Bird keeper","Dialogue":["","Oh ho! So, you are ready for BOSS ROCKET!"]}
+	},
+	{
+	"Bulbasaur":{"name":"Rival","Name_dialogue":"Rival","Is_in":"Route22","Pokemon":[["Pidgeot",47],["Alakazam",47],["Exeggcute",45],["Charizard",53]],"Is_fighting":0,"Class":"Bird keeper","Dialogue":["","Oh ho! So, you are ready for BOSS ROCKET!"]},
+	"Charmander":{"name":"Rival","Name_dialogue":"Rival","Is_in":"Route22","Pokemon":[["Pidgeot",47],["Alakazam",47],["Exeggcute",45],["Blastoise",53]],"Is_fighting":0,"Class":"Bird keeper","Dialogue":["","Oh ho! So, you are ready for BOSS ROCKET!"]},
+	"Squirtle":{"name":"Rival","Name_dialogue":"Rival","Is_in":"Route22","Pokemon":[["Pidgeot",47],["Alakazam",47],["Growlithe",45],["Venusaur",53]],"Is_fighting":0,"Class":"Bird keeper","Dialogue":["","Oh ho! So, you are ready for BOSS ROCKET!"]}
+	},
+	{
+	"Bulbasaur":{"name":"Rival","Name_dialogue":"Rival","Is_in":"IndigoPlateau","Pokemon":[["Pidgeot",59],["Alakazam",57],["Exeggutor",59],["Charizard",63]],"Is_fighting":0,"Class":"Bird keeper","Dialogue":["","Humph! At least you're raising your POKEMON!"]},
+	"Charmander":{"name":"Rival","Name_dialogue":"Rival","Is_in":"IndigoPlateau","Pokemon":[["Pidgeot",59],["Alakazam",57],["Exeggutor",59],["Blastoise",63]],"Is_fighting":0,"Class":"Bird keeper","Dialogue":["","Humph! At least you're raising your POKEMON!"]},
+	"Squirtle":{"name":"Rival","Name_dialogue":"Rival","Is_in":"IndigoPlateau","Pokemon":[["Pidgeot",59],["Alakazam",57],["Exeggutor",59],["Venusaur",63]],"Is_fighting":0,"Class":"Bird keeper","Dialogue":["","Humph! At least you're raising your POKEMON!"]}
+	},
+	{
+	"Bulbasaur":{"name":"Rival","Name_dialogue":"Rival2","Is_in":"Route22","Pokemon":[["Pidgey",9],["Charmander",9]],"Is_fighting":0,"Class":"Bird keeper","Dialogue":["","Humph! At least you're raising your POKEMON!"]},
+	"Charmander":{"name":"Rival","Name_dialogue":"Rival2","Is_in":"Route22","Pokemon":[["Pidgey",9],["Squirtle",9]],"Is_fighting":0,"Class":"Bird keeper","Dialogue":["","Humph! At least you're raising your POKEMON!"]},
+	"Squirtle":{"name":"Rival","Name_dialogue":"Rival2","Is_in":"Route22","Pokemon":[["Pidgey",9],["Bulbasaur",9]],"Is_fighting":0,"Class":"Bird keeper","Dialogue":["","Humph! At least you're raising your POKEMON!"]}
+	}
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

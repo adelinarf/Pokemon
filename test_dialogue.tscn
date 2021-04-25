@@ -1,0 +1,41 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Scenes/player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Scenes/npc.tscn" type="PackedScene" id=2]
+[ext_resource path="res://test_dialogue.gd" type="Script" id=3]
+
+[node name="test_dialogue" type="Node2D"]
+script = ExtResource( 3 )
+
+[node name="NPC" parent="." instance=ExtResource( 2 )]
+position = Vector2( 113.599, 153.505 )
+scale = Vector2( 3, 3 )
+heal_pokemon = true
+
+[node name="NPC2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 285.793, 153.505 )
+scale = Vector2( 3, 3 )
+character = 1
+collide_pc = true
+
+[node name="NPC3" parent="." instance=ExtResource( 2 )]
+position = Vector2( 437.965, 153.505 )
+scale = Vector2( 3, 3 )
+character = 2
+mall_character = true
+
+[node name="NPC4" parent="." instance=ExtResource( 2 )]
+position = Vector2( 584.797, 153.505 )
+scale = Vector2( 3, 3 )
+character = 3
+receive_gift_from_npc = true
+
+[node name="NPC5" parent="." instance=ExtResource( 2 )]
+position = Vector2( 738.304, 153.505 )
+scale = Vector2( 3, 3 )
+character = 4
+regular_character = true
+
+[node name="player" parent="." instance=ExtResource( 1 )]
+position = Vector2( 491.173, 351.282 )
+[connection signal="area_entered" from="player" to="." method="_on_player_area_entered"]

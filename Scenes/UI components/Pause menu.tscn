@@ -1,0 +1,118 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://Scenes/UI components/Pause menu.gd" type="Script" id=1]
+[ext_resource path="res://assets/pause_menu_bar.tres" type="Texture" id=2]
+[ext_resource path="res://assets/beggining/beggining.tres" type="Texture" id=3]
+[ext_resource path="res://assets/selector_black.tres" type="Texture" id=4]
+[ext_resource path="res://Scenes/assets/theme_font.tres" type="Theme" id=5]
+[ext_resource path="res://assets/button_bag.tres" type="Theme" id=6]
+
+[node name="Pause menu" type="Control"]
+margin_left = -1.15267
+margin_top = -3.63641
+margin_right = 38.8473
+margin_bottom = 36.3636
+theme = ExtResource( 5 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="TextureRect" parent="."]
+margin_left = 792.0
+margin_top = 2.0
+margin_right = 1025.0
+margin_bottom = 417.0
+texture = ExtResource( 3 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="pause_menu" type="GridContainer" parent="."]
+margin_left = 864.0
+margin_top = 56.0
+margin_right = 936.0
+margin_bottom = 382.0
+theme = ExtResource( 6 )
+custom_constants/vseparation = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Pokedex" type="Button" parent="pause_menu"]
+margin_right = 91.0
+margin_bottom = 37.0
+text = "Pokedex"
+
+[node name="Pokemon" type="Button" parent="pause_menu"]
+margin_top = 38.0
+margin_right = 91.0
+margin_bottom = 75.0
+text = "Pokemon"
+
+[node name="Bag" type="Button" parent="pause_menu"]
+margin_top = 76.0
+margin_right = 91.0
+margin_bottom = 113.0
+text = "Bag"
+
+[node name="Player" type="Button" parent="pause_menu"]
+margin_top = 114.0
+margin_right = 91.0
+margin_bottom = 151.0
+text = "%s"
+
+[node name="Save" type="Button" parent="pause_menu"]
+margin_top = 152.0
+margin_right = 91.0
+margin_bottom = 189.0
+text = "Save"
+
+[node name="Options" type="Button" parent="pause_menu"]
+margin_top = 190.0
+margin_right = 91.0
+margin_bottom = 227.0
+text = "Options"
+
+[node name="Exit" type="Button" parent="pause_menu"]
+margin_top = 228.0
+margin_right = 91.0
+margin_bottom = 265.0
+text = "Exit"
+
+[node name="dialoguebox" type="TextureRect" parent="."]
+margin_top = 408.0
+margin_right = 1032.0
+margin_bottom = 604.0
+texture = ExtResource( 2 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="selector" type="TextureRect" parent="."]
+margin_left = 816.0
+margin_top = 48.0
+margin_right = 840.0
+margin_bottom = 80.0
+texture = ExtResource( 4 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+visible = false
+margin_left = 56.0
+margin_top = 456.0
+margin_right = 96.0
+margin_bottom = 470.0
+text = "AHHHHH"
+[connection signal="pressed" from="pause_menu/Pokedex" to="." method="_on_Pokedex_pressed"]
+[connection signal="pressed" from="pause_menu/Pokemon" to="." method="_on_Pokemon_pressed"]
+[connection signal="pressed" from="pause_menu/Bag" to="." method="_on_Bag_pressed"]
+[connection signal="pressed" from="pause_menu/Player" to="." method="_on_Player_pressed"]
+[connection signal="pressed" from="pause_menu/Save" to="." method="_on_Save_pressed"]
+[connection signal="pressed" from="pause_menu/Options" to="." method="_on_Options_pressed"]
+[connection signal="pressed" from="pause_menu/Exit" to="." method="_on_Exit_pressed"]

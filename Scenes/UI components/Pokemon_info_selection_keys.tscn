@@ -1,0 +1,192 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://Scenes/Progress bar.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Scenes/UI components/Pokemon_info_selection_keys.gd" type="Script" id=2]
+[ext_resource path="res://assets/pokemon_info/pokemon_box_1.tres" type="Texture" id=3]
+[ext_resource path="res://assets/pokemon_info/button_pokemon_box.tres" type="Texture" id=4]
+[ext_resource path="res://assets/pokemon_info/pokemon_box.tres" type="Texture" id=5]
+[ext_resource path="res://Scenes/assets/theme_font.tres" type="Theme" id=12]
+
+[node name="Pokemon_info_selection" type="Control"]
+margin_top = 8.0
+margin_bottom = 8.0
+theme = ExtResource( 12 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="exit button" type="Sprite" parent="."]
+position = Vector2( 903.503, 548.288 )
+scale = Vector2( 4.26216, 3.97146 )
+texture = ExtResource( 4 )
+vframes = 3
+hframes = 2
+
+[node name="Pokemon1" type="Sprite" parent="."]
+position = Vector2( 204.818, 169.808 )
+scale = Vector2( 4.03748, 3.99208 )
+texture = ExtResource( 3 )
+hframes = 2
+
+[node name="Pokemon2" type="Sprite" parent="."]
+position = Vector2( 708.273, 84.0486 )
+scale = Vector2( 4.03523, 4.07421 )
+texture = ExtResource( 5 )
+vframes = 2
+
+[node name="Pokemon3" type="Sprite" parent="."]
+position = Vector2( 707.86, 229.628 )
+scale = Vector2( 4.03523, 4.07421 )
+texture = ExtResource( 5 )
+vframes = 2
+
+[node name="Pokemon4" type="Sprite" parent="."]
+position = Vector2( 706.86, 372.431 )
+scale = Vector2( 4.03523, 4.07421 )
+texture = ExtResource( 5 )
+vframes = 2
+
+[node name="Progress bar" parent="." instance=ExtResource( 1 )]
+position = Vector2( 78.5476, 200.242 )
+
+[node name="first" type="GridContainer" parent="."]
+margin_left = 145.547
+margin_top = 116.289
+margin_right = 458.546
+margin_bottom = 406.289
+custom_constants/vseparation = 21
+custom_constants/hseparation = 0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="first"]
+margin_right = 150.0
+margin_bottom = 37.0
+text = "POKEMON NAME"
+align = 2
+
+[node name="Level" type="Label" parent="first"]
+margin_top = 58.0
+margin_right = 150.0
+margin_bottom = 95.0
+text = "%s"
+align = 2
+
+[node name="Label2" type="Label" parent="first"]
+margin_top = 116.0
+margin_right = 150.0
+margin_bottom = 153.0
+text = "%s"
+align = 2
+valign = 1
+
+[node name="Progress bar2" parent="." instance=ExtResource( 1 )]
+position = Vector2( 723.178, 57.6541 )
+
+[node name="Progress bar3" parent="." instance=ExtResource( 1 )]
+position = Vector2( 723.238, 203.616 )
+
+[node name="Progress bar4" parent="." instance=ExtResource( 1 )]
+position = Vector2( 723.178, 346.281 )
+
+[node name="Names" type="GridContainer" parent="."]
+margin_left = 507.157
+margin_top = 52.4948
+margin_right = 820.157
+margin_bottom = 452.495
+custom_constants/vseparation = 108
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="second" type="VBoxContainer" parent="Names"]
+margin_right = 150.0
+margin_bottom = 37.0
+
+[node name="Label" type="Label" parent="Names/second"]
+margin_right = 150.0
+margin_bottom = 37.0
+text = "POKEMON NAME"
+
+[node name="third" type="VBoxContainer" parent="Names"]
+margin_top = 145.0
+margin_right = 150.0
+margin_bottom = 182.0
+
+[node name="Label" type="Label" parent="Names/third"]
+margin_right = 150.0
+margin_bottom = 37.0
+text = "POKEMON NAME"
+
+[node name="fourth" type="VBoxContainer" parent="Names"]
+margin_top = 290.0
+margin_right = 150.0
+margin_bottom = 327.0
+
+[node name="Label" type="Label" parent="Names/fourth"]
+margin_right = 150.0
+margin_bottom = 37.0
+text = "POKEMON NAME"
+
+[node name="levels" type="GridContainer" parent="."]
+margin_left = 629.307
+margin_top = 90.7831
+margin_right = 669.307
+margin_bottom = 401.784
+custom_constants/vseparation = 109
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="levels"]
+margin_right = 26.0
+margin_bottom = 37.0
+text = "%s"
+
+[node name="Label2" type="Label" parent="levels"]
+margin_top = 146.0
+margin_right = 26.0
+margin_bottom = 183.0
+text = "%s"
+
+[node name="Label3" type="Label" parent="levels"]
+margin_top = 292.0
+margin_right = 26.0
+margin_bottom = 329.0
+text = "%s"
+
+[node name="hp_total" type="GridContainer" parent="."]
+margin_left = 864.548
+margin_top = 91.0663
+margin_right = 904.548
+margin_bottom = 420.066
+custom_constants/vseparation = 109
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="hp_total"]
+margin_right = 26.0
+margin_bottom = 37.0
+text = "%s"
+
+[node name="Label2" type="Label" parent="hp_total"]
+margin_top = 146.0
+margin_right = 26.0
+margin_bottom = 183.0
+text = "%s"
+
+[node name="Label3" type="Label" parent="hp_total"]
+margin_top = 292.0
+margin_right = 26.0
+margin_bottom = 329.0
+text = "%s"
+
+[node name="Label" type="Label" parent="."]
+margin_left = 125.017
+margin_top = 408.953
+margin_right = 272.017
+margin_bottom = 445.953
+text = "NO TIENE NADA"

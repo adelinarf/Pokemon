@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://TOCREATEFONT.gd" type="Script" id=1]
+
+[node name="Node2D" type="Label"]
+text = "guigbububuibu"
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}

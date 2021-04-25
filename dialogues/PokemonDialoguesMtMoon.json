@@ -1,0 +1,145 @@
+[{
+    "name": "Trainer 1",
+    "Dialogue": ["Suspicious men are in the cave. What about you?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+	"name": "Trainer 1 after",
+    "Dialogue": ["I saw them! I'm sure they're from TEAM ROCKET!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 2",
+    "Dialogue": ["What? I'm waiting for my friends to find me here."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+	"name": "Trainer 2 after",
+    "Dialogue": ["I heard there are some very rare fossils here."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 3",
+    "Dialogue": ["What! Don't sneak up on me!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+	"name": "Trainer 3 after",
+    "Dialogue": ["I have to find stronger POKEMON."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 4",
+    "Dialogue": ["Go through this cave to get to CERULEAN CITY!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+	"name": "Trainer 4 after",
+    "Dialogue": ["ZUBAT is tough! But, it can be useful if you catch one."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 5",
+    "Dialogue": ["Wow! It's way bigger in here than I thought!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+	"name": "Trainer 5 after",
+    "Dialogue": ["How do you get out of here?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 6",
+    "Dialogue": ["Did you come to explore too?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+	"name": "Trainer 6 after",
+    "Dialogue": ["I came down here to show off to girls."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 7",
+    "Dialogue": ["WHOA! You shocked me! Oh, you're just a kid!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+	"name": "Trainer 7 after",
+    "Dialogue": ["Kids like you shouldn't be here!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 8",
+    "Dialogue": ["We, TEAM ROCKET, are POKEMON gangsters!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+	"name": "Trainer 8 after",
+    "Dialogue": ["Darn it all! My associates won't stand for this!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 9",
+    "Dialogue": ["We're pulling a big job here! Get lost, kid!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+	"name": "Trainer 9 after",
+    "Dialogue": ["If you find a fossil, give it to me and scram!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 10",
+    "Dialogue": ["Little kids should leave grown-ups alone!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+	"name": "Trainer 10 after",
+    "Dialogue": ["POKEMON lived here long before people came."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 11",
+    "Dialogue": ["TEAM ROCKET will find the fossils, revive and sell them for cash!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+	"name": "Trainer 11 after",
+    "Dialogue": ["You made me mad! TEAM ROCKET will blacklist you!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 12",
+    "Dialogue": ["Hey, stop! I found these fossils! They're both mine!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+	"name": "Trainer 12 after",
+    "Dialogue": ["We'll each take one! No being greedy!","All right. Then this is mine!","Far away, on CINNABAR ISLAND, there's a POKEMON LAB. They do research on regenerating fossils."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    }
+]

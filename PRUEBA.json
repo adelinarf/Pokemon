@@ -1,0 +1,20 @@
+[{
+    "name": "Adelina",
+    "Pokedex": {
+      "Bulbasaur": {
+			"Level" : 3,
+			"Energy" : 100,
+			"Movements" : ["Vine Whip"]
+				
+		  }
+    },
+    "Bag": {
+      "Pokeball": 4
+    },
+    "Medals": {
+      "Iron" : false,
+      "Gold" : false,
+      "Rainbow" : false
+	}
+  }
+]

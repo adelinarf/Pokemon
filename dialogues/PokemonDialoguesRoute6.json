@@ -1,0 +1,73 @@
+[{
+    "name": "Trainer 1",
+    "Dialogue": ["There aren't many bugs out here."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+	"name": "Trainer 1 after",
+    "Dialogue": ["I like bugs, so I'm going back to VIRIDIAN FOREST."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 2",
+    "Dialogue": ["Who's there? Quit listening in on us!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+	"name": "Trainer 2 after",
+    "Dialogue": ["Whisper... whisper..."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 3",
+    "Dialogue": ["Excuse me! This is a private conversation!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+	"name": "Trainer 3 after",
+    "Dialogue": ["Whisper... whisper..."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 4",
+    "Dialogue": ["I've never seen you around! Are you good?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+	"name": "Trainer 4 after",
+    "Dialogue": ["Are my POKEMON weak? Or, am I just bad?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 5",
+    "Dialogue": ["Me? Well, OK. I'll play!"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+	"name": "Trainer 5 after",
+    "Dialogue": ["I want to get stronger! What's your secret?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+    "name": "Trainer 6",
+    "Dialogue": ["Huh? You want to talk to me?"],
+    "Object":[null,null,null],
+    "Already_talk": false
+    },
+    {
+	"name": "Trainer 6 after",
+    "Dialogue": ["I should carry more POKEMON with me for safety."],
+    "Object":[null,null,null],
+    "Already_talk": false
+    }
+]

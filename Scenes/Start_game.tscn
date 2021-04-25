@@ -1,0 +1,203 @@
+[gd_scene load_steps=12 format=2]
+
+[ext_resource path="res://Scenes/Start_game.gd" type="Script" id=1]
+[ext_resource path="res://assets/beggining/beggining background.png" type="Texture" id=2]
+[ext_resource path="res://assets/beggining/charactersspritebeg.png" type="Texture" id=3]
+[ext_resource path="res://Scenes/UI components/DIALOG/Dialog_box_with_keys.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Scenes/UI components/Two_option_menu.tscn" type="PackedScene" id=5]
+[ext_resource path="res://assets/themedark_letters_label.tres" type="Theme" id=6]
+[ext_resource path="res://assets/GAME_FONT.tres" type="DynamicFont" id=7]
+
+[sub_resource type="AtlasTexture" id=4]
+flags = 4
+atlas = ExtResource( 3 )
+region = Rect2( 213, 0, 71, 106 )
+
+[sub_resource type="AtlasTexture" id=5]
+flags = 4
+atlas = ExtResource( 3 )
+region = Rect2( 142, 106, 71, 106 )
+
+[sub_resource type="AtlasTexture" id=9]
+flags = 4
+atlas = ExtResource( 3 )
+region = Rect2( 71, 0, 71, 106 )
+
+[sub_resource type="SpriteFrames" id=8]
+animations = [ {
+"frames": [ SubResource( 4 ), SubResource( 5 ) ],
+"loop": true,
+"name": "Pikachu",
+"speed": 5.0
+}, {
+"frames": [ SubResource( 9 ) ],
+"loop": true,
+"name": "Nidoran",
+"speed": 5.0
+} ]
+
+[node name="Start_game" type="Control"]
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+next_scene_path = "res://Scenes/player.tscn"
+
+[node name="background" type="Sprite" parent="."]
+position = Vector2( 517.793, 303.194 )
+scale = Vector2( 4.31394, 3.88964 )
+texture = ExtResource( 2 )
+vframes = 2
+hframes = 2
+
+[node name="character" type="Sprite" parent="."]
+position = Vector2( 520.336, 277.525 )
+scale = Vector2( 4.31394, 3.88964 )
+texture = ExtResource( 3 )
+vframes = 2
+hframes = 7
+
+[node name="characters" type="AnimatedSprite" parent="."]
+visible = false
+position = Vector2( 602.628, 416.918 )
+scale = Vector2( 4.05762, 4.24123 )
+frames = SubResource( 8 )
+animation = "Nidoran"
+
+[node name="Dialog_box" parent="." instance=ExtResource( 4 )]
+position = Vector2( 130.954, 430.332 )
+scale = Vector2( 4.31394, 3.88964 )
+
+[node name="Box" type="VBoxContainer" parent="."]
+visible = false
+margin_left = 54.0
+margin_top = 90.0
+margin_right = 254.0
+margin_bottom = 160.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="Box"]
+margin_right = 200.0
+margin_bottom = 14.0
+text = "Are you a boy or a girl?"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="boy" type="CheckBox" parent="Box"]
+margin_top = 18.0
+margin_right = 200.0
+margin_bottom = 42.0
+text = "Boy "
+
+[node name="girl" type="CheckBox" parent="Box"]
+margin_top = 46.0
+margin_right = 200.0
+margin_bottom = 70.0
+text = "Girl"
+
+[node name="Next" type="Button" parent="Box"]
+margin_top = 74.0
+margin_right = 200.0
+margin_bottom = 94.0
+text = "Next"
+
+[node name="Choose" type="Label" parent="Box"]
+visible = false
+margin_top = 98.0
+margin_right = 200.0
+margin_bottom = 112.0
+text = "You need to choose and option"
+
+[node name="Box2" type="VBoxContainer" parent="."]
+visible = false
+self_modulate = Color( 0.341176, 0.254902, 0.254902, 1 )
+margin_left = 643.811
+margin_top = 104.0
+margin_right = 907.811
+margin_bottom = 234.0
+theme = ExtResource( 6 )
+custom_constants/separation = 16
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label2" type="Label" parent="Box2"]
+margin_right = 264.0
+margin_bottom = 37.0
+text = "What is your name?"
+
+[node name="Name" type="LineEdit" parent="Box2"]
+margin_top = 53.0
+margin_right = 264.0
+margin_bottom = 77.0
+caret_blink = true
+caret_blink_speed = 0.5
+
+[node name="Label" type="Label" parent="Box2"]
+margin_top = 93.0
+margin_right = 264.0
+margin_bottom = 130.0
+text = "Press enter to continue"
+
+[node name="Box3" type="VBoxContainer" parent="."]
+visible = false
+margin_left = 210.274
+margin_top = 181.0
+margin_right = 327.274
+margin_bottom = 275.0
+theme = ExtResource( 6 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Box3"]
+margin_right = 163.0
+margin_bottom = 37.0
+
+[node name="Label" type="Label" parent="Box3/HBoxContainer"]
+margin_right = 133.0
+margin_bottom = 37.0
+theme = ExtResource( 6 )
+custom_fonts/font = ExtResource( 7 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "Is your name"
+
+[node name="Label2" type="Label" parent="Box3/HBoxContainer"]
+margin_left = 137.0
+margin_right = 163.0
+margin_bottom = 37.0
+custom_fonts/font = ExtResource( 7 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "%s"
+
+[node name="yes" type="CheckBox" parent="Box3"]
+margin_top = 41.0
+margin_right = 163.0
+margin_bottom = 65.0
+text = "Yes"
+
+[node name="no" type="CheckBox" parent="Box3"]
+margin_top = 69.0
+margin_right = 163.0
+margin_bottom = 93.0
+text = "No"
+
+[node name="confirmation" type="Button" parent="Box3"]
+margin_top = 97.0
+margin_right = 163.0
+margin_bottom = 117.0
+text = "Next"
+
+[node name="two_option_menu" parent="." instance=ExtResource( 5 )]
+visible = false
+[connection signal="pressed" from="Box/boy" to="." method="_on_boy_pressed"]
+[connection signal="pressed" from="Box/girl" to="." method="_on_girl_pressed"]
+[connection signal="pressed" from="Box/Next" to="." method="_on_Next_pressed"]
+[connection signal="text_entered" from="Box2/Name" to="." method="_on_Name_text_entered"]
+[connection signal="pressed" from="Box3/yes" to="." method="_on_yes_pressed"]
+[connection signal="pressed" from="Box3/no" to="." method="_on_no_pressed"]
+[connection signal="pressed" from="Box3/confirmation" to="." method="_on_confirmation_pressed"]
+[connection signal="is_pressed" from="two_option_menu" to="." method="_on_two_option_menu_is_pressed"]
